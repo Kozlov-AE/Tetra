@@ -3,34 +3,37 @@
 <root>
  <format version="1" subversion="2"/>
  <content>
-  <node crypt="" id="1563779727kr6kryz12r" name="Rename me"/>
-  <node crypt="" id="1563779734rqi1wnt93r" name="C#">
-   <recordtable>
-    <record id="1563780489gkmjc26op9" name="Открытие файла из кода программы" author="Неизвестно" url="Неизвестно" tags="Открытие файла, c#, System.Diagnostics" ctime="20190722102809" dir="1563780489dszddlipzs" file="text.html"/>
-    <record id="15637805522hydfxtvzk" name="Замер времени работы кода " author="" url="" tags="stopwatch, c#" ctime="20190722102912" dir="1563780552lb7125w2f4" file="text.html"/>
-    <record id="1563816614ynyqig764h" name="Форматированный вывод в C#" author="http://mvblog.ru" url="http://mvblog.ru/archives/519/" tags="c#,форматированный вывод, string" ctime="20190722203014" dir="1563816614c895q73z48" file="text.html"/>
-   </recordtable>
-   <node crypt="" id="1563779749k05crn0dsr" name="Работа с CSV">
-    <recordtable>
-     <record id="15637798588kimg4r9v7" name="Чтение и запись CSV в C#" author="progtask.ru" url="https://progtask.ru/csv-c-sharp/" tags="c#, csv" ctime="20190722101738" dir="1563779858e1065ai3e2" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1563802872x8f11ubz2v" name="MSWord">
-    <recordtable>
-     <record id="1563802936jjb9grfp2o" name="Примеры изменения документов DOC из C#" author="kbss.ru" url="https://kbss.ru/blog/lang_c_sharp/71.html" tags="c#, Word" ctime="20190722164216" dir="1563802936ynn14x0zvl" file="text.html"/>
-    </recordtable>
-    <node crypt="" id="15638813180dwhcjypkk" name="Open XML SDK">
+  <node crypt="" id="1563779727kr6kryz12r" name="Моя Инфа">
+   <node crypt="" id="15639145872665vqxrga" name="Программирование">
+    <node crypt="" id="1563914604bbbdntli4e" name="C#">
      <recordtable>
-      <record id="1563881446miwh3674l5" name="Замена слов в docx" author="stackoverflow.com" url="https://ru.stackoverflow.com/questions/593873/word-document-%D0%97%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0-%D0%BC%D0%B5%D1%82%D0%BE%D0%BA" tags="c#, парсер docx" ctime="20190723143046" dir="1563881446hznjlrghmt" file="text.html"/>
-      <record id="1563830151ho871k7t9q" name="Как найти и заменить текст в части документа (Open XML SDK)" author="microsoft.com" url="https://docs.microsoft.com/ru-ru/office/open-xml/how-to-search-and-replace-text-in-a-document-part" tags="Open XML SDK" ctime="20190723143503" dir="1563830151rw3vy3cft1" file="text.html"/>
+      <record id="1563780489gkmjc26op9" name="Открытие файла из кода программы" author="Неизвестно" url="Неизвестно" tags="Открытие файла, c#, System.Diagnostics" ctime="20190723234324" dir="1563780489dszddlipzs" file="text.html"/>
+      <record id="15637805522hydfxtvzk" name="Замер времени работы кода " author="" url="" tags="stopwatch, c#" ctime="20190723234324" dir="1563780552lb7125w2f4" file="text.html"/>
+      <record id="1563816614ynyqig764h" name="Форматированный вывод в C#" author="http://mvblog.ru" url="http://mvblog.ru/archives/519/" tags="c#,форматированный вывод, string" ctime="20190723234324" dir="1563816614c895q73z48" file="text.html"/>
      </recordtable>
+     <node crypt="" id="15639146041zvfih8rwn" name="Работа с CSV">
+      <recordtable>
+       <record id="15637798588kimg4r9v7" name="Чтение и запись CSV в C#" author="progtask.ru" url="https://progtask.ru/csv-c-sharp/" tags="c#, csv" ctime="20190723234324" dir="1563779858e1065ai3e2" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1563914604s2li09vjqg" name="MSWord">
+      <recordtable>
+       <record id="1563802936jjb9grfp2o" name="Примеры изменения документов DOC из C#" author="kbss.ru" url="https://kbss.ru/blog/lang_c_sharp/71.html" tags="c#, Word" ctime="20190723234324" dir="1563802936ynn14x0zvl" file="text.html"/>
+      </recordtable>
+      <node crypt="" id="15639146044pslen0ebw" name="Open XML SDK">
+       <recordtable>
+        <record id="1563881446miwh3674l5" name="Замена слов в docx" author="stackoverflow.com" url="https://ru.stackoverflow.com/questions/593873/word-document-%D0%97%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0-%D0%BC%D0%B5%D1%82%D0%BE%D0%BA" tags="c#, парсер docx" ctime="20190723234324" dir="1563881446hznjlrghmt" file="text.html"/>
+        <record id="1563830151ho871k7t9q" name="Как найти и заменить текст в части документа (Open XML SDK)" author="microsoft.com" url="https://docs.microsoft.com/ru-ru/office/open-xml/how-to-search-and-replace-text-in-a-document-part" tags="Open XML SDK" ctime="20190723234324" dir="1563830151rw3vy3cft1" file="text.html"/>
+       </recordtable>
+      </node>
+     </node>
     </node>
    </node>
-  </node>
-  <node crypt="" id="1563780011fjixdrkpan" name="Английский">
-   <recordtable>
-    <record id="1563780144p7qn94lmm5" name="Математические термины и знаки, диаграммы на английском языке" author="http://english-grammar.biz" url="http://english-grammar.biz/%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D1%8B-%D0%B8-%D0%B7%D0%BD%D0%B0%D0%BA%D0%B8.html" tags="english, английский, математические операторы, математика, перевод с английского" ctime="20190722102224" dir="15637801449any459jq7" file="text.html"/>
-   </recordtable>
+   <node crypt="" id="1563914646ct5hyaf03h" name="Английский">
+    <recordtable>
+     <record id="1563780144p7qn94lmm5" name="Математические термины и знаки, диаграммы на английском языке" author="http://english-grammar.biz" url="http://english-grammar.biz/%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D1%8B-%D0%B8-%D0%B7%D0%BD%D0%B0%D0%BA%D0%B8.html" tags="english, английский, математические операторы, математика, перевод с английского" ctime="20190723234406" dir="15637801449any459jq7" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1563800168ugbdkoeqtj" name="Сетевое оборудование">
    <recordtable>
@@ -42,5 +45,11 @@
     <record id="1563893538uy0gz0v2pd" name="[Turbo Tetra] - мгновенные заметки для windows" author="" url="" tags="MyTetra" ctime="20190723175218" dir="1563893538v2rlztptr0" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="15639140932kggz4tkv4" name="GitHub">
+   <recordtable>
+    <record id="1563914427tvk0gd9so0" name="Удаление репозитория" author="" url="" tags="Git, GitHub, Github, Удаление" ctime="20190723234027" dir="1563914427b0zoob8foi" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1563914495skovrglhc3" name="Работа"/>
  </content>
 </root>
