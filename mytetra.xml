@@ -4,6 +4,9 @@
  <format version="1" subversion="2"/>
  <content>
   <node crypt="" id="1563779727kr6kryz12r" name="Моя Инфа">
+   <recordtable>
+    <record id="1563971130wei87ubzaa" name="Узлы" author="ВК" url="" tags="Узел, узлы" ctime="20190724152530" dir="1563971130al3oxhpon1" file="text.html"/>
+   </recordtable>
    <node crypt="" id="15639145872665vqxrga" name="Программирование">
     <node crypt="" id="1563914604bbbdntli4e" name="C#">
      <recordtable>
@@ -48,6 +51,13 @@
     <recordtable>
      <record id="1563914427tvk0gd9so0" name="Удаление репозитория" author="" url="" tags="Git, GitHub, Github, Удаление" ctime="20190724074232" dir="1563914427b0zoob8foi" file="text.html"/>
     </recordtable>
+   </node>
+   <node crypt="" id="1563971281rwjnkp29qz" name="Авто">
+    <node crypt="" id="1563971297xkgfmrd1gg" name="Лайвхаки">
+     <recordtable>
+      <record id="1563971486qxrlvpbuiq" name="Избавление от ржавчины при помощи батаеек" author="" url="" tags="Оцинковка, ржавчина, батарейка" ctime="20190724153126" dir="1563971486mgfeurzyo3" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node crypt="" id="1563914495skovrglhc3" name="Работа"/>
