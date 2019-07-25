@@ -13,6 +13,7 @@
       <record id="1563780489gkmjc26op9" name="Открытие файла из кода программы" author="Неизвестно" url="Неизвестно" tags="Открытие файла, c#, System.Diagnostics" ctime="20190723234324" dir="1563780489dszddlipzs" file="text.html"/>
       <record id="15637805522hydfxtvzk" name="Замер времени работы кода " author="" url="" tags="stopwatch, c#" ctime="20190723234324" dir="1563780552lb7125w2f4" file="text.html"/>
       <record id="1563816614ynyqig764h" name="Форматированный вывод в C#" author="http://mvblog.ru" url="http://mvblog.ru/archives/519/" tags="c#,форматированный вывод, string" ctime="20190723234324" dir="1563816614c895q73z48" file="text.html"/>
+      <record id="1563994932mrrpdm9d5r" name="Программно выйти из приложения WPF" author="http://qaru.site" url="http://qaru.site/questions/19537/how-to-exit-a-wpf-app-programmatically" tags="c#, .net, wpf, shutdown" ctime="20190724220212" dir="1563994932xllt8airxx" file="text.html"/>
      </recordtable>
      <node crypt="" id="15639146041zvfih8rwn" name="Работа с CSV">
       <recordtable>
