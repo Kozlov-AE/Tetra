@@ -4,10 +4,6 @@
  <format version="1" subversion="2"/>
  <content>
   <node crypt="" id="1563779727kr6kryz12r" name="Моя Инфа">
-   <recordtable>
-    <record id="1563971130wei87ubzaa" name="Узлы" author="ВК" url="" tags="Узел, узлы" ctime="20190724152530" dir="1563971130al3oxhpon1" file="text.html"/>
-    <record id="15643187840a73sss3dc" name="Бутылкорез" author="" url="https://posuda-gid.ru/butylki/250-butylkorez-plastikovyx-chertezh" tags="Бутылкорез, хитрости, хэндмэйд, лайвхаки, сделать" ctime="20190728155944" dir="15643187841eewybgxli" file="text.html"/>
-   </recordtable>
    <node crypt="" id="15639145872665vqxrga" name="Программирование">
     <node crypt="" id="1563914604bbbdntli4e" name="C#">
      <recordtable>
@@ -68,6 +64,14 @@
    <node crypt="" id="1564072169itd73hbq17" name="Радиотехника">
     <recordtable>
      <record id="15640725494de8ao79cy" name="Распиновка USB" author="http://cxem.net" url="http://cxem.net/comp/comp70.php" tags="USB, micro usb, распиновка" ctime="20190725193549" dir="1564072549mwmzflfba8" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1564319098ee56hwcnzw" name="Самоделки">
+    <recordtable>
+     <record id="1564319087h4pym7jxk3" name="Бутылкорез для стеклянных будылок" author="" url="https://www.freeseller.ru/6559-butylkorez-dlya-doma.html" tags="Хендмейд, сделать, устройства, бутылокорез" ctime="20190728160503" dir="1564319087zx1kq9810y" file="text.html"/>
+     <record id="15643187840a73sss3dc" name="Бутылкорез для пластиковых бутылок" author="" url="https://posuda-gid.ru/butylki/250-butylkorez-plastikovyx-chertezh" tags="Бутылкорез, хитрости, хэндмэйд, лайвхаки, сделать" ctime="20190728160506" dir="15643187841eewybgxli" file="text.html"/>
+     <record id="1563971130wei87ubzaa" name="Узлы" author="ВК" url="" tags="Узел, узлы" ctime="20190728160508" dir="1563971130al3oxhpon1" file="text.html"/>
+     <record id="1564319183kxi6039yt4" name="Ссылки" author="" url="" tags="Ссылки, сайты, самоделки, станки" ctime="20190728160623" dir="15643191837sd3e1uxqh" file="text.html"/>
     </recordtable>
    </node>
   </node>
