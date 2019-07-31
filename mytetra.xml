@@ -78,7 +78,22 @@
      </node>
     </node>
    </node>
+   <node crypt="" icon="/Flat/color_icons8_flat_calendar.svg" id="1564497657g6dmpexgl9" name="Дела">
+    <node crypt="" icon="/Flat/color_icons8_flat_flash_on.svg" id="1564497848ccgavi5s7x" name="Активные">
+     <recordtable>
+      <record id="1564498051za478b0ld3" name="31.07.19 Договориться о ремонте машины" author="" url="" tags="ремонт машины, катализатор, дела, планы" ctime="20190730174731" dir="1564498051mxs1c8wp1d" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" icon="/Flat/color_icons8_flat_flash_off.svg" id="1564497867cy9e6cynfv" name="Выполнено"/>
+    <node crypt="" icon="/Flat/color_icons8_flat_flash_auto.svg" id="1564498213wbwn4okhqe" name="Сегодня"/>
+   </node>
   </node>
-  <node crypt="" id="1563914495skovrglhc3" name="Работа"/>
+  <node crypt="" id="1563914495skovrglhc3" name="Работа">
+   <node crypt="" id="1564508515camjo10ik2" name="Эльдорадо">
+    <recordtable>
+     <record id="156450881552tkgd7k3w" name="Доступ в сетевую скрытую папку с софтом" author="" url="" tags="Эльдорадо, работа, CTI" ctime="20190730204655" dir="1564508815j1o4eq016d" file="text.html"/>
+    </recordtable>
+   </node>
+  </node>
  </content>
 </root>
