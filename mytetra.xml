@@ -81,7 +81,7 @@
    <node crypt="" icon="/Flat/color_icons8_flat_calendar.svg" id="1564497657g6dmpexgl9" name="Дела">
     <node crypt="" icon="/Flat/color_icons8_flat_flash_on.svg" id="1564497848ccgavi5s7x" name="Активные">
      <recordtable>
-      <record id="1564498051za478b0ld3" name="31.07.19 Договориться о ремонте машины" author="" url="" tags="ремонт машины, катализатор, дела, планы" ctime="20190730174731" dir="1564498051mxs1c8wp1d" file="text.html"/>
+      <record id="1564498051za478b0ld3" name="02.08.19 Договориться о ремонте машины" author="" url="" tags="ремонт машины, катализатор, дела, планы" ctime="20190730174731" dir="1564498051mxs1c8wp1d" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" icon="/Flat/color_icons8_flat_flash_off.svg" id="1564497867cy9e6cynfv" name="Выполнено"/>
