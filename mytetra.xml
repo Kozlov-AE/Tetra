@@ -97,6 +97,12 @@
     </recordtable>
    </node>
   </node>
-  <node crypt="" id="1563914495skovrglhc3" name="Работа"/>
+  <node crypt="" id="1563914495skovrglhc3" name="Работа">
+   <node crypt="" id="1564685787crl24e3ygd" name="Теле2">
+    <recordtable>
+     <record id="1564685866dot8gfudo9" name="Настройка печати" author="" url="" tags="Теле2, настройка, работа, печать, принтер" ctime="20190801215746" dir="15646858668hgg50gkwn" file="text.html"/>
+    </recordtable>
+   </node>
+  </node>
  </content>
 </root>
