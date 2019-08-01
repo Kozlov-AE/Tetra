@@ -26,9 +26,11 @@
     </recordtable>
    </node>
    <node crypt="" id="1563971281rwjnkp29qz" name="Авто">
-    <recordtable>
-     <record id="1563971486qxrlvpbuiq" name="Избавление от ржавчины при помощи батаеек" author="" url="" tags="Оцинковка, ржавчина, батарейка" ctime="20190729223640" dir="1563971486mgfeurzyo3" file="text.html"/>
-    </recordtable>
+    <node crypt="" id="1563971297xkgfmrd1gg" name="Лайвхаки">
+     <recordtable>
+      <record id="1563971486qxrlvpbuiq" name="Избавление от ржавчины при помощи батаеек" author="" url="" tags="Оцинковка, ржавчина, батарейка" ctime="20190724153126" dir="1563971486mgfeurzyo3" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1564072169itd73hbq17" name="Радиотехника">
     <recordtable>
@@ -43,14 +45,9 @@
      <record id="1564319183kxi6039yt4" name="Ссылки" author="" url="" tags="Ссылки, сайты, самоделки, станки" ctime="20190728160623" dir="15643191837sd3e1uxqh" file="text.html"/>
     </recordtable>
    </node>
-   <node crypt="1" icon="UkM1U0lNUAONkRGbzvSvpUECv/3hsrniyz3lHcnt+xz0Ml84u/n1AreXbqtCZKZc5jI6UN69ytQWll+0/QbO4edm4K4F8Y2h5+HdvCaKOrQ=" id="15643298561iif5v4uho" name="UkM1U0lNUANJO2fMEk4j+LVjCj2IFaNOl4cfgmtzUpEP08t3HSrz+ntFFYurQ9bauN8BHO7DIhs=">
+   <node crypt="1" icon="" id="15643298561iif5v4uho" name="UkM1U0lNUANJO2fMEk4j+LVjCj2IFaNOl4cfgmtzUpEP08t3HSrz+ntFFYurQ9bauN8BHO7DIhs=">
     <recordtable>
      <record id="1564330122tjjkejpt4b" name="UkM1U0lNUAMxEqR8ulxRFbpfmkAO/M5f/FnsF0kPj3mEsrhIEgNlCYdXpKplIw0FPfLlgh7nCHU=" author="UkM1U0lNUAPzJhnKhpiFgwQigJ4NDgO/hM3tPca7zzLxkLH5WlCmaBXQOMElCuOw" url="" tags="" ctime="20190728190842" dir="15643301220w2tnf5nl8" file="text.html" crypt="1"/>
-     <record id="15644280277fy6g0ulq5" name="UkM1U0lNUAOZ8IoQ765HKr0zObvDr2jnu8bLrf2E/zhB5Kvfe7WAoLLU4DwJcMOaO6AbDGIlszM3ktUcwiD25Q==" author="" url="" tags="" ctime="20190729223601" dir="1564428027ywnbn6ubw8" file="text.html" crypt="1">
-      <files>
-       <file id="1564428205r64sozziof" fileName="UkM1U0lNUANIwV0gBANxmJTCOZ0SyRo/qKjFzCpbVPYW2z7JhK1V8CkT7lqrXEmnauE0ea8vUptqV1PH2eigBQ==" type="file" crypt="1"/>
-      </files>
-     </record>
     </recordtable>
    </node>
    <node crypt="" id="15643316062si6nzjssp" name="C#">
@@ -81,7 +78,6 @@
      </node>
     </node>
    </node>
-<<<<<<< HEAD
    <node crypt="" icon="/Flat/color_icons8_flat_calendar.svg" id="1564497657g6dmpexgl9" name="Дела">
     <node crypt="" icon="/Flat/color_icons8_flat_flash_on.svg" id="1564497848ccgavi5s7x" name="Активные">
      <recordtable>
@@ -96,16 +92,6 @@
    <node crypt="" id="1564508515camjo10ik2" name="Эльдорадо">
     <recordtable>
      <record id="156450881552tkgd7k3w" name="Доступ в сетевую скрытую папку с софтом" author="" url="" tags="Эльдорадо, работа, CTI" ctime="20190730204655" dir="1564508815j1o4eq016d" file="text.html"/>
-=======
-   <node crypt="" id="15644278490oqrwstrz5" name="Разное не сортированное">
-    <recordtable>
-     <record id="1564427902g57b1a0xdw" name="как создать Резюме" author="" url="https://ain.ua/2015/01/14/idealnoe-rezyume-juniora-kak-najti-luchshuyu-rabotu-v-sfere-informacionnyx-texnologij/" tags="" ctime="20190729221822" dir="1564427902cckbzpjucz" file="text.html"/>
->>>>>>> 51006896cb4ea490cb57fe0ca288aa1584c95e26
-    </recordtable>
-   </node>
-   <node crypt="" id="156459794718u163xpui" name="Астрология">
-    <recordtable>
-     <record id="1564597978418unye89s" name="Лунный календарь повседневности: благоприятные дни для разных дел в августе 2019ПОЛЕЗНЫЕ СОВЕТЫ" author="" url="" tags="Лунный календарь повседневности: благоприятные дни для разных дел в августе 2019ПОЛЕЗНЫЕ СОВЕТЫ" ctime="20190731213258" dir="1564597978z7w3lbbe5r" file="text.html"/>
     </recordtable>
    </node>
   </node>
