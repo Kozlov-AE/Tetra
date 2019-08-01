@@ -88,7 +88,12 @@
    </node>
    <node crypt="" id="156459794718u163xpui" name="Астрология">
     <recordtable>
-     <record id="1564597978418unye89s" name="Лунный календарь повседневности: благоприятные дни для разных дел в августе 2019ПОЛЕЗНЫЕ СОВЕТЫ" author="" url="" tags="Лунный календарь повседневности: благоприятные дни для разных дел в августе 2019ПОЛЕЗНЫЕ СОВЕТЫ" ctime="20190731213258" dir="1564597978z7w3lbbe5r" file="text.html"/>
+     <record id="1564597978418unye89s" name="Лунный календарь повседневности: благоприятные дни для разных дел в августе 2019ПОЛЕЗНЫЕ СОВЕТЫ" author="" url="" tags="Лунный календарь, Август" ctime="20190731213258" dir="1564597978z7w3lbbe5r" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1564682832gvk3f1mj6e" name="myTetra">
+    <recordtable>
+     <record id="1564682967zq8sg40gtb" name="MyTetra Web Client" author="webhamster.ru" url="https://webhamster.ru/site/page/index/articles/projectcode/235" tags="MyTetra, Web, Client, soft, программы" ctime="20190801210927" dir="1564682967nn5w742w4a" file="text.html"/>
     </recordtable>
    </node>
   </node>
