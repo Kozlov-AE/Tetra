@@ -98,6 +98,9 @@
    </node>
   </node>
   <node crypt="" id="1563914495skovrglhc3" name="Работа">
+   <recordtable>
+    <record id="156473631385p7p17ctn" name="Zebra DS2208" author="" url="" tags="Zebra, DS2208, сканер, штрихкод" ctime="20190802115833" dir="1564736313th3ocbrwf6" file="text.html"/>
+   </recordtable>
    <node crypt="" id="1564685787crl24e3ygd" name="Теле2">
     <recordtable>
      <record id="1564685866dot8gfudo9" name="Настройка печати" author="" url="" tags="Теле2, настройка, работа, печать, принтер" ctime="20190801215746" dir="15646858668hgg50gkwn" file="text.html"/>
@@ -111,6 +114,13 @@
   </node>
   <node crypt="" id="1564728640jxp3wxmw8i" name="Принтеры">
    <node crypt="" id="1564728661eiuapgooio" name="Kyocera"/>
+  </node>
+  <node crypt="" id="156473777810w3qi5nr7" name="Компьютер">
+   <node crypt="" id="15647377919hmrmze7p6" name="Синий экран расшифровки">
+    <recordtable>
+     <record id="1564738130vjamcdl7ln" name="0x00000034" author="" url="http://bsodstop.ru/0x00000034-cache-manager" tags="0x00000034, BSOD" ctime="20190802122850" dir="1564738130jeshccccnp" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
  </content>
 </root>
