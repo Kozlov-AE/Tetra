@@ -88,6 +88,12 @@
       </recordtable>
      </node>
     </node>
+    <node crypt="" id="1565034886z34x0vus8m" name="JSON">
+     <recordtable>
+      <record id="1565034932cvbjzxgmnv" name="Ссылки" author="" url="" tags="ссылки, c#, программирование" ctime="20190805225532" dir="1565034932yof28ode99" file="text.html"/>
+      <record id="1565035125x3xgsggep8" name="Работаем с JSON при помощи C#" author="https://progtask.ru" url="https://progtask.ru/json-c-sharp/" tags="JSON, сереализация, c#" ctime="20190805225845" dir="1565035125yhoh2j3kh2" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="15644278490oqrwstrz5" name="Разное не сортированное">
     <recordtable>
