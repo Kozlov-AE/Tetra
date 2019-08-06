@@ -64,14 +64,12 @@
    <node crypt="" id="15643316062si6nzjssp" name="C#">
     <recordtable>
      <record id="1564253621oehmkh931k" name="Полезные ссылки" author="" url="" tags="Ссылки, c#, программирование" ctime="20190728193326" dir="15642536213mqwmog526" file="text.html"/>
-     <record id="1563780489gkmjc26op9" name="Открытие файла из кода программы" author="Неизвестно" url="Неизвестно" tags="Открытие файла, c#, System.Diagnostics" ctime="20190728193326" dir="1563780489dszddlipzs" file="text.html"/>
      <record id="15637805522hydfxtvzk" name="Замер времени работы кода " author="" url="" tags="stopwatch, c#" ctime="20190728193326" dir="1563780552lb7125w2f4" file="text.html"/>
      <record id="1563816614ynyqig764h" name="Форматированный вывод в C#" author="http://mvblog.ru" url="http://mvblog.ru/archives/519/" tags="c#,форматированный вывод, string" ctime="20190728193326" dir="1563816614c895q73z48" file="text.html"/>
      <record id="1563994932mrrpdm9d5r" name="Программно выйти из приложения WPF" author="http://qaru.site" url="http://qaru.site/questions/19537/how-to-exit-a-wpf-app-programmatically" tags="c#, .net, wpf, shutdown" ctime="20190728193326" dir="1563994932xllt8airxx" file="text.html"/>
      <record id="1564078513wytp1dktn2" name="Интерфейсы IEnumerable и IEnumerator" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/4.11.php" tags="IEnumerable, IEnumerator, c#, коллекции, перечисления" ctime="20190728193326" dir="15640785133fjhsln722" file="text.html"/>
      <record id="1564253423ohnogdvl6u" name="Стандарты написания программного кода на языке C# " author="www.elma-bpm.ru" url="https://www.elma-bpm.ru/KB/article-6651.html" tags="C#, Стандарты" ctime="20190728193326" dir="1564253423ydiu5l4iiw" file="text.html"/>
      <record id="1564331563zbukrvnxr2" name="XML в примерах" author="https://shwanoff.ru" url="https://shwanoff.ru/xml/amp/" tags="xml, c#" ctime="20190728193326" dir="1564331563fy0oiy2w9g" file="text.html"/>
-     <record id="1565068932flks40qh04" name="вопрос" author="" url="" tags="" ctime="20190806082212" dir="156506893217pkr1j1p2" file="text.html"/>
     </recordtable>
     <node crypt="" id="1564331606hbcs8pamdm" name="Работа с CSV">
      <recordtable>
@@ -93,6 +91,12 @@
      <recordtable>
       <record id="1565034932cvbjzxgmnv" name="Ссылки" author="" url="" tags="ссылки, c#, программирование" ctime="20190805225532" dir="1565034932yof28ode99" file="text.html"/>
       <record id="1565035125x3xgsggep8" name="Работаем с JSON при помощи C#" author="https://progtask.ru" url="https://progtask.ru/json-c-sharp/" tags="JSON, сереализация, c#" ctime="20190805225845" dir="1565035125yhoh2j3kh2" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1565117111vhbl29hfbz" name="Работа с файлами">
+     <recordtable>
+      <record id="1563780489gkmjc26op9" name="Открытие файла из кода программы" author="Неизвестно" url="Неизвестно" tags="Открытие файла, c#, System.Diagnostics" ctime="20190806214517" dir="1563780489dszddlipzs" file="text.html"/>
+      <record id="1565117194fq0ahrdyl5" name="Запись текста в файл построчно" author="" url="" tags="c#, записьв файл, StreamWriter" ctime="20190806214634" dir="1565117194fq02dv8eoh" file="text.html"/>
      </recordtable>
     </node>
    </node>
