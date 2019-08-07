@@ -96,7 +96,7 @@
     <node crypt="" id="1565117111vhbl29hfbz" name="Работа с файлами">
      <recordtable>
       <record id="1563780489gkmjc26op9" name="Открытие файла из кода программы" author="Неизвестно" url="Неизвестно" tags="Открытие файла, c#, System.Diagnostics" ctime="20190806214517" dir="1563780489dszddlipzs" file="text.html"/>
-      <record id="1565117194fq0ahrdyl5" name="Запись текста в файл построчно" author="" url="" tags="c#, записьв файл, StreamWriter" ctime="20190806214634" dir="1565117194fq02dv8eoh" file="text.html"/>
+      <record id="1565117194fq0ahrdyl5" name="Запись и чтение из файла" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/5.5.php" tags="c#, записьв файл, StreamWriter, StreamReader" ctime="20190806214634" dir="1565117194fq02dv8eoh" file="text.html"/>
      </recordtable>
     </node>
    </node>
