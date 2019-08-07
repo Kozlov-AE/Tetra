@@ -119,6 +119,11 @@
     <recordtable>
      <record id="1565021658qzql5xv5wm" name="Схема проекта" author="" url="" tags="" ctime="20190805191418" dir="1565021658e84l6mmtnc" file="text.html"/>
     </recordtable>
+    <node crypt="" id="1565166554b3we13pww8" name="Класс Client">
+     <recordtable>
+      <record id="156516660064h32iye8k" name="Поля класса" author="" url="" tags="" ctime="20190807113000" dir="15651666003mhlthi2lb" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node crypt="" id="1563914495skovrglhc3" name="Работа">
