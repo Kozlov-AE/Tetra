@@ -66,10 +66,10 @@
      <record id="1564253621oehmkh931k" name="Полезные ссылки" author="" url="" tags="Ссылки, c#, программирование" ctime="20190728193326" dir="15642536213mqwmog526" file="text.html"/>
      <record id="15637805522hydfxtvzk" name="Замер времени работы кода " author="" url="" tags="stopwatch, c#" ctime="20190728193326" dir="1563780552lb7125w2f4" file="text.html"/>
      <record id="1563816614ynyqig764h" name="Форматированный вывод в C#" author="http://mvblog.ru" url="http://mvblog.ru/archives/519/" tags="c#,форматированный вывод, string" ctime="20190728193326" dir="1563816614c895q73z48" file="text.html"/>
-     <record id="1563994932mrrpdm9d5r" name="Программно выйти из приложения WPF" author="http://qaru.site" url="http://qaru.site/questions/19537/how-to-exit-a-wpf-app-programmatically" tags="c#, .net, wpf, shutdown" ctime="20190728193326" dir="1563994932xllt8airxx" file="text.html"/>
      <record id="1564078513wytp1dktn2" name="Интерфейсы IEnumerable и IEnumerator" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/4.11.php" tags="IEnumerable, IEnumerator, c#, коллекции, перечисления" ctime="20190728193326" dir="15640785133fjhsln722" file="text.html"/>
      <record id="1564253423ohnogdvl6u" name="Стандарты написания программного кода на языке C# " author="www.elma-bpm.ru" url="https://www.elma-bpm.ru/KB/article-6651.html" tags="C#, Стандарты" ctime="20190728193326" dir="1564253423ydiu5l4iiw" file="text.html"/>
      <record id="1564331563zbukrvnxr2" name="XML в примерах" author="https://shwanoff.ru" url="https://shwanoff.ru/xml/amp/" tags="xml, c#" ctime="20190728193326" dir="1564331563fy0oiy2w9g" file="text.html"/>
+     <record id="15653726742bl99nhtge" name="Глава из книги “Стиль программирования Джо Селко на SQL”" author="" url="https://rsdn.org/article/db/sqlnames.xml" tags="SQL, стиль программирования" ctime="20190809204434" dir="1565372674f6x2n3zgli" file="text.html"/>
     </recordtable>
     <node crypt="" id="1564331606hbcs8pamdm" name="Работа с CSV">
      <recordtable>
@@ -100,12 +100,20 @@
      </recordtable>
     </node>
     <node crypt="" id="1565188262v13c9shkrp" name="WPF">
+     <recordtable>
+      <record id="1563994932mrrpdm9d5r" name="Программно выйти из приложения WPF" author="http://qaru.site" url="http://qaru.site/questions/19537/how-to-exit-a-wpf-app-programmatically" tags="c#, .net, wpf, shutdown" ctime="20190809204527" dir="1563994932xllt8airxx" file="text.html"/>
+     </recordtable>
      <node crypt="" id="1565188277orxvdvn5ug" name="ListBox">
       <recordtable>
        <record id="1565188313gvzn5r1xrv" name="Привязка ListBox к содержимому List&lt;&gt;" author="" url="" tags="ListBox, List, WPF, c#" ctime="20190807173153" dir="1565188313z0gf0yhweb" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1565271789pvb8n45lyx" name="TextBox"/>
+    </node>
+    <node crypt="" id="1565374916sfyfewmzor" name="SQLite">
+     <recordtable>
+      <record id="1565374936lvubrd7quj" name="Как использовать SQLite в C# видео" author="" url="" tags="" ctime="20190809212216" dir="1565374936pb0qqcgkjd" file="text.html"/>
+     </recordtable>
     </node>
    </node>
    <node crypt="" id="15644278490oqrwstrz5" name="Разное не сортированное">
