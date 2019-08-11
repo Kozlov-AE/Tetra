@@ -113,6 +113,7 @@
     <node crypt="" id="1565374916sfyfewmzor" name="SQLite">
      <recordtable>
       <record id="1565374936lvubrd7quj" name="Как использовать SQLite в C# видео" author="" url="" tags="" ctime="20190809212216" dir="1565374936pb0qqcgkjd" file="text.html"/>
+      <record id="1565534025xtr8atx2fc" name="Как работать с SQLite в C#" author="" url="https://victorz.ru/20181002758" tags="SQLite, c#, Базы данных, БД," ctime="20190811173345" dir="1565534025ble6yhwhnc" file="text.html"/>
      </recordtable>
     </node>
    </node>
