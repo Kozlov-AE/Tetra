@@ -146,6 +146,13 @@
      </recordtable>
     </node>
    </node>
+   <node crypt="" id="1565723023k0cqk9gl4s" name="Трейдинг">
+    <node crypt="" id="1565723036zgnuxz5ly6" name="Прогнозы">
+     <recordtable>
+      <record id="1565723082mwb649gpuh" name="MXI-9-19" author="" url="" tags="" ctime="20190813220442" dir="1565723082p9bx3b25jm" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
   </node>
   <node crypt="" id="1563914495skovrglhc3" name="Работа">
    <recordtable>
