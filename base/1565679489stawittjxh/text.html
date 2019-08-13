@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'MS Shell Dlg 2'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Open Sans,serif'; font-size:21pt; font-weight:600; color:#333333;">SQLite - Команды</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Введите команду </span><span style=" font-family:'Consolas'; color:#c7254e; background-color:#f9f2f4;">sqlite3</span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">, которая предоставит вам командную строку SQLite, в которой вы будете запускать различные команды SQLite.</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f5f5f5;"><span style=" font-family:'Consolas'; font-size:10pt; color:#f8f8f2; background-color:#23241f;">$sqlite3</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f5f5f5;"><span style=" font-family:'Consolas'; font-size:10pt; color:#f8f8f2; background-color:#23241f;">SQLite version </span><span style=" font-family:'Consolas'; font-size:10pt; color:#ae81ff; background-color:#23241f;">3.25</span><span style=" font-family:'Consolas'; font-size:10pt; color:#f8f8f2; background-color:#23241f;">.</span><span style=" font-family:'Consolas'; font-size:10pt; color:#ae81ff; background-color:#23241f;">3</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f5f5f5;"><span style=" font-family:'Consolas'; font-size:10pt; color:#f8f8f2; background-color:#23241f;">Enter </span><span style=" font-family:'Consolas'; font-size:10pt; color:#e6db74; background-color:#23241f;">&quot;.help&quot;</span><span style=" font-family:'Consolas'; font-size:10pt; color:#f8f8f2; background-color:#23241f;"> </span><span style=" font-family:'Consolas'; font-size:10pt; color:#f92672; background-color:#23241f;">for</span><span style=" font-family:'Consolas'; font-size:10pt; color:#f8f8f2; background-color:#23241f;"> instructions</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f5f5f5;"><span style=" font-family:'Consolas'; font-size:10pt; color:#f8f8f2; background-color:#23241f;">sqlite&gt;</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Для перечисления доступных точечных команд вы можете ввести </span><span style=" font-family:'Consolas'; color:#c7254e; background-color:#f9f2f4;">.help</span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> в любое время. Например:</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f5f5f5;"><span style=" font-family:'Consolas'; font-size:10pt; color:#f8f8f2; background-color:#23241f;">sqlite&gt;.help</span> </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Вышеприведенная команда отобразит список различных важных команд SQLite dot, которые перечислены в следующей таблице.</span> </p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" width="808" cellspacing="0" cellpadding="0">
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">Название</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">Описание</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.backup ?DB? FILE</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Резервная БД (по умолчанию </span><span style=" font-family:'Consolas'; color:#c7254e; background-color:#f9f2f4;">main</span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">) для FILE</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.bail ON|OFF</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Остановка после ошибки. По умолчанию OFF</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.databases</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Имена списков и файлы прикрепленных баз данных</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.dump ?TABLE?</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Дамп базы данных в текстовом формате SQL. Если TABLE указан, только таблицы дампов, соответствующие шаблону LIKE TABLE</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.echo ON|OFF</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Включить или выключить эхо-сигнал команды</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.exit</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Выйти из приглашения SQLite</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.explain ON|OFF</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Включите или выключите режим вывода, подходящий для EXPLAIN. Без аргументов он превращает EXPLAIN</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.header(s) ON|OFF</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Включение или выключение отображения заголовков</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.help</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Показать это сообщение</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.import FILE TABLE</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Импортировать данные из FILE в таблицу</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.indices ?TABLE?</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Показывать имена всех индексов. Если TABLE указан, отображают только индексы для таблиц, соответствующих шаблону LIKE TABLE</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.load FILE ?ENTRY?</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Загрузка библиотеки расширений</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.log FILE|off</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Включите или выключите ведение журнала. FILE может быть stderr / stdout</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.mode MODE</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Установите выходной режим, в котором MODE является:</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Symbol'; font-size:10pt;">·</span><span style=" font-family:'Times New Roman'; font-size:7pt;">         </span><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">csv</span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> - значения, разделенные запятыми</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Symbol'; font-size:10pt;">·</span><span style=" font-family:'Times New Roman'; font-size:7pt;">         </span><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">column</span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> - столбцы с выравниванием по левому краю.</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Symbol'; font-size:10pt;">·</span><span style=" font-family:'Times New Roman'; font-size:7pt;">         </span><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">html</span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> - код HTML &lt;table&gt;</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Symbol'; font-size:10pt;">·</span><span style=" font-family:'Times New Roman'; font-size:7pt;">         </span><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">insert</span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> - инструкции </span><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">вставки</span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> SQL для таблицы</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Symbol'; font-size:10pt;">·</span><span style=" font-family:'Times New Roman'; font-size:7pt;">         </span><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">line</span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> - одно значение на строку</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Symbol'; font-size:10pt;">·</span><span style=" font-family:'Times New Roman'; font-size:7pt;">         </span><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">list</span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> - Значения, разделенные линией .separator</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Symbol'; font-size:10pt;">·</span><span style=" font-family:'Times New Roman'; font-size:7pt;">         </span><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">tabs</span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> - значения, разделенные табуляцией</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Symbol'; font-size:10pt;">·</span><span style=" font-family:'Times New Roman'; font-size:7pt;">         </span><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">tcl</span><span style=" font-family:'Times New Roman,serif'; font-size:12pt;"> - Элементы списка TCL</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.nullvalue STRING</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Печать STRING вместо значений NULL</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.output FILENAME</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Отправить вывод в FILENAME</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.output stdout</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Отправить вывод на экран</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.print STRING...</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Печать литералов STRING</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.prompt MAIN CONTINUE</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Заменить стандартные подсказки</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.quit</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Выйти из приглашения SQLite</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.read FILENAME</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Выполнить SQL в FILENAME</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.schema ?TABLE?</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Показать инструкции CREATE. Если TABLE указан, отображаются только таблицы, соответствующие шаблону LIKE TABLE</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.separator STRING</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Изменить разделитель, используемый режимом вывода и .import</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.show</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Показывать текущие значения для различных настроек</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.stats ON|OFF</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Включение или выключение статистики</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.tables ?PATTERN?</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Имена списков таблиц, соответствующих шаблону LIKE</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.timeout MS</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Попробуйте открыть заблокированные таблицы для MS миллисекунд</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.width NUM NUM</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Установка ширины столбцов для режима </span><span style=" font-family:'Consolas'; color:#c7254e; background-color:#f9f2f4;">column</span> </p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;">.timer ON|OFF</span> </p></td>
+<td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:12pt;">Включение или выключение измерения таймера процессора</span> </p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  </p></body></html>
