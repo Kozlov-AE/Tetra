@@ -103,6 +103,7 @@
     <node crypt="" id="1565188262v13c9shkrp" name="WPF">
      <recordtable>
       <record id="1563994932mrrpdm9d5r" name="Программно выйти из приложения WPF" author="http://qaru.site" url="http://qaru.site/questions/19537/how-to-exit-a-wpf-app-programmatically" tags="c#, .net, wpf, shutdown" ctime="20190809204527" dir="1563994932xllt8airxx" file="text.html"/>
+      <record id="15658094409hmu2b40jo" name="Создание диалогового окна" author="" url="https://metanit.com/sharp/wpf/20.3.php" tags="WPF, создание окон, c#" ctime="20190814220400" dir="1565809440nduyog1p93" file="text.html"/>
      </recordtable>
      <node crypt="" id="1565188277orxvdvn5ug" name="ListBox">
       <recordtable>
@@ -148,6 +149,9 @@
     </node>
    </node>
    <node crypt="" id="1565723023k0cqk9gl4s" name="Трейдинг">
+    <recordtable>
+     <record id="1565802929du79muzfvm" name="Баланс" author="" url="" tags="" ctime="20190814201529" dir="1565802929zvd21lezj9" file="text.html"/>
+    </recordtable>
     <node crypt="" id="1565723036zgnuxz5ly6" name="Прогнозы">
      <recordtable>
       <record id="1565723082mwb649gpuh" name="MXI-9-19" author="" url="" tags="" ctime="20190813220442" dir="1565723082p9bx3b25jm" file="text.html"/>
