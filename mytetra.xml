@@ -71,6 +71,7 @@
      <record id="1564253423ohnogdvl6u" name="Стандарты написания программного кода на языке C# " author="www.elma-bpm.ru" url="https://www.elma-bpm.ru/KB/article-6651.html" tags="C#, Стандарты" ctime="20190728193326" dir="1564253423ydiu5l4iiw" file="text.html"/>
      <record id="1564331563zbukrvnxr2" name="XML в примерах" author="https://shwanoff.ru" url="https://shwanoff.ru/xml/amp/" tags="xml, c#" ctime="20190728193326" dir="1564331563fy0oiy2w9g" file="text.html"/>
      <record id="15653726742bl99nhtge" name="Глава из книги “Стиль программирования Джо Селко на SQL”" author="" url="https://rsdn.org/article/db/sqlnames.xml" tags="SQL, стиль программирования" ctime="20190809204434" dir="1565372674f6x2n3zgli" file="text.html"/>
+     <record id="156597603007j5kbav60" name="Тернарный оператор" author="" url="" tags="тернарный оператор, c#" ctime="20190816202030" dir="1565976030ab7nrwlw0i" file="text.html"/>
     </recordtable>
     <node crypt="" id="1564331606hbcs8pamdm" name="Работа с CSV">
      <recordtable>
@@ -159,6 +160,11 @@
       <record id="15658026393hyq7snrmc" name="MXI-9-19" author="" url="" tags="" ctime="20190814201039" dir="1565802639im15lgiwrl" file="text.html"/>
      </recordtable>
     </node>
+   </node>
+   <node crypt="" id="1565982655vnx0fj4hwb" name="Дела">
+    <recordtable>
+     <record id="1565982754ocb4kq8i85" name="Т.Тане комп собрать" author="" url="" tags="" ctime="20190816221234" dir="156598275480w159prgp" file="text.html"/>
+    </recordtable>
    </node>
   </node>
   <node crypt="" id="1563914495skovrglhc3" name="Работа">
