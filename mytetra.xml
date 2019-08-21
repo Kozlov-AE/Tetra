@@ -159,11 +159,17 @@
    <node crypt="" id="1565723023k0cqk9gl4s" name="Трейдинг">
     <recordtable>
      <record id="1565802929du79muzfvm" name="Баланс" author="" url="" tags="" ctime="20190814201529" dir="1565802929zvd21lezj9" file="text.html"/>
+     <record id="1566401810xa1z5h67ll" name="Мысли" author="" url="" tags="" ctime="20190821183650" dir="1566401810xyqyix8huh" file="text.html"/>
     </recordtable>
     <node crypt="" id="1565723036zgnuxz5ly6" name="Прогнозы">
      <recordtable>
       <record id="1565723082mwb649gpuh" name="MXI-9-19" author="" url="" tags="" ctime="20190813220442" dir="1565723082p9bx3b25jm" file="text.html"/>
       <record id="15658026393hyq7snrmc" name="MXI-9-19" author="" url="" tags="" ctime="20190814201039" dir="1565802639im15lgiwrl" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1566401869macznbcej9" name="Сделки">
+     <recordtable>
+      <record id="1566402166hl4i78ddga" name="sbrf 9-19" author="" url="" tags="Открытие брокер" ctime="20190821184246" dir="1566402166m1sqt3k5yz" file="text.html"/>
      </recordtable>
     </node>
    </node>
