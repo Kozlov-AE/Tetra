@@ -113,6 +113,11 @@
       </recordtable>
      </node>
      <node crypt="" id="1565271789pvb8n45lyx" name="TextBox"/>
+     <node crypt="" id="15663957424wrb2isrg3" name="MVVM ">
+      <recordtable>
+       <record id="1566395784ljcm417rdl" name="Шпаргалка по MVVM в WPF" author="" url="http://megadarja.blogspot.com/2010/04/mvvm-wpf.html" tags="C#, MVVM, WPF" ctime="20190821165624" dir="1566395784k0akv1txe8" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="1565374916sfyfewmzor" name="SQLite">
      <recordtable>
