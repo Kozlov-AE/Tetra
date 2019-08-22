@@ -47,7 +47,6 @@
    </node>
    <node crypt="1" icon="UkM1U0lNUAONkRGbzvSvpUECv/3hsrniyz3lHcnt+xz0Ml84u/n1AreXbqtCZKZc5jI6UN69ytQWll+0/QbO4edm4K4F8Y2h5+HdvCaKOrQ=" id="15643298561iif5v4uho" name="UkM1U0lNUANJO2fMEk4j+LVjCj2IFaNOl4cfgmtzUpEP08t3HSrz+ntFFYurQ9bauN8BHO7DIhs=">
     <recordtable>
-     <record id="1564330122tjjkejpt4b" name="UkM1U0lNUAMxEqR8ulxRFbpfmkAO/M5f/FnsF0kPj3mEsrhIEgNlCYdXpKplIw0FPfLlgh7nCHU=" author="UkM1U0lNUAPzJhnKhpiFgwQigJ4NDgO/hM3tPca7zzLxkLH5WlCmaBXQOMElCuOw" url="" tags="" ctime="20190728190842" dir="15643301220w2tnf5nl8" file="text.html" crypt="1"/>
      <record id="15644280277fy6g0ulq5" name="UkM1U0lNUAOq9rjzaYP2ytsxcGxRKZ+UGIw55lC+CeDljrd7h9CsEacubIHtVMR2/CcfZ+4MxyM=" author="" url="" tags="UkM1U0lNUAOwJxyfnv73LdGn9diJxnVOUP+QeMUHCT6+SqPqZ0qmhfJmk8Tvy5ZxOv1GNczFuUI=" ctime="20190729223601" dir="1564428027ywnbn6ubw8" file="text.html" crypt="1">
       <files>
        <file id="1564428205r64sozziof" fileName="UkM1U0lNUANIwV0gBANxmJTCOZ0SyRo/qKjFzCpbVPYW2z7JhK1V8CkT7lqrXEmnauE0ea8vUptqV1PH2eigBQ==" type="file" crypt="1"/>
@@ -58,8 +57,7 @@
        <file id="1564861854zg63hxxmhi" fileName="UkM1U0lNUAMWV4cLeLYYkOgSt/i4lKby75bUvd+tICqTRChGeRSKGkci7eRyxFr38xnLsmR5bCQ=" type="file" crypt="1"/>
       </files>
      </record>
-     <record id="15649422555age3grmk9" name="UkM1U0lNUAPxs8vdRxuXqSj9gmJtffNE9hD2HwZpaU0rqXA+y7tpnftc3BiVkr95182VKv4VN7U=" author="" url="" tags="UkM1U0lNUAPEPp6GYgOxZPo3xF4lxkfxQk1QzoYpaOZq+tCt6ehKDm+VIBdMCcEmi1lh7hytykw=" ctime="20190804211055" dir="1564942255mhbt40awpx" file="text.html" crypt="1"/>
-     <record id="1564942300ji21rkwz92" name="UkM1U0lNUAMq+9qzeChMtR2O42T5bAXAYHraZUug+GQ6egeufAhrrpW7QVUy4VDNNz96fF7hCHpGhGovtD79kg==" author="" url="" tags="UkM1U0lNUAMzhuqWN9QpmN4eQNaG/usG6DuRZK8Y3w/M9RkJSBAtzFB2CU4U2fFGvI+Ipe0/AIMm55m+94kB7A==" ctime="20190804211140" dir="1564942300fqhnor2rwa" file="text.html" crypt="1"/>
+     <record id="1564427902g57b1a0xdw" name="UkM1U0lNUANkqtVOJFFuG+tt4RgOU8w67AN7qTAtebI2EygxakZJHBNoKIWj8OVmB39VxdquxIbeiOx2I7JG/syLAQsPBhN6MHzMmhuQTU0=" author="" url="UkM1U0lNUANP035LJcGlRaegHGqNbRYWoAvNQD6NreopJjNfYHQcb78IBQgYeC17fhcg4TtT80T2VyV8rVv/u5mopcwHT4WHWcSfz6lElUy35nXKyzuV1H3EkO9nbe/hhgCqcz3tPd7WOQ/vRaIEyZ78gi+YZVpGTp8+Oe1ZEXebucAoqjC1R69SjnuFRS28YLQXmUAuU2c=" tags="" ctime="20190822215402" dir="1564427902cckbzpjucz" file="text.html" crypt="1"/>
     </recordtable>
     <node crypt="1" icon="" id="1566499071620ct6joao" name="UkM1U0lNUAP1uUSJuCQosHnfHWUboB4P1kMBO5b2ew+u5DfocT8NGFO8ZNdpcM90WfRAz8yy/F8=">
      <recordtable>
@@ -73,6 +71,14 @@
         <file id="1566499732ahgce4b8wq" fileName="UkM1U0lNUAPz4lTrTuNaAIPh8+xgMpGS44HpTqxY6kSyntKRLtzM66dvG101Z94+DTmx1jRNypIZrDreRnMmCjY16WalhWOG" type="file" crypt="1"/>
        </files>
       </record>
+      <record id="1566389403gumq5adt5k" name="UkM1U0lNUAPty4zo6NubQfEyGXA+Dstdcz2B5LFaeNfWW5+F/+jTCLt+ZGzyx5/TQc1laltU20BDNwZV4huvuPQv/Jp0Z1NxYaSBU4T2CeHQPLYwCsh2MjCG/75ejDrf6QwhdIkFnBw=" author="" url="" tags="" ctime="20190822215337" dir="1566389403rwjdtszexc" file="text.html" crypt="1"/>
+     </recordtable>
+    </node>
+    <node crypt="1" icon="UkM1U0lNUAOjcIxkRJwdq0LG3CBJ0GZQGKvIHIhnZCZHJmPIZidNoYBtKksYQDg/k+A+aMZmb59ETTgZtQ5GVySGNWMdEVVs" id="15665000678ha3my9gjp" name="UkM1U0lNUANiDlOWxMTZSz/ZoXHcE234jk4VcdxcgsyeudtpSSUDOoIRbnSTS+VM/CfQxTVrgEk=">
+     <recordtable>
+      <record id="15649422555age3grmk9" name="UkM1U0lNUAPxs8vdRxuXqSj9gmJtffNE9hD2HwZpaU0rqXA+y7tpnftc3BiVkr95182VKv4VN7U=" author="" url="" tags="UkM1U0lNUAPEPp6GYgOxZPo3xF4lxkfxQk1QzoYpaOZq+tCt6ehKDm+VIBdMCcEmi1lh7hytykw=" ctime="20190822215727" dir="1564942255mhbt40awpx" file="text.html" crypt="1"/>
+      <record id="1564942300ji21rkwz92" name="UkM1U0lNUAMq+9qzeChMtR2O42T5bAXAYHraZUug+GQ6egeufAhrrpW7QVUy4VDNNz96fF7hCHpGhGovtD79kg==" author="" url="" tags="UkM1U0lNUAMzhuqWN9QpmN4eQNaG/usG6DuRZK8Y3w/M9RkJSBAtzFB2CU4U2fFGvI+Ipe0/AIMm55m+94kB7A==" ctime="20190822215729" dir="1564942300fqhnor2rwa" file="text.html" crypt="1"/>
+      <record id="1564330122tjjkejpt4b" name="UkM1U0lNUAMxEqR8ulxRFbpfmkAO/M5f/FnsF0kPj3mEsrhIEgNlCYdXpKplIw0FPfLlgh7nCHU=" author="UkM1U0lNUAPzJhnKhpiFgwQigJ4NDgO/hM3tPca7zzLxkLH5WlCmaBXQOMElCuOw" url="" tags="" ctime="20190822215731" dir="15643301220w2tnf5nl8" file="text.html" crypt="1"/>
      </recordtable>
     </node>
    </node>
@@ -145,11 +151,7 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="15644278490oqrwstrz5" name="Разное не сортированное">
-    <recordtable>
-     <record id="1564427902g57b1a0xdw" name="как создать Резюме" author="" url="https://ain.ua/2015/01/14/idealnoe-rezyume-juniora-kak-najti-luchshuyu-rabotu-v-sfere-informacionnyx-texnologij/" tags="" ctime="20190729221822" dir="1564427902cckbzpjucz" file="text.html"/>
-    </recordtable>
-   </node>
+   <node crypt="" id="15644278490oqrwstrz5" name="Разное не сортированное"/>
    <node crypt="" id="156459794718u163xpui" name="Астрология">
     <recordtable>
      <record id="1564597978418unye89s" name="Лунный календарь повседневности: благоприятные дни для разных дел в августе 2019ПОЛЕЗНЫЕ СОВЕТЫ" author="" url="" tags="Лунный календарь, Август" ctime="20190731213258" dir="1564597978z7w3lbbe5r" file="text.html"/>
@@ -190,11 +192,6 @@
    <node crypt="" id="1565982655vnx0fj4hwb" name="Дела">
     <recordtable>
      <record id="1565982754ocb4kq8i85" name="Т.Тане комп собрать" author="" url="" tags="" ctime="20190816221234" dir="156598275480w159prgp" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="15663893612d0h0lrkrv" name="Покупки">
-    <recordtable>
-     <record id="1566389403gumq5adt5k" name="Лантестер на работу (если не найду)" author="" url="" tags="" ctime="20190821151003" dir="1566389403rwjdtszexc" file="text.html"/>
     </recordtable>
    </node>
   </node>
