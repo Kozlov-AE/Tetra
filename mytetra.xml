@@ -61,8 +61,22 @@
      <record id="15649422555age3grmk9" name="UkM1U0lNUAPxs8vdRxuXqSj9gmJtffNE9hD2HwZpaU0rqXA+y7tpnftc3BiVkr95182VKv4VN7U=" author="" url="" tags="UkM1U0lNUAPEPp6GYgOxZPo3xF4lxkfxQk1QzoYpaOZq+tCt6ehKDm+VIBdMCcEmi1lh7hytykw=" ctime="20190804211055" dir="1564942255mhbt40awpx" file="text.html" crypt="1"/>
      <record id="1564942300ji21rkwz92" name="UkM1U0lNUAMq+9qzeChMtR2O42T5bAXAYHraZUug+GQ6egeufAhrrpW7QVUy4VDNNz96fF7hCHpGhGovtD79kg==" author="" url="" tags="UkM1U0lNUAMzhuqWN9QpmN4eQNaG/usG6DuRZK8Y3w/M9RkJSBAtzFB2CU4U2fFGvI+Ipe0/AIMm55m+94kB7A==" ctime="20190804211140" dir="1564942300fqhnor2rwa" file="text.html" crypt="1"/>
     </recordtable>
+    <node crypt="1" icon="" id="1566499071620ct6joao" name="UkM1U0lNUAP1uUSJuCQosHnfHWUboB4P1kMBO5b2ew+u5DfocT8NGFO8ZNdpcM90WfRAz8yy/F8=">
+     <recordtable>
+      <record id="15664991034ptulrss2x" name="UkM1U0lNUAOHUG3as3scgDi85uoummb7bMRVTlatFx7HzqjC75qBEwRMHMQQy24R7U4/L17X960=" author="" url="" tags="" ctime="20190822213823" dir="1566499103j1jpeokvsh" file="text.html" crypt="1">
+       <files>
+        <file id="1566499192eryujuq4vb" fileName="UkM1U0lNUAM+swuMXCSVl6w7CzJXtbssDgSlLsfPYWOUisRlKRBylzVrnonVQQ8Zy6acBsDD/30URYpW5wgk0w==" type="file" crypt="1"/>
+       </files>
+      </record>
+      <record id="1566499724pyektphni4" name="UkM1U0lNUAP6xfC2vguoNWlJnv3HrgtXf+HE+vlakkLNi29TDTDgvnTM6M5lj/b4DjUl75+oS2HEhp6oeGjvajkM2xCeTbpJ" author="" url="" tags="" ctime="20190822214844" dir="1566499724bcr2q9ytnh" file="text.html" crypt="1">
+       <files>
+        <file id="1566499732ahgce4b8wq" fileName="UkM1U0lNUAPz4lTrTuNaAIPh8+xgMpGS44HpTqxY6kSyntKRLtzM66dvG101Z94+DTmx1jRNypIZrDreRnMmCjY16WalhWOG" type="file" crypt="1"/>
+       </files>
+      </record>
+     </recordtable>
+    </node>
    </node>
-   <node crypt="" id="15643316062si6nzjssp" name="C#">
+   <node crypt="" icon="/Gnome/color_gnome_2_edit-select-all.svg" id="15643316062si6nzjssp" name="C#">
     <recordtable>
      <record id="1564253621oehmkh931k" name="Полезные ссылки" author="" url="" tags="Ссылки, c#, программирование" ctime="20190728193326" dir="15642536213mqwmog526" file="text.html"/>
      <record id="15637805522hydfxtvzk" name="Замер времени работы кода " author="" url="" tags="stopwatch, c#" ctime="20190728193326" dir="1563780552lb7125w2f4" file="text.html"/>
