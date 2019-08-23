@@ -126,6 +126,7 @@
       <record id="1563994932mrrpdm9d5r" name="Программно выйти из приложения WPF" author="http://qaru.site" url="http://qaru.site/questions/19537/how-to-exit-a-wpf-app-programmatically" tags="c#, .net, wpf, shutdown" ctime="20190809204527" dir="1563994932xllt8airxx" file="text.html"/>
       <record id="15658094409hmu2b40jo" name="Создание диалогового окна" author="" url="https://metanit.com/sharp/wpf/20.3.php" tags="WPF, создание окон, c#" ctime="20190814220400" dir="1565809440nduyog1p93" file="text.html"/>
       <record id="1566060494pahujhao9c" name="System.IO.IOException: &quot;Не удается найти ресурс &quot;mainwindow.xaml&quot;.&quot;" author="" url="http://qaru.site/questions/290478/my-wpf-application-cannot-locate-resource-mainwindowxaml" tags="Ошибка,wpf" ctime="20190817194814" dir="1566060494mayr9k163v" file="text.html"/>
+      <record id="1566584956w6z2hizw1a" name="Короткое описание элементов компоновки" author="" url="" tags="компоновка,wpf, c#" ctime="20190823212916" dir="1566584956ngm96sx2ev" file="text.html"/>
      </recordtable>
      <node crypt="" id="1565188277orxvdvn5ug" name="ListBox">
       <recordtable>
