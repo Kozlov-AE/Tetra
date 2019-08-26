@@ -61,11 +61,6 @@
     </recordtable>
     <node crypt="1" icon="" id="1566499071620ct6joao" name="UkM1U0lNUAP1uUSJuCQosHnfHWUboB4P1kMBO5b2ew+u5DfocT8NGFO8ZNdpcM90WfRAz8yy/F8=">
      <recordtable>
-      <record id="1566499724pyektphni4" name="UkM1U0lNUAP6xfC2vguoNWlJnv3HrgtXf+HE+vlakkLNi29TDTDgvnTM6M5lj/b4DjUl75+oS2HEhp6oeGjvajkM2xCeTbpJ" author="" url="" tags="" ctime="20190822214844" dir="1566499724bcr2q9ytnh" file="text.html" crypt="1">
-       <files>
-        <file id="1566499732ahgce4b8wq" fileName="UkM1U0lNUAPz4lTrTuNaAIPh8+xgMpGS44HpTqxY6kSyntKRLtzM66dvG101Z94+DTmx1jRNypIZrDreRnMmCjY16WalhWOG" type="file" crypt="1"/>
-       </files>
-      </record>
       <record id="1566389403gumq5adt5k" name="UkM1U0lNUAPty4zo6NubQfEyGXA+Dstdcz2B5LFaeNfWW5+F/+jTCLt+ZGzyx5/TQc1laltU20BDNwZV4huvuPQv/Jp0Z1NxYaSBU4T2CeHQPLYwCsh2MjCG/75ejDrf6QwhdIkFnBw=" author="" url="" tags="" ctime="20190822215337" dir="1566389403rwjdtszexc" file="text.html" crypt="1"/>
      </recordtable>
     </node>
@@ -185,11 +180,7 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="1565982655vnx0fj4hwb" name="Дела">
-    <recordtable>
-     <record id="1565982754ocb4kq8i85" name="Т.Тане комп собрать" author="" url="" tags="" ctime="20190816221234" dir="156598275480w159prgp" file="text.html"/>
-    </recordtable>
-   </node>
+   <node crypt="" id="1565982655vnx0fj4hwb" name="Дела"/>
   </node>
   <node crypt="" id="1563914495skovrglhc3" name="Работа">
    <recordtable>
