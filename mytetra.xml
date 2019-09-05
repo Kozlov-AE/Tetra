@@ -84,76 +84,6 @@
      <node crypt="1" icon="" id="15673647523tkqhdgkaq" name="UkM1U0lNUAM/OTyKDPPmSKoku1akw6YStwyNDQww9L0ND2BzORTya7WmoYMiLYQg7/ma3JuE58w="/>
     </node>
    </node>
-   <node crypt="" icon="/Gnome/color_gnome_2_edit-select-all.svg" id="15643316062si6nzjssp" name="C#">
-    <recordtable>
-     <record id="1564253621oehmkh931k" name="Полезные ссылки" author="" url="" tags="Ссылки, c#, программирование" ctime="20190728193326" dir="15642536213mqwmog526" file="text.html"/>
-     <record id="15637805522hydfxtvzk" name="Замер времени работы кода " author="" url="" tags="stopwatch, c#" ctime="20190728193326" dir="1563780552lb7125w2f4" file="text.html"/>
-     <record id="1563816614ynyqig764h" name="Форматированный вывод в C#" author="http://mvblog.ru" url="http://mvblog.ru/archives/519/" tags="c#,форматированный вывод, string" ctime="20190728193326" dir="1563816614c895q73z48" file="text.html"/>
-     <record id="1564078513wytp1dktn2" name="Интерфейсы IEnumerable и IEnumerator" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/4.11.php" tags="IEnumerable, IEnumerator, c#, коллекции, перечисления" ctime="20190728193326" dir="15640785133fjhsln722" file="text.html"/>
-     <record id="1564253423ohnogdvl6u" name="Стандарты написания программного кода на языке C# " author="www.elma-bpm.ru" url="https://www.elma-bpm.ru/KB/article-6651.html" tags="C#, Стандарты" ctime="20190728193326" dir="1564253423ydiu5l4iiw" file="text.html"/>
-     <record id="1564331563zbukrvnxr2" name="XML в примерах" author="https://shwanoff.ru" url="https://shwanoff.ru/xml/amp/" tags="xml, c#" ctime="20190728193326" dir="1564331563fy0oiy2w9g" file="text.html"/>
-     <record id="15653726742bl99nhtge" name="Глава из книги “Стиль программирования Джо Селко на SQL”" author="" url="https://rsdn.org/article/db/sqlnames.xml" tags="SQL, стиль программирования" ctime="20190809204434" dir="1565372674f6x2n3zgli" file="text.html"/>
-     <record id="156597603007j5kbav60" name="Тернарный оператор" author="" url="" tags="тернарный оператор, c#" ctime="20190816202030" dir="1565976030ab7nrwlw0i" file="text.html"/>
-    </recordtable>
-    <node crypt="" id="1564331606hbcs8pamdm" name="Работа с CSV">
-     <recordtable>
-      <record id="15637798588kimg4r9v7" name="Чтение и запись CSV в C#" author="progtask.ru" url="https://progtask.ru/csv-c-sharp/" tags="c#, csv" ctime="20190728193326" dir="1563779858e1065ai3e2" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="15643316069jaan97sdp" name="MSWord">
-     <recordtable>
-      <record id="1563802936jjb9grfp2o" name="Примеры изменения документов DOC из C#" author="kbss.ru" url="https://kbss.ru/blog/lang_c_sharp/71.html" tags="c#, Word" ctime="20190728193326" dir="1563802936ynn14x0zvl" file="text.html"/>
-     </recordtable>
-     <node crypt="" id="15643316065vwgs6wigj" name="Open XML SDK">
-      <recordtable>
-       <record id="1563881446miwh3674l5" name="Замена слов в docx" author="stackoverflow.com" url="https://ru.stackoverflow.com/questions/593873/word-document-%D0%97%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0-%D0%BC%D0%B5%D1%82%D0%BE%D0%BA" tags="c#, парсер docx" ctime="20190728193326" dir="1563881446hznjlrghmt" file="text.html"/>
-       <record id="1563830151ho871k7t9q" name="Как найти и заменить текст в части документа (Open XML SDK)" author="microsoft.com" url="https://docs.microsoft.com/ru-ru/office/open-xml/how-to-search-and-replace-text-in-a-document-part" tags="Open XML SDK" ctime="20190728193326" dir="1563830151rw3vy3cft1" file="text.html"/>
-      </recordtable>
-     </node>
-    </node>
-    <node crypt="" id="1565034886z34x0vus8m" name="JSON">
-     <recordtable>
-      <record id="1565034932cvbjzxgmnv" name="Ссылки" author="" url="" tags="ссылки, c#, программирование" ctime="20190805225532" dir="1565034932yof28ode99" file="text.html"/>
-      <record id="1565035125x3xgsggep8" name="Работаем с JSON при помощи C#" author="https://progtask.ru" url="https://progtask.ru/json-c-sharp/" tags="JSON, сереализация, c#" ctime="20190805225845" dir="1565035125yhoh2j3kh2" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1565117111vhbl29hfbz" name="Работа с файлами">
-     <recordtable>
-      <record id="1563780489gkmjc26op9" name="Открытие файла из кода программы" author="Неизвестно" url="Неизвестно" tags="Открытие файла, c#, System.Diagnostics" ctime="20190806214517" dir="1563780489dszddlipzs" file="text.html"/>
-      <record id="1565117194fq0ahrdyl5" name="Запись и чтение из файла" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/5.5.php" tags="c#, записьв файл, StreamWriter, StreamReader" ctime="20190806214634" dir="1565117194fq02dv8eoh" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1565188262v13c9shkrp" name="WPF">
-     <recordtable>
-      <record id="1563994932mrrpdm9d5r" name="Программно выйти из приложения WPF" author="http://qaru.site" url="http://qaru.site/questions/19537/how-to-exit-a-wpf-app-programmatically" tags="c#, .net, wpf, shutdown" ctime="20190809204527" dir="1563994932xllt8airxx" file="text.html"/>
-      <record id="15658094409hmu2b40jo" name="Создание диалогового окна" author="" url="https://metanit.com/sharp/wpf/20.3.php" tags="WPF, создание окон, c#" ctime="20190814220400" dir="1565809440nduyog1p93" file="text.html"/>
-      <record id="1566060494pahujhao9c" name="System.IO.IOException: &quot;Не удается найти ресурс &quot;mainwindow.xaml&quot;.&quot;" author="" url="http://qaru.site/questions/290478/my-wpf-application-cannot-locate-resource-mainwindowxaml" tags="Ошибка,wpf" ctime="20190817194814" dir="1566060494mayr9k163v" file="text.html"/>
-      <record id="1566584956w6z2hizw1a" name="Короткое описание элементов компоновки" author="" url="" tags="компоновка,wpf, c#" ctime="20190823212916" dir="1566584956ngm96sx2ev" file="text.html"/>
-     </recordtable>
-     <node crypt="" id="1565188277orxvdvn5ug" name="ListBox">
-      <recordtable>
-       <record id="1565188313gvzn5r1xrv" name="Привязка ListBox к содержимому List&lt;&gt;" author="" url="" tags="ListBox, List, WPF, c#" ctime="20190807173153" dir="1565188313z0gf0yhweb" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1565271789pvb8n45lyx" name="TextBox"/>
-     <node crypt="" id="15663957424wrb2isrg3" name="MVVM ">
-      <recordtable>
-       <record id="1566395784ljcm417rdl" name="Шпаргалка по MVVM в WPF" author="" url="http://megadarja.blogspot.com/2010/04/mvvm-wpf.html" tags="C#, MVVM, WPF" ctime="20190821165624" dir="1566395784k0akv1txe8" file="text.html"/>
-      </recordtable>
-     </node>
-    </node>
-    <node crypt="" id="1565374916sfyfewmzor" name="SQLite">
-     <recordtable>
-      <record id="1565374936lvubrd7quj" name="Как использовать SQLite в C# видео" author="" url="" tags="" ctime="20190809212216" dir="1565374936pb0qqcgkjd" file="text.html"/>
-      <record id="1565534025xtr8atx2fc" name="Как работать с SQLite в C#" author="" url="https://victorz.ru/20181002758" tags="SQLite, c#, Базы данных, БД," ctime="20190811173345" dir="1565534025ble6yhwhnc" file="text.html"/>
-      <record id="1565634249usmv0pvwex" name="SQLite в WPF" author="" url="https://metanit.com/sharp/wpf/21.1.php" tags="SQLite, WPF" ctime="20190812212409" dir="15656342493o9vogfp0v" file="text.html"/>
-      <record id="1565673621ou8z8j0vr7" name="Запросы с примерами" author="" url="http://www.cyberforum.ru/ado-net/thread362189.html" tags="SQLite, c#, бд, базы данных" ctime="20190813082021" dir="1565673621z5hl4cpjvp" file="text.html"/>
-      <record id="1565679489dtk3n0zk5v" name="SQLite - Команды для настройки" author="" url="http://unetway.com/tutorial/sqlite-commands/" tags="SQLite" ctime="20190813095809" dir="1565679489stawittjxh" file="text.html"/>
-      <record id="15657910605a9txxyn86" name="Модификация данных в базе данных" author="" url="https://zametkinapolyah.ru/zametki-o-mysql/chast-10-6-modifikaciya-i-obnovlenie-dannyx-v-tablicax-bazy-dannyx-sqlite.html" tags="SQLite, изменение данных" ctime="20190814165740" dir="15657910600zum05uasl" file="text.html"/>
-      <record id="1565867333owh344w138" name="Удаление из БД" author="" url="" tags="" ctime="20190815140853" dir="1565867333vjan51ihva" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
    <node crypt="" id="15644278490oqrwstrz5" name="Разное не сортированное"/>
    <node crypt="" id="156459794718u163xpui" name="Астрология">
     <recordtable>
@@ -224,6 +154,81 @@
     <recordtable>
      <record id="1564738130vjamcdl7ln" name="0x00000034" author="" url="http://bsodstop.ru/0x00000034-cache-manager" tags="0x00000034, BSOD" ctime="20190802122850" dir="1564738130jeshccccnp" file="text.html"/>
     </recordtable>
+   </node>
+   <node crypt="" icon="/Gnome/color_gnome_2_edit-select-all.svg" id="15676125432wr91g8nhx" name="C#">
+    <recordtable>
+     <record id="1564253621oehmkh931k" name="Полезные ссылки" author="" url="" tags="Ссылки, c#, программирование" ctime="20190904185543" dir="15642536213mqwmog526" file="text.html"/>
+     <record id="15637805522hydfxtvzk" name="Замер времени работы кода " author="" url="" tags="stopwatch, c#" ctime="20190904185543" dir="1563780552lb7125w2f4" file="text.html"/>
+     <record id="1563816614ynyqig764h" name="Форматированный вывод в C#" author="http://mvblog.ru" url="http://mvblog.ru/archives/519/" tags="c#,форматированный вывод, string" ctime="20190904185543" dir="1563816614c895q73z48" file="text.html"/>
+     <record id="1564078513wytp1dktn2" name="Интерфейсы IEnumerable и IEnumerator" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/4.11.php" tags="IEnumerable, IEnumerator, c#, коллекции, перечисления" ctime="20190904185543" dir="15640785133fjhsln722" file="text.html"/>
+     <record id="1564253423ohnogdvl6u" name="Стандарты написания программного кода на языке C# " author="www.elma-bpm.ru" url="https://www.elma-bpm.ru/KB/article-6651.html" tags="C#, Стандарты" ctime="20190904185543" dir="1564253423ydiu5l4iiw" file="text.html"/>
+     <record id="1564331563zbukrvnxr2" name="XML в примерах" author="https://shwanoff.ru" url="https://shwanoff.ru/xml/amp/" tags="xml, c#" ctime="20190904185543" dir="1564331563fy0oiy2w9g" file="text.html"/>
+     <record id="15653726742bl99nhtge" name="Глава из книги “Стиль программирования Джо Селко на SQL”" author="" url="https://rsdn.org/article/db/sqlnames.xml" tags="SQL, стиль программирования" ctime="20190904185543" dir="1565372674f6x2n3zgli" file="text.html"/>
+     <record id="156597603007j5kbav60" name="Тернарный оператор" author="" url="" tags="тернарный оператор, c#" ctime="20190904185543" dir="1565976030ab7nrwlw0i" file="text.html"/>
+    </recordtable>
+    <node crypt="" id="1567612543kdvw3dm1o9" name="Работа с CSV">
+     <recordtable>
+      <record id="15637798588kimg4r9v7" name="Чтение и запись CSV в C#" author="progtask.ru" url="https://progtask.ru/csv-c-sharp/" tags="c#, csv" ctime="20190904185543" dir="1563779858e1065ai3e2" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1567612543t8pguz5pqu" name="MSWord">
+     <recordtable>
+      <record id="1563802936jjb9grfp2o" name="Примеры изменения документов DOC из C#" author="kbss.ru" url="https://kbss.ru/blog/lang_c_sharp/71.html" tags="c#, Word" ctime="20190904185543" dir="1563802936ynn14x0zvl" file="text.html"/>
+     </recordtable>
+     <node crypt="" id="1567612543jwzzexy52h" name="Open XML SDK">
+      <recordtable>
+       <record id="1563881446miwh3674l5" name="Замена слов в docx" author="stackoverflow.com" url="https://ru.stackoverflow.com/questions/593873/word-document-%D0%97%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0-%D0%BC%D0%B5%D1%82%D0%BE%D0%BA" tags="c#, парсер docx" ctime="20190904185543" dir="1563881446hznjlrghmt" file="text.html"/>
+       <record id="1563830151ho871k7t9q" name="Как найти и заменить текст в части документа (Open XML SDK)" author="microsoft.com" url="https://docs.microsoft.com/ru-ru/office/open-xml/how-to-search-and-replace-text-in-a-document-part" tags="Open XML SDK" ctime="20190904185543" dir="1563830151rw3vy3cft1" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+    <node crypt="" id="1567612543jj2q11u22z" name="JSON">
+     <recordtable>
+      <record id="1565034932cvbjzxgmnv" name="Ссылки" author="" url="" tags="ссылки, c#, программирование" ctime="20190904185543" dir="1565034932yof28ode99" file="text.html"/>
+      <record id="1565035125x3xgsggep8" name="Работаем с JSON при помощи C#" author="https://progtask.ru" url="https://progtask.ru/json-c-sharp/" tags="JSON, сереализация, c#" ctime="20190904185543" dir="1565035125yhoh2j3kh2" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1567612543jfrlst8tst" name="Работа с файлами">
+     <recordtable>
+      <record id="1563780489gkmjc26op9" name="Открытие файла из кода программы" author="Неизвестно" url="Неизвестно" tags="Открытие файла, c#, System.Diagnostics" ctime="20190904185543" dir="1563780489dszddlipzs" file="text.html"/>
+      <record id="1565117194fq0ahrdyl5" name="Запись и чтение из файла" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/5.5.php" tags="c#, записьв файл, StreamWriter, StreamReader" ctime="20190904185543" dir="1565117194fq02dv8eoh" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1567612543qy9lktnvvf" name="WPF">
+     <recordtable>
+      <record id="1563994932mrrpdm9d5r" name="Программно выйти из приложения WPF" author="http://qaru.site" url="http://qaru.site/questions/19537/how-to-exit-a-wpf-app-programmatically" tags="c#, .net, wpf, shutdown" ctime="20190904185543" dir="1563994932xllt8airxx" file="text.html"/>
+      <record id="15658094409hmu2b40jo" name="Создание диалогового окна" author="" url="https://metanit.com/sharp/wpf/20.3.php" tags="WPF, создание окон, c#" ctime="20190904185543" dir="1565809440nduyog1p93" file="text.html"/>
+      <record id="1566060494pahujhao9c" name="System.IO.IOException: &quot;Не удается найти ресурс &quot;mainwindow.xaml&quot;.&quot;" author="" url="http://qaru.site/questions/290478/my-wpf-application-cannot-locate-resource-mainwindowxaml" tags="Ошибка,wpf" ctime="20190904185543" dir="1566060494mayr9k163v" file="text.html"/>
+      <record id="1566584956w6z2hizw1a" name="Короткое описание элементов компоновки" author="" url="" tags="компоновка,wpf, c#" ctime="20190904185543" dir="1566584956ngm96sx2ev" file="text.html"/>
+     </recordtable>
+     <node crypt="" id="1567612543lbizrjyc8d" name="ListBox">
+      <recordtable>
+       <record id="1565188313gvzn5r1xrv" name="Привязка ListBox к содержимому List&lt;&gt;" author="" url="" tags="ListBox, List, WPF, c#" ctime="20190904185543" dir="1565188313z0gf0yhweb" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1567612543jkez2ulyft" name="TextBox"/>
+     <node crypt="" id="156761254389auubmcf8" name="MVVM ">
+      <recordtable>
+       <record id="1566395784ljcm417rdl" name="Шпаргалка по MVVM в WPF" author="" url="http://megadarja.blogspot.com/2010/04/mvvm-wpf.html" tags="C#, MVVM, WPF" ctime="20190904185543" dir="1566395784k0akv1txe8" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+    <node crypt="" id="1567612543amls0t6g2u" name="SQLite">
+     <recordtable>
+      <record id="1565374936lvubrd7quj" name="Как использовать SQLite в C# видео" author="" url="" tags="" ctime="20190904185543" dir="1565374936pb0qqcgkjd" file="text.html"/>
+      <record id="1565534025xtr8atx2fc" name="Как работать с SQLite в C#" author="" url="https://victorz.ru/20181002758" tags="SQLite, c#, Базы данных, БД," ctime="20190904185543" dir="1565534025ble6yhwhnc" file="text.html"/>
+      <record id="1565634249usmv0pvwex" name="SQLite в WPF" author="" url="https://metanit.com/sharp/wpf/21.1.php" tags="SQLite, WPF" ctime="20190904185543" dir="15656342493o9vogfp0v" file="text.html"/>
+      <record id="1565673621ou8z8j0vr7" name="Запросы с примерами" author="" url="http://www.cyberforum.ru/ado-net/thread362189.html" tags="SQLite, c#, бд, базы данных" ctime="20190904185543" dir="1565673621z5hl4cpjvp" file="text.html"/>
+      <record id="1565679489dtk3n0zk5v" name="SQLite - Команды для настройки" author="" url="http://unetway.com/tutorial/sqlite-commands/" tags="SQLite" ctime="20190904185543" dir="1565679489stawittjxh" file="text.html"/>
+      <record id="15657910605a9txxyn86" name="Модификация данных в базе данных" author="" url="https://zametkinapolyah.ru/zametki-o-mysql/chast-10-6-modifikaciya-i-obnovlenie-dannyx-v-tablicax-bazy-dannyx-sqlite.html" tags="SQLite, изменение данных" ctime="20190904185543" dir="15657910600zum05uasl" file="text.html"/>
+      <record id="1565867333owh344w138" name="Удаление из БД" author="" url="" tags="" ctime="20190904185543" dir="1565867333vjan51ihva" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1567612581cn2p7g3gva" name="MsSQL">
+     <recordtable>
+      <record id="1567612699cs43tb0ue0" name="Строка подключения" author="" url="" tags="MSSQL, строка подключения" ctime="20190904185819" dir="1567612699bbpyvsw7el" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
  </content>
