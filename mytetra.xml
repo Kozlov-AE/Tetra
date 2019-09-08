@@ -102,16 +102,6 @@
      <record id="1564682967zq8sg40gtb" name="MyTetra Web Client" author="webhamster.ru" url="https://webhamster.ru/site/page/index/articles/projectcode/235" tags="MyTetra, Web, Client, soft, программы" ctime="20190801210927" dir="1564682967nn5w742w4a" file="text.html"/>
     </recordtable>
    </node>
-   <node crypt="" id="1565021598qn4lwmyvj5" name="Проект учета клиентов">
-    <recordtable>
-     <record id="1565021658qzql5xv5wm" name="Схема проекта" author="" url="" tags="" ctime="20190805191418" dir="1565021658e84l6mmtnc" file="text.html"/>
-    </recordtable>
-    <node crypt="" id="1565166554b3we13pww8" name="Класс Client">
-     <recordtable>
-      <record id="156516660064h32iye8k" name="Поля класса" author="" url="" tags="" ctime="20190807113000" dir="15651666003mhlthi2lb" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
    <node crypt="" id="1565723023k0cqk9gl4s" name="Трейдинг">
     <recordtable>
      <record id="1565802929du79muzfvm" name="Баланс" author="" url="" tags="" ctime="20190814201529" dir="1565802929zvd21lezj9" file="text.html"/>
@@ -140,6 +130,21 @@
     <recordtable>
      <record id="1567966506fhq4d40qt6" name="Описание правил оказания первой помощи" author="" url="" tags="Первая помощь" ctime="20190908211506" dir="15679665067sk46crgor" file="text.html"/>
     </recordtable>
+   </node>
+   <node crypt="" id="1567973070l64r5q9xle" name="Проекты">
+    <recordtable>
+     <record id="1567973576bo4m4vray1" name="Учебный MsSQL Server" author="" url="" tags="" ctime="20190908231256" dir="15679735760umlmkpaoi" file="text.html"/>
+    </recordtable>
+    <node crypt="" id="1567973095x36tgcg5nz" name="Проект учета клиентов">
+     <recordtable>
+      <record id="1565021658qzql5xv5wm" name="Схема проекта" author="" url="" tags="" ctime="20190908230455" dir="1565021658e84l6mmtnc" file="text.html"/>
+     </recordtable>
+     <node crypt="" id="1567973095gq9ypyg4le" name="Класс Client">
+      <recordtable>
+       <record id="156516660064h32iye8k" name="Поля класса" author="" url="" tags="" ctime="20190908230455" dir="15651666003mhlthi2lb" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
   </node>
   <node crypt="" id="1563914495skovrglhc3" name="Работа">
