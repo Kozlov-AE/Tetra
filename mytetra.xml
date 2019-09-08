@@ -136,6 +136,11 @@
      <record id="1566915674s7ptxmngmm" name="Эвакуаторы НН" author="" url="" tags="Эвакуатор" ctime="20190827172114" dir="1566915674vjtcktuft1" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="156796634985qvnglz8e" name="Медицина">
+    <recordtable>
+     <record id="1567966506fhq4d40qt6" name="Описание правил оказания первой помощи" author="" url="" tags="Первая помощь" ctime="20190908211506" dir="15679665067sk46crgor" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1563914495skovrglhc3" name="Работа">
    <recordtable>
