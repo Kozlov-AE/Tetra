@@ -179,6 +179,7 @@
      <record id="1564078513wytp1dktn2" name="Интерфейсы IEnumerable и IEnumerator" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/4.11.php" tags="IEnumerable, IEnumerator, c#, коллекции, перечисления" ctime="20190904185543" dir="15640785133fjhsln722" file="text.html"/>
      <record id="156597603007j5kbav60" name="Тернарный оператор" author="" url="" tags="тернарный оператор, c#" ctime="20190904185543" dir="1565976030ab7nrwlw0i" file="text.html"/>
      <record id="1568833141mymipzg1r0" name="Генерация одинаковых чисел RANDOM" author="" url="" tags="random, c#, одинаковые числа random" ctime="20190918215901" dir="1568833141c982i5ttwq" file="text.html"/>
+     <record id="15688368981xphdnjj80" name="Вывод таблицы в консоль" author="" url="https://alekseygulynin.ru/formatirovanie-vyvoda-v-c/" tags="console, консоль, таблица, форматированный, вывод" ctime="20190918230138" dir="15688368983080v295z1" file="text.html"/>
     </recordtable>
     <node crypt="" id="1567612543kdvw3dm1o9" name="Работа с CSV">
      <recordtable>
@@ -262,6 +263,7 @@
     <node crypt="" id="15688335274ivfvcjiqp" name="REGEX">
      <recordtable>
       <record id="1568833510k5nytp9iwy" name="Регулярные выражения REGEX" author="" url="" tags="regex, c#, регулярные выражения" ctime="20190918220532" dir="1568833510zvtqjw2fsf" file="text.html"/>
+      <record id="1568834812ubtxgaavnk" name="примеры выражений" author="" url="" tags="regex, примеры регулярных выражений" ctime="20190918222652" dir="1568834812zelerq873g" file="text.html"/>
      </recordtable>
     </node>
    </node>
