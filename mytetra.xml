@@ -177,10 +177,8 @@
      <record id="15637805522hydfxtvzk" name="Замер времени работы кода " author="" url="" tags="stopwatch, c#" ctime="20190904185543" dir="1563780552lb7125w2f4" file="text.html"/>
      <record id="1563816614ynyqig764h" name="Форматированный вывод в C#" author="http://mvblog.ru" url="http://mvblog.ru/archives/519/" tags="c#,форматированный вывод, string" ctime="20190904185543" dir="1563816614c895q73z48" file="text.html"/>
      <record id="1564078513wytp1dktn2" name="Интерфейсы IEnumerable и IEnumerator" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/4.11.php" tags="IEnumerable, IEnumerator, c#, коллекции, перечисления" ctime="20190904185543" dir="15640785133fjhsln722" file="text.html"/>
-     <record id="1564253423ohnogdvl6u" name="Стандарты написания программного кода на языке C# " author="www.elma-bpm.ru" url="https://www.elma-bpm.ru/KB/article-6651.html" tags="C#, Стандарты" ctime="20190904185543" dir="1564253423ydiu5l4iiw" file="text.html"/>
-     <record id="1564331563zbukrvnxr2" name="XML в примерах" author="https://shwanoff.ru" url="https://shwanoff.ru/xml/amp/" tags="xml, c#" ctime="20190904185543" dir="1564331563fy0oiy2w9g" file="text.html"/>
-     <record id="15653726742bl99nhtge" name="Глава из книги “Стиль программирования Джо Селко на SQL”" author="" url="https://rsdn.org/article/db/sqlnames.xml" tags="SQL, стиль программирования" ctime="20190904185543" dir="1565372674f6x2n3zgli" file="text.html"/>
      <record id="156597603007j5kbav60" name="Тернарный оператор" author="" url="" tags="тернарный оператор, c#" ctime="20190904185543" dir="1565976030ab7nrwlw0i" file="text.html"/>
+     <record id="1568833141mymipzg1r0" name="Генерация одинаковых чисел RANDOM" author="" url="" tags="random, c#, одинаковые числа random" ctime="20190918215901" dir="1568833141c982i5ttwq" file="text.html"/>
     </recordtable>
     <node crypt="" id="1567612543kdvw3dm1o9" name="Работа с CSV">
      <recordtable>
@@ -248,6 +246,22 @@
     <node crypt="" id="1567612581cn2p7g3gva" name="MsSQL">
      <recordtable>
       <record id="1567612699cs43tb0ue0" name="Строка подключения" author="" url="" tags="MSSQL, строка подключения" ctime="20190904185819" dir="1567612699bbpyvsw7el" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1568832959iusi15r68s" name="XML">
+     <recordtable>
+      <record id="1564331563zbukrvnxr2" name="XML в примерах" author="https://shwanoff.ru" url="https://shwanoff.ru/xml/amp/" tags="xml, c#" ctime="20190918215605" dir="1564331563fy0oiy2w9g" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1568833158x5eobtq6jy" name="Стиль кода">
+     <recordtable>
+      <record id="1564253423ohnogdvl6u" name="Стандарты написания программного кода на языке C# " author="www.elma-bpm.ru" url="https://www.elma-bpm.ru/KB/article-6651.html" tags="C#, Стандарты" ctime="20190918215941" dir="1564253423ydiu5l4iiw" file="text.html"/>
+      <record id="15653726742bl99nhtge" name="Глава из книги “Стиль программирования Джо Селко на SQL”" author="" url="https://rsdn.org/article/db/sqlnames.xml" tags="SQL, стиль программирования" ctime="20190918215955" dir="1565372674f6x2n3zgli" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="15688335274ivfvcjiqp" name="REGEX">
+     <recordtable>
+      <record id="1568833510k5nytp9iwy" name="Регулярные выражения REGEX" author="" url="" tags="regex, c#, регулярные выражения" ctime="20190918220532" dir="1568833510zvtqjw2fsf" file="text.html"/>
      </recordtable>
     </node>
    </node>
