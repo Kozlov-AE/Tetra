@@ -10,11 +10,6 @@
      <record id="1564981421dft323b7im" name="Транскрибция" author="" url="https://sloovo.com/ru/biblioteka.php?type=obuchenie&amp;language=EN&amp;category=spravochnik&amp;url=angliyskaya-transkripciya-i-pravila-chteniya" tags="Английский, буквы, звуки" ctime="20190805080341" dir="1564981421zlbmneii8a" file="text.html"/>
     </recordtable>
    </node>
-   <node crypt="" id="1563943317mw2mdfm40q" name="Сетевое оборудование">
-    <recordtable>
-     <record id="1563800546qjjrfo9rfn" name="Сброс комутатора Cisco" author="" url="" tags="Cisco, хардресет" ctime="20190724074157" dir="1563800546z9ud4r41mk" file="text.html"/>
-    </recordtable>
-   </node>
    <node crypt="" id="1563943341jzqfxbwesk" name="Складчик">
     <recordtable>
      <record id="1563893538uy0gz0v2pd" name="[Turbo Tetra] - мгновенные заметки для windows" author="" url="" tags="MyTetra" ctime="20190724074221" dir="1563893538v2rlztptr0" file="text.html"/>
@@ -267,6 +262,11 @@
       <record id="1568834812ubtxgaavnk" name="примеры выражений" author="" url="" tags="regex, примеры регулярных выражений" ctime="20190918222652" dir="1568834812zelerq873g" file="text.html"/>
      </recordtable>
     </node>
+   </node>
+   <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
+    <recordtable>
+     <record id="1563800546qjjrfo9rfn" name="Сброс комутатора Cisco" author="" url="" tags="Cisco, хардресет" ctime="20190925190128" dir="1563800546z9ud4r41mk" file="text.html"/>
+    </recordtable>
    </node>
   </node>
  </content>
