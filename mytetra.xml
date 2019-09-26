@@ -267,7 +267,11 @@
     <recordtable>
      <record id="1563800546qjjrfo9rfn" name="Сброс комутатора Cisco" author="" url="" tags="Cisco, хардресет" ctime="20190925190128" dir="1563800546z9ud4r41mk" file="text.html"/>
     </recordtable>
-    <node crypt="" id="15694820820jkkw0d6so" name="Zyxel USG20W-VPN"/>
+    <node crypt="" id="15694820820jkkw0d6so" name="Zyxel USG20W-VPN">
+     <recordtable>
+      <record id="1569507186rnd3k57he4" name="Настройка PPPoE" author="" url="" tags="PPPoE" ctime="20190926171306" dir="15695071869gnbmbjb1i" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
  </content>
