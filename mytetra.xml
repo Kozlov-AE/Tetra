@@ -267,6 +267,7 @@
     <recordtable>
      <record id="1563800546qjjrfo9rfn" name="Сброс комутатора Cisco" author="" url="" tags="Cisco, хардресет" ctime="20190925190128" dir="1563800546z9ud4r41mk" file="text.html"/>
     </recordtable>
+    <node crypt="" id="15694820820jkkw0d6so" name="Zyxel USG20W-VPN"/>
    </node>
   </node>
  </content>
