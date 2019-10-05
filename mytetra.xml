@@ -269,6 +269,16 @@
       <record id="1568834812ubtxgaavnk" name="примеры выражений" author="" url="" tags="regex, примеры регулярных выражений" ctime="20190918222652" dir="1568834812zelerq873g" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1570221072by820ls6y2" name="WinForms">
+     <recordtable>
+      <record id="1570223525gy5rcrbtc6" name="Всплывающие подсказки" author="" url="" tags="ToolTip, c#, подсказки, winforms" ctime="20191005001205" dir="1570223525zsqg5xrxwn" file="text.html"/>
+     </recordtable>
+     <node crypt="" id="1570221218lva680qjgn" name="TextBox">
+      <recordtable>
+       <record id="1570221515mjgvhupdsq" name="TextBox Подсказка" author="" url="https://ru.stackoverflow.com/questions/493592/textbox-%D0%9F%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0" tags="c#, winforms, textbox, TextBox подсказка" ctime="20191004233835" dir="1570221515kssqse4slb" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
     <recordtable>
