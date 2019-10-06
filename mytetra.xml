@@ -184,7 +184,7 @@
      <record id="15688368981xphdnjj80" name="Вывод таблицы в консоль" author="" url="https://alekseygulynin.ru/formatirovanie-vyvoda-v-c/" tags="console, консоль, таблица, форматированный, вывод" ctime="20190918230138" dir="15688368983080v295z1" file="text.html"/>
      <record id="1569347302ugx1acekck" name="Методы расширения" author="ru.wikipedia.org" url="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D1%8F" tags="extension method, Методы расширения, c#, методы" ctime="20190924204822" dir="1569347302wa7f05a1r0" file="text.html"/>
      <record id="1569787216zv46q655sp" name="Вычитание массивов" author="" url="http://www.cyberforum.ru/csharp-beginners/thread1586073.html" tags="c#,массивы, array, вычитание" ctime="20190929230016" dir="15697872164au5mlqsoy" file="text.html"/>
-     <record id="1569787680ssn7dm4d4t" name="Удаление пустых жлементов из массива" author="" url="https://codeby.net/blogs/udalenie-pustyx-elementov-v-massive/" tags="array, массивы, удалить пустые элементы, удалить пустые элементы массива" ctime="20190929230800" dir="1569787680b3y6x0dkrz" file="text.html"/>
+     <record id="1569787680ssn7dm4d4t" name="Удаление пустых элементов из массива" author="" url="https://codeby.net/blogs/udalenie-pustyx-elementov-v-massive/" tags="array, массивы, удалить пустые элементы, удалить пустые элементы массива" ctime="20190929230800" dir="1569787680b3y6x0dkrz" file="text.html"/>
     </recordtable>
     <node crypt="" id="1567612543kdvw3dm1o9" name="Работа с CSV">
      <recordtable>
