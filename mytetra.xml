@@ -168,6 +168,9 @@
    <node crypt="" id="1564728661eiuapgooio" name="Kyocera"/>
   </node>
   <node crypt="" id="156473777810w3qi5nr7" name="Компьютер">
+   <recordtable>
+    <record id="1570428875gcqksqjjn9" name="Клавиши Бут меню" author="" url="" tags="Bios" ctime="20191007091435" dir="1570428875qe7ava92km" file="text.html"/>
+   </recordtable>
    <node crypt="" id="15647377919hmrmze7p6" name="Синий экран расшифровки">
     <recordtable>
      <record id="1564738130vjamcdl7ln" name="0x00000034" author="" url="http://bsodstop.ru/0x00000034-cache-manager" tags="0x00000034, BSOD" ctime="20190802122850" dir="1564738130jeshccccnp" file="text.html"/>
