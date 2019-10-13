@@ -7,12 +7,7 @@
    <node crypt="" id="1563914646ct5hyaf03h" name="Английский">
     <recordtable>
      <record id="1563780144p7qn94lmm5" name="Математические термины и знаки, диаграммы на английском языке" author="http://english-grammar.biz" url="http://english-grammar.biz/%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D1%8B-%D0%B8-%D0%B7%D0%BD%D0%B0%D0%BA%D0%B8.html" tags="english, английский, математические операторы, математика, перевод с английского" ctime="20190723234406" dir="15637801449any459jq7" file="text.html"/>
-     <record id="1564981421dft323b7im" name="Транскрибция" author="" url="https://sloovo.com/ru/biblioteka.php?type=obuchenie&amp;language=EN&amp;category=spravochnik&amp;url=angliyskaya-transkripciya-i-pravila-chteniya" tags="Английский, буквы, звуки" ctime="20190805080341" dir="1564981421zlbmneii8a" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1563943317mw2mdfm40q" name="Сетевое оборудование">
-    <recordtable>
-     <record id="1563800546qjjrfo9rfn" name="Сброс комутатора Cisco" author="" url="" tags="Cisco, хардресет" ctime="20190724074157" dir="1563800546z9ud4r41mk" file="text.html"/>
+     <record id="1564981421dft323b7im" name="Транскрипция" author="" url="https://sloovo.com/ru/biblioteka.php?type=obuchenie&amp;language=EN&amp;category=spravochnik&amp;url=angliyskaya-transkripciya-i-pravila-chteniya" tags="Английский, буквы, звуки" ctime="20190805080341" dir="1564981421zlbmneii8a" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="1563943341jzqfxbwesk" name="Складчик">
@@ -67,12 +62,14 @@
     <node crypt="1" icon="UkM1U0lNUAOjcIxkRJwdq0LG3CBJ0GZQGKvIHIhnZCZHJmPIZidNoYBtKksYQDg/k+A+aMZmb59ETTgZtQ5GVySGNWMdEVVs" id="15665000678ha3my9gjp" name="UkM1U0lNUANiDlOWxMTZSz/ZoXHcE234jk4VcdxcgsyeudtpSSUDOoIRbnSTS+VM/CfQxTVrgEk=">
      <node crypt="1" icon="" id="1567364711chm8ee9ax0" name="UkM1U0lNUAOLORulpzZ5y2k1LGqVXwVQcL5rahJxYa/UkZ2wFF91cskcSgDnNtlJ">
       <recordtable>
-       <record id="1567364696vglmg3d0xe" name="UkM1U0lNUAPMF1GAzArb9iSbppVpaTr4gM3KmqFsmxSxCDkiOmXOlWfED8Rli5ATE19aO5CgVZo=" author="" url="" tags="" ctime="20190901220515" dir="1567364696mxscwsat74" file="text.html" crypt="1"/>
+       <record id="1567364696vglmg3d0xe" name="UkM1U0lNUAOdJJqEkfpBWIJSciUPlfYBuf25tzhh1E/d756C0pVrW1/JQdI775guGd6KgAbRfX8=" author="" url="" tags="" ctime="20190901220515" dir="1567364696mxscwsat74" file="text.html" crypt="1"/>
        <record id="1564330122tjjkejpt4b" name="UkM1U0lNUAMxEqR8ulxRFbpfmkAO/M5f/FnsF0kPj3mEsrhIEgNlCYdXpKplIw0FPfLlgh7nCHU=" author="UkM1U0lNUAPzJhnKhpiFgwQigJ4NDgO/hM3tPca7zzLxkLH5WlCmaBXQOMElCuOw" url="" tags="" ctime="20190901220518" dir="15643301220w2tnf5nl8" file="text.html" crypt="1"/>
        <record id="15649422555age3grmk9" name="UkM1U0lNUAPxs8vdRxuXqSj9gmJtffNE9hD2HwZpaU0rqXA+y7tpnftc3BiVkr95182VKv4VN7U=" author="" url="" tags="UkM1U0lNUAPEPp6GYgOxZPo3xF4lxkfxQk1QzoYpaOZq+tCt6ehKDm+VIBdMCcEmi1lh7hytykw=" ctime="20190901220524" dir="1564942255mhbt40awpx" file="text.html" crypt="1"/>
        <record id="1564942300ji21rkwz92" name="UkM1U0lNUAMq+9qzeChMtR2O42T5bAXAYHraZUug+GQ6egeufAhrrpW7QVUy4VDNNz96fF7hCHpGhGovtD79kg==" author="" url="" tags="UkM1U0lNUAMzhuqWN9QpmN4eQNaG/usG6DuRZK8Y3w/M9RkJSBAtzFB2CU4U2fFGvI+Ipe0/AIMm55m+94kB7A==" ctime="20190901220528" dir="1564942300fqhnor2rwa" file="text.html" crypt="1"/>
        <record id="15674153492fi7rfb87i" name="UkM1U0lNUAMdsN/N/yKBQPDXfKJREzfmD7u6Cdy8dGbis2pey4snRZWg1KuIiWbeyBX/30KhEV0=" author="" url="" tags="" ctime="20190902120909" dir="1567415349js1pwo68xg" file="text.html" crypt="1"/>
        <record id="1567587817b40w1s1ctb" name="UkM1U0lNUAOw5TuLENR/xsgEK1LIGppSZvhqJt9biMnGrsipwWAZeJPexHHs6R9YsUbRKZB250JWXuyb1105vg==" author="" url="" tags="UkM1U0lNUAPjmZb4swzUtZKvIU5XK0TJD4+Vp15Wao9aJwHE6oivGIJ2tlK+Ux9xiuZoowUV3Qk=" ctime="20190904120337" dir="1567587817xhjpi4g5ew" file="text.html" crypt="1"/>
+       <record id="15702911650th2we2igx" name="UkM1U0lNUAPyPmPGW9CCKBzwBzDG+yz2eDFdeEnIjUYMJaTO+OWWmHKVIXKm73gRGmGJB6ehBXKEYogHjxKb/skewnzzgxpicIGLT3P+hCk=" author="" url="" tags="" ctime="20191005185925" dir="1570291165xicdsk8pdu" file="text.html" crypt="1"/>
+       <record id="1570300193qk7lwo82cr" name="UkM1U0lNUAPe43Lff1lL5VOk8i9pflnbCNr+1hXW/4sAhMavR4GEiNRpia2OOkZP" author="" url="" tags="" ctime="20191005212953" dir="15703001939uooiif1li" file="text.html" crypt="1"/>
       </recordtable>
       <node crypt="1" icon="" id="1567950161avvu6xl335" name="UkM1U0lNUAM2MclY3C1Qkbb/dsd0p9xfcYRrPLWJZZBuncirVsyLIDzjAAFyUJN1NTnQWiw2rqW84OwhlIhowQ==">
        <recordtable>
@@ -120,10 +117,16 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="1565982655vnx0fj4hwb" name="Дела"/>
+   <node crypt="" id="1565982655vnx0fj4hwb" name="Дела">
+    <recordtable>
+     <record id="156987481410moi8c45z" name="Купить для ноутов" author="" url="" tags="" ctime="20190930232014" dir="1569874814lj43vg0tgq" file="text.html"/>
+     <record id="15708944334ydw909qsm" name="Купить детали на пежо 308" author="" url="" tags="" ctime="20191012183353" dir="1570894433o8qkf8v9zg" file="text.html"/>
+    </recordtable>
+   </node>
    <node crypt="" id="1566915589p422yfc3ic" name="Телефонная книга">
     <recordtable>
      <record id="1566915674s7ptxmngmm" name="Эвакуаторы НН" author="" url="" tags="Эвакуатор" ctime="20190827172114" dir="1566915674vjtcktuft1" file="text.html"/>
+     <record id="15695761296fzcwwr14g" name="IT" author="" url="" tags="Компьютерные технологии" ctime="20190927122209" dir="1569576129u6ku7ghlq8" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="156796634985qvnglz8e" name="Медицина">
@@ -166,6 +169,11 @@
    <node crypt="" id="1564728661eiuapgooio" name="Kyocera"/>
   </node>
   <node crypt="" id="156473777810w3qi5nr7" name="Компьютер">
+   <recordtable>
+    <record id="1570428875gcqksqjjn9" name="Клавиши Бут меню" author="" url="" tags="Bios" ctime="20191007091435" dir="1570428875qe7ava92km" file="text.html"/>
+    <record id="1570917625kegsllhk33" name="Убрать раздел восстановления из проводника с помощью командной строки" author="" url="https://remontka.pro/hide-recovery-partition-windows/" tags="Windows 10,Windows 8,Windows 7" ctime="20191013010025" dir="1570917625vbvazv0cup" file="text.html"/>
+    <record id="1570920203ilsoanwn8k" name="Отключение фикса Meltdown и Spectre в Windows" author="" url="https://habr.com/ru/post/357452/" tags="Meltdown, Spectre" ctime="20191013014323" dir="1570920203xbn9fd5qb9" file="text.html"/>
+   </recordtable>
    <node crypt="" id="15647377919hmrmze7p6" name="Синий экран расшифровки">
     <recordtable>
      <record id="1564738130vjamcdl7ln" name="0x00000034" author="" url="http://bsodstop.ru/0x00000034-cache-manager" tags="0x00000034, BSOD" ctime="20190802122850" dir="1564738130jeshccccnp" file="text.html"/>
@@ -177,10 +185,13 @@
      <record id="15637805522hydfxtvzk" name="Замер времени работы кода " author="" url="" tags="stopwatch, c#" ctime="20190904185543" dir="1563780552lb7125w2f4" file="text.html"/>
      <record id="1563816614ynyqig764h" name="Форматированный вывод в C#" author="http://mvblog.ru" url="http://mvblog.ru/archives/519/" tags="c#,форматированный вывод, string" ctime="20190904185543" dir="1563816614c895q73z48" file="text.html"/>
      <record id="1564078513wytp1dktn2" name="Интерфейсы IEnumerable и IEnumerator" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/4.11.php" tags="IEnumerable, IEnumerator, c#, коллекции, перечисления" ctime="20190904185543" dir="15640785133fjhsln722" file="text.html"/>
-     <record id="1564253423ohnogdvl6u" name="Стандарты написания программного кода на языке C# " author="www.elma-bpm.ru" url="https://www.elma-bpm.ru/KB/article-6651.html" tags="C#, Стандарты" ctime="20190904185543" dir="1564253423ydiu5l4iiw" file="text.html"/>
-     <record id="1564331563zbukrvnxr2" name="XML в примерах" author="https://shwanoff.ru" url="https://shwanoff.ru/xml/amp/" tags="xml, c#" ctime="20190904185543" dir="1564331563fy0oiy2w9g" file="text.html"/>
-     <record id="15653726742bl99nhtge" name="Глава из книги “Стиль программирования Джо Селко на SQL”" author="" url="https://rsdn.org/article/db/sqlnames.xml" tags="SQL, стиль программирования" ctime="20190904185543" dir="1565372674f6x2n3zgli" file="text.html"/>
      <record id="156597603007j5kbav60" name="Тернарный оператор" author="" url="" tags="тернарный оператор, c#" ctime="20190904185543" dir="1565976030ab7nrwlw0i" file="text.html"/>
+     <record id="1568833141mymipzg1r0" name="Генерация одинаковых чисел RANDOM" author="" url="" tags="random, c#, одинаковые числа random" ctime="20190918215901" dir="1568833141c982i5ttwq" file="text.html"/>
+     <record id="15688368981xphdnjj80" name="Вывод таблицы в консоль" author="" url="https://alekseygulynin.ru/formatirovanie-vyvoda-v-c/" tags="console, консоль, таблица, форматированный, вывод" ctime="20190918230138" dir="15688368983080v295z1" file="text.html"/>
+     <record id="1569347302ugx1acekck" name="Методы расширения" author="ru.wikipedia.org" url="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D1%8F" tags="extension method, Методы расширения, c#, методы" ctime="20190924204822" dir="1569347302wa7f05a1r0" file="text.html"/>
+     <record id="1569787216zv46q655sp" name="Вычитание массивов" author="" url="http://www.cyberforum.ru/csharp-beginners/thread1586073.html" tags="c#,массивы, array, вычитание" ctime="20190929230016" dir="15697872164au5mlqsoy" file="text.html"/>
+     <record id="1569787680ssn7dm4d4t" name="Удаление пустых элементов из массива" author="" url="https://codeby.net/blogs/udalenie-pustyx-elementov-v-massive/" tags="array, массивы, удалить пустые элементы, удалить пустые элементы массива" ctime="20190929230800" dir="1569787680b3y6x0dkrz" file="text.html"/>
+     <record id="1570735267nvjv21c7kn" name="Замена определенного текста в файле .txt" author="" url="" tags="c#, regex, замена текста" ctime="20191010222107" dir="1570735267bnf0ah6vzk" file="text.html"/>
     </recordtable>
     <node crypt="" id="1567612543kdvw3dm1o9" name="Работа с CSV">
      <recordtable>
@@ -248,6 +259,43 @@
     <node crypt="" id="1567612581cn2p7g3gva" name="MsSQL">
      <recordtable>
       <record id="1567612699cs43tb0ue0" name="Строка подключения" author="" url="" tags="MSSQL, строка подключения" ctime="20190904185819" dir="1567612699bbpyvsw7el" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1568832959iusi15r68s" name="XML">
+     <recordtable>
+      <record id="1564331563zbukrvnxr2" name="XML в примерах" author="https://shwanoff.ru" url="https://shwanoff.ru/xml/amp/" tags="xml, c#" ctime="20190918215605" dir="1564331563fy0oiy2w9g" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1568833158x5eobtq6jy" name="Стиль кода">
+     <recordtable>
+      <record id="1564253423ohnogdvl6u" name="Стандарты написания программного кода на языке C# " author="www.elma-bpm.ru" url="https://www.elma-bpm.ru/KB/article-6651.html" tags="C#, Стандарты" ctime="20190918215941" dir="1564253423ydiu5l4iiw" file="text.html"/>
+      <record id="15653726742bl99nhtge" name="Глава из книги “Стиль программирования Джо Селко на SQL”" author="" url="https://rsdn.org/article/db/sqlnames.xml" tags="SQL, стиль программирования" ctime="20190918215955" dir="1565372674f6x2n3zgli" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="15688335274ivfvcjiqp" name="REGEX">
+     <recordtable>
+      <record id="1568833510k5nytp9iwy" name="Регулярные выражения REGEX" author="" url="" tags="regex, c#, регулярные выражения" ctime="20190918220532" dir="1568833510zvtqjw2fsf" file="text.html"/>
+      <record id="1568834812ubtxgaavnk" name="примеры выражений" author="" url="" tags="regex, примеры регулярных выражений" ctime="20190918222652" dir="1568834812zelerq873g" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1570221072by820ls6y2" name="WinForms">
+     <recordtable>
+      <record id="1570223525gy5rcrbtc6" name="Всплывающие подсказки" author="" url="" tags="ToolTip, c#, подсказки, winforms" ctime="20191005001205" dir="1570223525zsqg5xrxwn" file="text.html"/>
+     </recordtable>
+     <node crypt="" id="1570221218lva680qjgn" name="TextBox">
+      <recordtable>
+       <record id="1570221515mjgvhupdsq" name="TextBox Подсказка" author="" url="https://ru.stackoverflow.com/questions/493592/textbox-%D0%9F%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0" tags="c#, winforms, textbox, TextBox подсказка" ctime="20191004233835" dir="1570221515kssqse4slb" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+   </node>
+   <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
+    <recordtable>
+     <record id="1563800546qjjrfo9rfn" name="Сброс комутатора Cisco" author="" url="" tags="Cisco, хардресет" ctime="20190925190128" dir="1563800546z9ud4r41mk" file="text.html"/>
+    </recordtable>
+    <node crypt="" id="15694820820jkkw0d6so" name="Zyxel USG20W-VPN">
+     <recordtable>
+      <record id="1569507186rnd3k57he4" name="Настройка PPPoE" author="" url="" tags="PPPoE" ctime="20190926171306" dir="15695071869gnbmbjb1i" file="text.html"/>
      </recordtable>
     </node>
    </node>

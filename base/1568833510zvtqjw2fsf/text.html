@@ -1,0 +1,338 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'MS Shell Dlg 2'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="ContentPlaceHolder1_LabelHeader"></a><span style=" font-family:'Verdana'; font-size:x-large; font-weight:600; color:#454545; background-color:#ffffff;">Р</span><span style=" font-family:'Verdana'; font-size:x-large; font-weight:600; color:#454545; background-color:#ffffff;">егулярные выражения в Си-шарп. Класс Regex</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000; background-color:#ffffff;"> </span></p>
+<p style=" margin-top:10px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#eeeff0;"><a name="ContentPlaceHolder1_LabelText"></a><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">В</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> этом уроке мы рассмотрим с вами очень мощный, широко используемый инструмент для обработки текста – регулярные выражения.</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-weight:600; color:#000000;">Регулярное выражение</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – это некий шаблон, составленный из символов и спецсимволов, который позволяет находить подстроки соответствующие этому шаблону в других строках. Спецсимволов и различных правил их комбинирования есть очень много, поэтому регулярные выражения можно даже назвать таким себе отдельным языком программирования. Те, кто пользовался поиском по файлам в Windows могут знать, что для того чтобы найти файлы только заданного расширения, задается шаблон типа «*.txt». Здесь «*» - спецсимвол, который означает любые имена файлов. Так вот регулярные выражения предоставляют подобный механизм.<br /><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-weight:600; color:#000000;">Что можно делать, используя регулярные выражения</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /><br />Регулярные выражения предоставляют массу возможностей, некоторые из них:<br /><br />- заменять в строке все одинаковые слова другим словом, или удалять такие слова;<br />- выделять из строки необходимую часть. Например, из любой ссылки (http://mycsharp.ru/post/33/2013_10_19_virtualnye_metody_v_si-sharp_pereopredelenie_metodov.html) выделять только доменную часть (mycsharp.ru);<br />- проверять соответствует ли строка заданному шаблону. Например, проверять, правильно ли введен email, телефон т.д.;<br />- проверять, содержит ли строка заданную подстроку;<br />- извлекать из строки все вхождения подстрок, соответствующие шаблону регулярного выражения. Например, получить все даты из строки.<br /><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-weight:600; color:#000000;">Начало работы с регулярными выражениями</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /><br />Для того, чтобы работать с регулярными выражениями необходимо подключить в начале программы пространство имен </span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">using System.Text.RegularExpressions;</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> В Си-шарп работу с регулярными выражениями предоставляет класс </span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">Regex</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">. Создание регулярного выражения имеет следующий вид:<br /></span></p>
+<p style=" margin-top:0px; margin-bottom:5px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#eaf9ff;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000; background-color:#eaf9ff;">Regex myReg = new Regex([шаблон]);</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /><br />Здесь [шаблон] – это строка содержащая символы и спецсимволы.<br />У </span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">Regex</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> также есть и второй конструктор, который принимает дополнительный параметр – опции поиска. Это мы рассмотрим далее.<br /><br />Приведу простой пример программы с использованием регулярных выражений:<br /><br /></span></p>
+<p style=" margin-top:0px; margin-bottom:5px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#eaf9ff;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000; background-color:#eaf9ff;">static void Main(string[] args)</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />{<br />   string data1 = &quot;Петр, Андрей, Николай&quot;;<br />   string data2 = &quot;Петр, Андрей, Александр&quot;;<br />   Regex myReg = new Regex(&quot;Николай&quot;); // создание регулярного выражения<br />   Console.WriteLine(myReg.IsMatch(data1)); // True<br />   Console.WriteLine(myReg.IsMatch(data2)); // False<br />   Console.ReadKey();<br />}</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />Здесь в качестве шаблона выступает однозначная строка &quot;Николай&quot;. Дальше был использован метод IsMatch, который проверят, содержит ли заданная строка (data1, data2) подстроку соответствующую шаблону.<br /><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-weight:600; color:#000000;">Методы класса Regex</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /><br />Рассмотрим кратко методы для работы с регулярными выражениями:<br /><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">IsMatch</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – проверяет содержит ли строка хотя бы одну подстроку соответствующую шаблону регулярного выражения. Работа этого метода показана в примере выше.<br /><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">Match</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – возвращает первую подстроку, соответствующую шаблону, в виде объекта класса Match. Класс Match предоставляет различную информацию о подстроке – длину, индекс, само значение и другое.<br /><br /></span></p>
+<p style=" margin-top:0px; margin-bottom:5px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#eaf9ff;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000; background-color:#eaf9ff;">static void Main(string[] args)</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />{<br />   string data1 = &quot;Петр, Андрей, Николай&quot;;<br />   Regex myReg = new Regex(&quot;Николай&quot;);<br />   Match match = myReg.Match(data1);<br />   Console.WriteLine(match.Value); // &quot;Николай&quot;<br />   Console.WriteLine(match.Index); // 14<br />   Console.ReadKey();<br />}</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">Matches</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – возвращает все подстроки соответствующие шаблону в виде коллекции типа </span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">MatchCollection</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">. Каждый элемент этой коллекции типа </span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">Match</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">.<br /></span></p>
+<p style=" margin-top:0px; margin-bottom:5px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#eaf9ff;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000; background-color:#eaf9ff;">static void Main(string[] args)</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />{<br />   string data1 = &quot;Петр, Николай, Андрей, Николай&quot;;<br />   Regex myReg = new Regex(&quot;Николай&quot;);<br />   MatchCollection matches = myReg.Matches(data1);<br />   Console.WriteLine(matches.Count); // 2<br />   foreach (Match m in matches)<br />     Console.WriteLine(m.Value); //вывод всех подстрок &quot;Николай&quot;<br />   Console.ReadKey();<br />}</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">Replace</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – возвращает строку, в которой заменены все подстроки, соответствующие шаблону, новой строкой:<br /></span></p>
+<p style=" margin-top:0px; margin-bottom:5px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#eaf9ff;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000; background-color:#eaf9ff;">static void Main(string[] args)</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />{<br />   string data1 = &quot;Петр, Николай, Андрей, Николай&quot;;<br />   Regex myReg = new Regex(&quot;Николай&quot;);<br />   data1 = myReg.Replace(data1, &quot;Максим&quot;);<br />   Console.WriteLine(data1); //&quot;Петр, Максим, Андрей, Максим&quot;<br />   Console.ReadKey();<br />}</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">Split</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> - возвращает массив строк, полученный в результате разделения входящей строки в местах соответствия шаблону регулярного выражения:<br /></span></p>
+<p style=" margin-top:0px; margin-bottom:5px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#eaf9ff;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000; background-color:#eaf9ff;">static void Main(string[] args)</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />{<br />   string data1 = &quot;Петр,Николай,Андрей,Николай&quot;;<br />   Regex myReg = new Regex(&quot;,&quot;);<br />   string[] names = myReg.Split(data1); // массив имен<br />   Console.ReadKey();<br />}</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-weight:600; color:#000000;">Специальные символы</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />В примерах выше рассматривались очень простые, однозначные регулярные выражения без использования спецсимволов. Спецсимволов существует достаточно много, их описание приведу ниже в таблицах:<br /><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-weight:600; color:#000000;">Классы символов</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="2">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Обозначение</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Описание</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Шаблон</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствие</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">[группа_символов]</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Любой из перечисленных в скобках символов. Используя тире можно указать диапазон символов, например, [a-f] - то же самое, что [abcdef]</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">[abc]</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«a» в «and»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">[^группа_символов]</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Любой символ, кроме перечисленных в скобках</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">[^abc]</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«n», «d» в «and»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\d</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Цифра. Эквивалентно [0-9]</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\d</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«1» в «data1»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\D</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Любой символ, кроме цифр. Эквивалентно [^0-9]</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\D</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«y» в «2014y»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\w</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Цифра, буква (латинский алфавит) или знак подчеркивания. Эквивалентно [0-9a-zA-Z_]</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\w</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«1», «5», «с» в «1.5с»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\W</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Любой символ, кроме цифр, букв (латинский алфавит) и знака подчеркивания. Эквивалентно [^0-9a-zA-Z_]</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\W</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«.» в «1.5с»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\s</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Пробельный символ (пробел, табуляция, перевод строки и т. п.)</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\s</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">« » в «c sharp»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\S</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Любой символ, кроме пробельных</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\S</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«c» «s» «h» «a» «r» «p» в «c sharp»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">.</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Любой символ, кроме перевода строки. Для поиска любого символа, включая перевод строки, можно использовать конструкцию [\s\S]</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">c.harp</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«csharp» в «mycsharp»</span></p></td></tr></table>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /></span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; font-weight:600; color:#000000;">Символы повторения</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="2">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Обозначение</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Описание</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Шаблон</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствие</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">*</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствует предыдущему элементу ноль или более раз</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\d*.</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«a», «1b», «23c » в «a1b23c»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">+</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствует предыдущему элементу один или более раз</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\d+.</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«1b», «23c » в «a1b23c»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">?</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствует предыдущему элементу ноль или один раз</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\d?\D</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«a», «1b», «3с» в «a1b23c»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">{n}</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствует предыдущему элементу, который повторяется ровно n раз</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\d{2}</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«43», «54», «82» в «2,43,546,82»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">{n,}</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствует предыдущему элементу, который повторяется минимум n раз</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\d{2,}</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«43», «546», «82» в «2,43,546,82»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">{n,m}</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствует предыдущему элементу, который повторяется минимум n раз и максимум m</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\d{2,}</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«43», «546», «821» в<br />«2,43,546,8212»</span></p></td></tr></table>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /></span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; font-weight:600; color:#000000;">Символы привязки</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="2">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Обозначение</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Описание</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Шаблон</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствие</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">^</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствие должно находиться в начале строки</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">^\d{2}</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«32» в «32,43,54»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">$</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствие должно находиться в конце строки или до символа \n при многострочном поиске</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\d{2}$</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«54» в «32,43,54»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\b</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствие должно находиться на границе алфавитно-цифрового символа (\w) и не алфавитно-цифрового (\W)</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\b\d{2}</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«32», «54» в «32 a43 54»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\B</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствие не должно находиться на границе</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\B\d{2}</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«43» в «32 a43 54»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\G</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствие должно находиться на позиции конца предыдущего соответствия</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\G\d</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«3», «2», «4» в «324.758»</span></p></td></tr></table>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /></span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; font-weight:600; color:#000000;">Символы выбора</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="2">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Обозначение</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Описание</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Шаблон</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствие</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">|</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Работает как логическое «ИЛИ» - соответствует первому и/или второму шаблону</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">one|two</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«one», «two» в «one two three»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">(группа_символов)</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Группирует набор символов в единое целое для которого дальше могут использоваться + * ? и т.д. Каждой такой группе назначается порядковый номер слева направо начиная с 1. По этому номеру можно ссылаться на группу \номер_группы</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">(one)\1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«oneone» в «oneone onetwoone»</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">(?:группа_символов)</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Та же группировка только без назначения номера группы</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">(?:one){2}</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«oneone» в «oneone onetwoone»</span></p></td></tr></table>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /></span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; font-weight:600; color:#000000;">Другие символы</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="2">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Обозначение</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Описание</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Шаблон</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Соответствие</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\t</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Символ табуляции</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\t</span></p></td>
+<td></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\v</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Символ вертикальной табуляции</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\v</span></p></td>
+<td></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\r</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Символ возврата каретки</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\r</span></p></td>
+<td></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\n</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Символ перевода строки</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\n</span></p></td>
+<td></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\f</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Символ перевода страницы</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\f</span></p></td>
+<td></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">Символ, который позволяет экранировать специальные символы, чтобы те воспринимались буквально. Например, чтобы было соответствие символу звёздочки, шаблон будет выглядеть так \*</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">\d\.\d</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">«1.1», «1.2» в «1.1 1.2»</span></p></td></tr></table>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />В этих таблицах представлены далеко не все элементы языка регулярных выражений, но их вполне достаточно для больших возможностей.<br /><br />Приведу пример программы, которая проверят корректность электронного адреса (шаблон тот же, что и на странице регистрации на этом сайте):<br /><br /></span></p>
+<p style=" margin-top:0px; margin-bottom:5px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#eaf9ff;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000; background-color:#eaf9ff;">static void Main(string[] args)</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />{<br />   Regex myReg = new Regex(@&quot;[A-Za-z]+[\.A-Za-z0-9_-]*[A-Za-z0-9]+@[A-Za-z]+\.[A-Za-z]+&quot;);<br />   Console.WriteLine(myReg.IsMatch(&quot;email@email.com&quot;)); // True<br />   Console.WriteLine(myReg.IsMatch(&quot;email@email&quot;)); // False<br />   Console.WriteLine(myReg.IsMatch(&quot;@email.com&quot;)); // False<br />   Console.ReadKey();<br />}</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />Здесь перед началом строки регулярного выражения стоит символ «@» который указывает комплятору воспринимать все символы буквально. Это необходимо, чтобы корректно воспринимался символ «\».<br /><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-weight:600; color:#000000;">Параметры поиска</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /><br />Здесь мы поговорим о втором конструкторе </span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">Regex</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">, который принимает в качестве второго аргумента значение перечисления </span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">RegexOptions</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;">. В этом перечисление есть следующие значения:<br /><br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">IgnoreCase</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – игнорирование регистра при поиске. Находит соответствия независимо прописными или строчными буквами в строке написано слово;<br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">RightToLeft</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – поиск будет выполнен справа налево, а не слева направо;<br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">Multiline</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – многострочный режим поиска. Меняет работу спецсимволов «^» и «$» так, что они соответствуют началу и концу каждой строки, а не только началу и концу целой строки;<br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">Singleline</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – однострочный режим поиска;<br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">CultureInvariant</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> - игнорирование национальных установок строки;<br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">ExplicitCapture</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – обеспечивается поиск только буквальных соответствий;<br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">Compiled</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – регулярное выражение компилируется в сборку, что делает более быстрым его исполнение но увеличивает время запуска;<br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">IgnorePatternWhitespace</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – игнорирует в шаблоне все неэкранированные пробелы. С этим параметром шаблон «a b» будет аналогичным шаблону «ab»;<br /></span><span style=" font-family:'Verdana'; font-size:13px; font-style:italic; color:#000000;">None</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"> – использовать поиск по умолчанию.<br /><br />Пример программы с использованием параметра поиска (игнорирование регистра):<br /><br /></span></p>
+<p style=" margin-top:0px; margin-bottom:5px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#eaf9ff;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000; background-color:#eaf9ff;">static void Main(string[] args)</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />{<br />   string data = &quot;nikolay, sergey, oleg&quot;;<br />   Regex myRegIgnoreCase = new Regex(@&quot;Sergey&quot;, RegexOptions.IgnoreCase);<br />   Regex myReg = new Regex(@&quot;Sergey&quot;);<br />   Console.WriteLine(myRegIgnoreCase.IsMatch(data)); // True<br />   Console.WriteLine(myReg.IsMatch(data)); // False<br />   Console.ReadKey();<br />}</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />Если необходимо установить несколько параметров, тогда они разделяются оператором поразрядного «ИЛИ» - «|»<br /></span></p>
+<p style=" margin-top:0px; margin-bottom:5px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#eaf9ff;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000; background-color:#eaf9ff;">Regex myReg = new Regex(@&quot;Sergey&quot;, RegexOptions.IgnoreCase | RegexOptions.IgnorePatternWhitespace);</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br /><br />Приведу еще один пример использования регулярных выражений. Создадим метод, который будет принимать ссылку, а возвращать только доменное имя:<br /><br /></span></p>
+<p style=" margin-top:0px; margin-bottom:5px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#eaf9ff;"><span style=" font-family:'Verdana'; font-size:13px; color:#000000; background-color:#eaf9ff;">public static string GetDomain(string url)</span><span style=" font-family:'Verdana'; font-size:13px; color:#000000;"><br />{<br />   Regex re = new Regex(&quot;http://&quot;, RegexOptions.IgnoreCase);<br />   url = re.Replace(url, &quot;&quot;); // удаляем часть http://<br /><br />   Regex reWww = new Regex(@&quot;www\.&quot;, RegexOptions.IgnoreCase);<br />   url = reWww.Replace(url, &quot;&quot;); //удаляем часть www.<br /><br />   int end = url.IndexOf(&quot;/&quot;);<br />   if (end != -1)<br />     url = url.Substring(0, end);<br />   return url;<br />}<br />static void Main(string[] args)<br />{<br />   string url1 = &quot;http://mycsharp.ru/post/33/2013_10_19_virtualnye_metody_v_si-sharp_pereopredelenie_metodov.html&quot;;<br />   string url2 = &quot;http://www.mycsharp.ru/post/33/2013_10_19_virtualnye_metody_v_si-sharp_pereopredelenie_metodov.html&quot;;<br />   Console.WriteLine(GetDomain(url1)); // mycsharp.ru<br />   Console.WriteLine(GetDomain(url2)); // mycsharp.ru<br />   Console.ReadKey();<br />}</span></p></body></html>
