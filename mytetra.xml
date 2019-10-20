@@ -173,6 +173,7 @@
     <record id="1570428875gcqksqjjn9" name="Клавиши Бут меню" author="" url="" tags="Bios" ctime="20191007091435" dir="1570428875qe7ava92km" file="text.html"/>
     <record id="1570917625kegsllhk33" name="Убрать раздел восстановления из проводника с помощью командной строки" author="" url="https://remontka.pro/hide-recovery-partition-windows/" tags="Windows 10,Windows 8,Windows 7" ctime="20191013010025" dir="1570917625vbvazv0cup" file="text.html"/>
     <record id="1570920203ilsoanwn8k" name="Отключение фикса Meltdown и Spectre в Windows" author="" url="https://habr.com/ru/post/357452/" tags="Meltdown, Spectre" ctime="20191013014323" dir="1570920203xbn9fd5qb9" file="text.html"/>
+    <record id="1571500106gm96ue0yfe" name="Маска подсети" author="" url="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BA%D0%B0_%D0%BF%D0%BE%D0%B4%D1%81%D0%B5%D1%82%D0%B8" tags="Маска подсети, ip, mask" ctime="20191019184826" dir="1571500106pe6jxhjo7m" file="text.html"/>
    </recordtable>
    <node crypt="" id="15647377919hmrmze7p6" name="Синий экран расшифровки">
     <recordtable>
