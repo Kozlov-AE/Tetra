@@ -194,6 +194,7 @@
      <record id="1569787216zv46q655sp" name="Вычитание массивов" author="" url="http://www.cyberforum.ru/csharp-beginners/thread1586073.html" tags="c#,массивы, array, вычитание" ctime="20190929230016" dir="15697872164au5mlqsoy" file="text.html"/>
      <record id="1569787680ssn7dm4d4t" name="Удаление пустых элементов из массива" author="" url="https://codeby.net/blogs/udalenie-pustyx-elementov-v-massive/" tags="array, массивы, удалить пустые элементы, удалить пустые элементы массива" ctime="20190929230800" dir="1569787680b3y6x0dkrz" file="text.html"/>
      <record id="1570735267nvjv21c7kn" name="Замена определенного текста в файле .txt" author="" url="" tags="c#, regex, замена текста" ctime="20191010222107" dir="1570735267bnf0ah6vzk" file="text.html"/>
+     <record id="15716396485u8pkzdgrx" name="Split, разделение строки на массив" author="" url="" tags="split, разделение строки" ctime="20191021093408" dir="157163964879wjq87y48" file="text.html"/>
     </recordtable>
     <node crypt="" id="1567612543kdvw3dm1o9" name="Работа с CSV">
      <recordtable>
