@@ -265,6 +265,7 @@
       <record id="1565867333owh344w138" name="Удаление из БД" author="" url="" tags="" ctime="20190904185543" dir="1565867333vjan51ihva" file="text.html"/>
       <record id="1572200700bababkggkx" name="Извлечение DateTime из ячейки" author="" url="" tags="DateTime, Дата, SQLite" ctime="20191027212500" dir="1572200700amkfppdowk" file="text.html"/>
       <record id="15722009043z33dmoeio" name="Получение данных из ячейки таблицы" author="" url="" tags="" ctime="20191027212824" dir="1572200904hleiet5b2t" file="text.html"/>
+      <record id="1572462453poadlqty43" name="Конспект SQLite в WPF" author="" url="" tags="Конспект, SQLite, wpf, c#" ctime="20191030220733" dir="1572462453120395b6ow" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1567612581cn2p7g3gva" name="MsSQL">
