@@ -201,7 +201,7 @@
     </recordtable>
     <node crypt="" id="1567612543kdvw3dm1o9" name="Работа с CSV">
      <recordtable>
-      <record id="15637798588kimg4r9v7" name="Чтение и запись CSV в C#" author="progtask.ru" url="https://progtask.ru/csv-c-sharp/" tags="c#, csv" ctime="20190904185543" dir="1563779858e1065ai3e2" file="text.html"/>
+      <record id="15637798588kimg4r9v7" name="Чтение и запись CSV в C#  CsvHelper" author="progtask.ru" url="https://progtask.ru/csv-c-sharp/" tags="c#, csv, CsvHelper" ctime="20190904185543" dir="1563779858e1065ai3e2" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1567612543t8pguz5pqu" name="MSWord">
