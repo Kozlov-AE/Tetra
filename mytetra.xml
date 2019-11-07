@@ -151,6 +151,13 @@
      </node>
     </node>
    </node>
+   <node crypt="" id="1573111217wlytq4plzo" name="Рецепты">
+    <node crypt="" id="15731112387v8eap5ax3" name="Микроволновая печь">
+     <recordtable>
+      <record id="1573111317hog1ba3t1p" name="Макароны" author="" url="https://www.russianfood.com/recipes/recipe.php?rid=137138" tags="" ctime="20191107102157" dir="1573111317bs864e6ztp" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
   </node>
   <node crypt="" id="1563914495skovrglhc3" name="Работа">
    <recordtable>
