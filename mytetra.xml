@@ -325,6 +325,7 @@
     <node crypt="" id="15694820820jkkw0d6so" name="Zyxel USG20W-VPN">
      <recordtable>
       <record id="1569507186rnd3k57he4" name="Настройка PPPoE" author="" url="" tags="PPPoE" ctime="20190926171306" dir="15695071869gnbmbjb1i" file="text.html"/>
+      <record id="15731171639rkyl19ejh" name="сброс и заводские настройки" author="" url="http://blog.vadimdenisov.ru/post/63" tags="" ctime="20191107115923" dir="157311716371uyrf9f9d" file="text.html"/>
      </recordtable>
     </node>
    </node>
