@@ -293,6 +293,7 @@
     <node crypt="" id="1568832959iusi15r68s" name="XML">
      <recordtable>
       <record id="1564331563zbukrvnxr2" name="XML в примерах" author="https://shwanoff.ru" url="https://shwanoff.ru/xml/amp/" tags="xml, c#" ctime="20190918215605" dir="1564331563fy0oiy2w9g" file="text.html"/>
+      <record id="1573320591ajpnvczxhc" name="Работаем с LINQ to XML" author="" url="https://habr.com/ru/post/24673/" tags="LINQ, XML, XDocument, XDocument, XElement, new XAttribute" ctime="20191109202951" dir="1573320591xfnrrss8jw" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1568833158x5eobtq6jy" name="Стиль кода">
