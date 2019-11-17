@@ -258,6 +258,7 @@
       <record id="15658094409hmu2b40jo" name="Создание диалогового окна" author="" url="https://metanit.com/sharp/wpf/20.3.php" tags="WPF, создание окон, c#" ctime="20190904185543" dir="1565809440nduyog1p93" file="text.html"/>
       <record id="1572609148jkgjq462zc" name="Открытие / Сохранение файла" author="" url="http://www.cyberforum.ru/wpf-silverlight/thread693834.html" tags="Открытие, Сохранение, Диалоговое окно, wpf" ctime="20191101145228" dir="15726091483gbxpfnl3t" file="text.html"/>
       <record id="15739239118brbugytfx" name="Использование комманд" author="" url="" tags="Комманды, ICommand" ctime="20191116200511" dir="15739239117wpae4zpi8" file="text.html"/>
+      <record id="15739851106npqkupz81" name="Использование стилей" author="" url="" tags="" ctime="20191117130510" dir="1573985110zdk43oqhk2" file="text.html"/>
      </recordtable>
      <node crypt="" id="1567612543lbizrjyc8d" name="ListBox">
       <recordtable>
@@ -283,6 +284,8 @@
      <node crypt="" id="1572727875puo0punuv9" name="DataGrid">
       <recordtable>
        <record id="15727279346royabh05i" name="Сортировка по нескольким столбцам в WPF datagrid" author="" url="" tags="" ctime="20191102235214" dir="1572727934sb4z0gd8vb" file="text.html"/>
+       <record id="1573994921vogqpzsy9j" name="Общая информация" author="" url="" tags="" ctime="20191117154841" dir="1573994921evr4yn2j26" file="text.html"/>
+       <record id="1573995558g5x5vag2pd" name="Объединение ячеек" author="" url="https://wpf-tutorial.com/ru/31/%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D0%B8/%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C-grid-%D0%BE%D0%B1%D1%8A%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%8F%D1%87%D0%B5%D0%B5%D0%BA-/" tags="" ctime="20191117155918" dir="1573995558fs648abw6f" file="text.html"/>
       </recordtable>
      </node>
     </node>
