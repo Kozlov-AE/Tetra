@@ -276,6 +276,7 @@
      <node crypt="" id="156761254389auubmcf8" name="MVVM ">
       <recordtable>
        <record id="1566395784ljcm417rdl" name="Шпаргалка по MVVM в WPF" author="" url="http://megadarja.blogspot.com/2010/04/mvvm-wpf.html" tags="C#, MVVM, WPF" ctime="20190904185543" dir="1566395784k0akv1txe8" file="text.html"/>
+       <record id="1574455307w29kchjobo" name="Описание MVVM" author="" url="https://ru.stackoverflow.com/questions/898835/%D0%A1%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5-%D0%B2-c-wpf-mvvm" tags="" ctime="20191123202746" dir="157445530799nd3883ub" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1567687577cxzeyc1rad" name="Проблемы">
@@ -315,7 +316,7 @@
      <recordtable>
       <record id="1564331563zbukrvnxr2" name="XML в примерах" author="https://shwanoff.ru" url="https://shwanoff.ru/xml/amp/" tags="xml, c#" ctime="20190918215605" dir="1564331563fy0oiy2w9g" file="text.html"/>
       <record id="1573320591ajpnvczxhc" name="Работаем с LINQ to XML" author="" url="https://habr.com/ru/post/24673/" tags="LINQ, XML, XDocument, XDocument, XElement, new XAttribute" ctime="20191109202951" dir="1573320591xfnrrss8jw" file="text.html"/>
-      <record id="1574455307w29kchjobo" name="Описание MVVM" author="" url="https://ru.stackoverflow.com/questions/898835/%D0%A1%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5-%D0%B2-c-wpf-mvvm" tags="" ctime="20191122234147" dir="157445530799nd3883ub" file="text.html"/>
+      <record id="1574530010q30bz0ar97" name="Работа с XML файлами" author="" url="http://www.nookery.ru/consider-work-with-xml-files/" tags="" ctime="20191123202650" dir="15745300104xcpu5sh4w" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1568833158x5eobtq6jy" name="Стиль кода">
