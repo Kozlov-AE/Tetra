@@ -341,7 +341,11 @@
       </recordtable>
      </node>
     </node>
-    <node crypt="" id="1575317716650l7bq5al" name="Telegramm"/>
+    <node crypt="" id="1575317716650l7bq5al" name="Telegramm">
+     <recordtable>
+      <record id="1575962278kgp08j73zn" name="Ограничение callback_data" author="" url="https://habr.com/ru/post/418905/" tags="Телеграмм бот" ctime="20191210101758" dir="1575962278f7mb9vl4nq" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
     <recordtable>
