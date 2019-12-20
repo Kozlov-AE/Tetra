@@ -19,14 +19,6 @@
      <record id="1563893538uy0gz0v2pd" name="[Turbo Tetra] - мгновенные заметки для windows" author="" url="" tags="MyTetra" ctime="20190724074221" dir="1563893538v2rlztptr0" file="text.html"/>
     </recordtable>
    </node>
-   <node crypt="" id="1563943352wnrfwvrrok" name="GitHub">
-    <recordtable>
-     <record id="1563914427tvk0gd9so0" name="Удаление репозитория" author="" url="" tags="Git, GitHub, Github, Удаление" ctime="20190724074232" dir="1563914427b0zoob8foi" file="text.html"/>
-     <record id="1564054435auzs9yh2zc" name="Команды в Git Bash консоли" author="http://rightblog.ru" url="http://rightblog.ru/3274" tags="Git, команды, git bash, Git Bash" ctime="20190725143355" dir="1564054435rx8fs51rhd" file="text.html"/>
-     <record id="1565603082j2mopfo7z5" name="Github разработка в команде" author="" url="https://code.tutsplus.com/ru/articles/team-collaboration-with-github--net-29876" tags="GitHub" ctime="20190812124442" dir="15656030823yu777prab" file="text.html"/>
-     <record id="1573712482w01ev7d2yq" name="Установка GIT и настройка GitHub: полное руководство (Windows, Linux)" author="" url="https://webhamster.ru/site/page/index/articles/comp/171" tags="" ctime="20191114092122" dir="1573712482uk8az62190" file="text.html"/>
-    </recordtable>
-   </node>
    <node crypt="" id="1563971281rwjnkp29qz" name="Авто">
     <recordtable>
      <record id="1563971486qxrlvpbuiq" name="Избавление от ржавчины при помощи батаеек" author="" url="" tags="Оцинковка, ржавчина, батарейка" ctime="20190729223640" dir="1563971486mgfeurzyo3" file="text.html"/>
@@ -357,6 +349,14 @@
       <record id="15731171639rkyl19ejh" name="сброс и заводские настройки" author="" url="http://blog.vadimdenisov.ru/post/63" tags="" ctime="20191107115923" dir="157311716371uyrf9f9d" file="text.html"/>
      </recordtable>
     </node>
+   </node>
+   <node crypt="" id="1576864868cdibce6rwi" name="GitHub">
+    <recordtable>
+     <record id="1563914427tvk0gd9so0" name="Удаление репозитория" author="" url="" tags="Git, GitHub, Github, Удаление" ctime="20191220210108" dir="1563914427b0zoob8foi" file="text.html"/>
+     <record id="1564054435auzs9yh2zc" name="Команды в Git Bash консоли" author="http://rightblog.ru" url="http://rightblog.ru/3274" tags="Git, команды, git bash, Git Bash" ctime="20191220210108" dir="1564054435rx8fs51rhd" file="text.html"/>
+     <record id="1565603082j2mopfo7z5" name="Github разработка в команде" author="" url="https://code.tutsplus.com/ru/articles/team-collaboration-with-github--net-29876" tags="GitHub" ctime="20191220210108" dir="15656030823yu777prab" file="text.html"/>
+     <record id="1573712482w01ev7d2yq" name="Установка GIT и настройка GitHub: полное руководство (Windows, Linux)" author="" url="https://webhamster.ru/site/page/index/articles/comp/171" tags="" ctime="20191220210108" dir="1573712482uk8az62190" file="text.html"/>
+    </recordtable>
    </node>
   </node>
  </content>
