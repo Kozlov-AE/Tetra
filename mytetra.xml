@@ -256,6 +256,7 @@
       <record id="15739239118brbugytfx" name="Использование комманд" author="" url="" tags="Комманды, ICommand" ctime="20191116200511" dir="15739239117wpae4zpi8" file="text.html"/>
       <record id="1574281552c4s6hndjll" name="Привязка к другому DataContext" author="" url="" tags="" ctime="20191120232552" dir="15742815521p77mzdi5m" file="text.html"/>
       <record id="1577310126cz9398hugg" name="Асинхронный ObservableCollection" author="" url="http://rsdn.org/forum/dotnet.gui/3306920.all" tags="ObservableCollection" ctime="20191226004206" dir="1577310126fud80tmbt8" file="text.html"/>
+      <record id="1577417014h7ntu11drx" name="Использование потоков и BackgroundWorker в WPF" author="" url="http://andsemenoff.narod.ru/programming/wpf/BackgroundWorker_page1.html" tags="" ctime="20191227062334" dir="1577417014842qw0m6l6" file="text.html"/>
      </recordtable>
      <node crypt="" id="1567612543lbizrjyc8d" name="ListBox">
       <recordtable>
