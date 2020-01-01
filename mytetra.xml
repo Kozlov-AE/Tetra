@@ -273,6 +273,12 @@
        <record id="1566395784ljcm417rdl" name="Шпаргалка по MVVM в WPF" author="" url="http://megadarja.blogspot.com/2010/04/mvvm-wpf.html" tags="C#, MVVM, WPF" ctime="20190904185543" dir="1566395784k0akv1txe8" file="text.html"/>
        <record id="1574455307w29kchjobo" name="Описание MVVM" author="" url="https://ru.stackoverflow.com/questions/898835/%D0%A1%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5-%D0%B2-c-wpf-mvvm" tags="" ctime="20191123202746" dir="157445530799nd3883ub" file="text.html"/>
       </recordtable>
+      <node crypt="" id="157790220628aky4cy1i" name="Metanit">
+       <recordtable>
+        <record id="1577902243htt4mudgvj" name="Определение паттерна MVVM" author="" url="https://metanit.com/sharp/wpf/22.1.php" tags="Метанит, metanit, mvvm" ctime="20200101211043" dir="1577902243h2p6dp88il" file="text.html"/>
+        <record id="15779024532k0pkzcshu" name="Реализация MVVM. ViewModel" author="" url="https://metanit.com/sharp/wpf/22.2.php" tags="" ctime="20200101211413" dir="1577902453k143zdm6rc" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
      <node crypt="" id="1567687577cxzeyc1rad" name="Проблемы">
       <recordtable>
