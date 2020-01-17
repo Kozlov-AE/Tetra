@@ -312,6 +312,11 @@
       <record id="15722009043z33dmoeio" name="Получение данных из ячейки таблицы" author="" url="" tags="" ctime="20191027212824" dir="1572200904hleiet5b2t" file="text.html"/>
       <record id="1572462453poadlqty43" name="Конспект SQLite в WPF" author="" url="" tags="Конспект, SQLite, wpf, c#" ctime="20191030220733" dir="1572462453120395b6ow" file="text.html"/>
      </recordtable>
+     <node crypt="" id="1579231621hzej7x0f0r" name="Ошибки">
+      <recordtable>
+       <record id="1579231718ycunwc8xil" name="Index was outside the bounds of the array using SQLITE" author="https://stackoverflow.com/questions/39179376/index-was-outside-the-bounds-of-the-array-using-sqlite-and-c-sharp" url="" tags="Index was outside the bounds of the array using SQLITE, ошибки sqlite" ctime="20200117062838" dir="1579231718zcper49jvw" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="1567612581cn2p7g3gva" name="MsSQL">
      <recordtable>
