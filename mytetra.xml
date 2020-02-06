@@ -355,6 +355,7 @@
     <node crypt="" id="1575317716650l7bq5al" name="Telegramm">
      <recordtable>
       <record id="1575962278kgp08j73zn" name="Ограничение callback_data" author="" url="https://habr.com/ru/post/418905/" tags="Телеграмм бот" ctime="20191210101758" dir="1575962278f7mb9vl4nq" file="text.html"/>
+      <record id="15810181639ukahdr6ty" name="Скачать файл из сообщения" author="" url="https://issue.life/questions/33082572" tags="c#, bots, telegram, telegram.bot" ctime="20200206224243" dir="1581018163mzt7vbsxib" file="text.html"/>
      </recordtable>
     </node>
    </node>
