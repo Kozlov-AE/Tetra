@@ -273,6 +273,7 @@
       <recordtable>
        <record id="1566395784ljcm417rdl" name="Шпаргалка по MVVM в WPF" author="" url="http://megadarja.blogspot.com/2010/04/mvvm-wpf.html" tags="C#, MVVM, WPF" ctime="20190904185543" dir="1566395784k0akv1txe8" file="text.html"/>
        <record id="1574455307w29kchjobo" name="Описание MVVM" author="" url="https://ru.stackoverflow.com/questions/898835/%D0%A1%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5-%D0%B2-c-wpf-mvvm" tags="" ctime="20191123202746" dir="157445530799nd3883ub" file="text.html"/>
+       <record id="15814482563oae1xm0rg" name="DynamicData: Изменяющиеся коллекции, шаблон проектирования MVVM и реактивные расширения" author="" url="https://habr.com/en/post/445098/" tags="" ctime="20200211221056" dir="15814482568z8ioayq48" file="text.html"/>
       </recordtable>
       <node crypt="" id="157790220628aky4cy1i" name="Metanit">
        <recordtable>
