@@ -189,6 +189,7 @@
     <record id="1570920203ilsoanwn8k" name="Отключение фикса Meltdown и Spectre в Windows" author="" url="https://habr.com/ru/post/357452/" tags="Meltdown, Spectre" ctime="20191013014323" dir="1570920203xbn9fd5qb9" file="text.html"/>
     <record id="1571500106gm96ue0yfe" name="Маска подсети" author="" url="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BA%D0%B0_%D0%BF%D0%BE%D0%B4%D1%81%D0%B5%D1%82%D0%B8" tags="Маска подсети, ip, mask" ctime="20191019184826" dir="1571500106pe6jxhjo7m" file="text.html"/>
     <record id="15725352046zxm95kbkt" name="Каллибровка сенсора win 10" author="" url="" tags="сенсор, каллибровка" ctime="20191031182004" dir="1572535204wkltithapr" file="text.html"/>
+    <record id="1581526156br5k5f4a06" name="Сброс пароля BIOS" author="" url="https://kom-servise.ru/index.php/remont/1040-1040" tags="" ctime="20200212194916" dir="1581526156kuy6wl3lyg" file="text.html"/>
    </recordtable>
    <node crypt="" id="15647377919hmrmze7p6" name="Синий экран расшифровки">
     <recordtable>
