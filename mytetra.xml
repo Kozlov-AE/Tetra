@@ -128,12 +128,7 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="1565982655vnx0fj4hwb" name="Дела">
-    <recordtable>
-     <record id="156987481410moi8c45z" name="Купить для ноутов" author="" url="" tags="" ctime="20190930232014" dir="1569874814lj43vg0tgq" file="text.html"/>
-     <record id="15708944334ydw909qsm" name="Купить детали на пежо 308" author="" url="" tags="" ctime="20191012183353" dir="1570894433o8qkf8v9zg" file="text.html"/>
-    </recordtable>
-   </node>
+   <node crypt="" id="1565982655vnx0fj4hwb" name="Дела"/>
    <node crypt="" id="1566915589p422yfc3ic" name="Телефонная книга">
     <recordtable>
      <record id="1566915674s7ptxmngmm" name="Эвакуаторы НН" author="" url="" tags="Эвакуатор" ctime="20190827172114" dir="1566915674vjtcktuft1" file="text.html"/>
