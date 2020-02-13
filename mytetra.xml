@@ -356,6 +356,11 @@
       <record id="15810181639ukahdr6ty" name="Скачать файл из сообщения" author="" url="https://issue.life/questions/33082572" tags="c#, bots, telegram, telegram.bot" ctime="20200206224243" dir="1581018163mzt7vbsxib" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1581628961jut0hfhic1" name="DialogFlow">
+     <recordtable>
+      <record id="15816290103jeboo7q6r" name="Пример внедрения API V2" author="" url="https://fooobar.com/questions/16640926/not-working-example-for-dialogflow-v2-api" tags="" ctime="20200214002330" dir="1581629010y6d3goy9aw" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
     <recordtable>
