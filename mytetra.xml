@@ -271,6 +271,11 @@
        <record id="1566395784ljcm417rdl" name="Шпаргалка по MVVM в WPF" author="" url="http://megadarja.blogspot.com/2010/04/mvvm-wpf.html" tags="C#, MVVM, WPF" ctime="20190904185543" dir="1566395784k0akv1txe8" file="text.html"/>
        <record id="1574455307w29kchjobo" name="Описание MVVM" author="" url="https://ru.stackoverflow.com/questions/898835/%D0%A1%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B5-%D0%B2-c-wpf-mvvm" tags="" ctime="20191123202746" dir="157445530799nd3883ub" file="text.html"/>
        <record id="15814482563oae1xm0rg" name="DynamicData: Изменяющиеся коллекции, шаблон проектирования MVVM и реактивные расширения" author="" url="https://habr.com/en/post/445098/" tags="" ctime="20200211221056" dir="15814482568z8ioayq48" file="text.html"/>
+       <record id="1584735459pm5cef8693" name="Открытие нового окна" author="" url="https://ru.stackoverflow.com/questions/727749/wpf-%D0%9A%D0%B0%D0%BA-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE-%D1%81-%D1%82%D0%BE%D1%87%D0%BA%D0%B8-%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%86%D0%B8%D0%B8-mvvm-%D0%B2%D1%8B%D0%B7%D1%8B%D0%B2%D0%B0%D1%82%D1%8C-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%BE-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BE%D0%B9" tags="wpf, mvvm, открытие окон" ctime="20200320231739" dir="1584735459eqge3b7c6k" file="text.html">
+        <files>
+         <file id="1584735549eipbw8nf2n" fileName="MVVM_OpenNewWindowMinimalExample-master.zip" type="file"/>
+        </files>
+       </record>
       </recordtable>
       <node crypt="" id="157790220628aky4cy1i" name="Metanit">
        <recordtable>
