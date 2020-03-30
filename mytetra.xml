@@ -393,6 +393,11 @@
     <node crypt="" id="15815844783nb3bc430p" name="Debian 10">
      <recordtable>
       <record id="1581584513w7y7hll5fg" name="Как создать загрузочную флешку Ubuntu" author="" url="https://losst.ru/kak-sdelat-zagruzochnuyu-fleshku-ubuntu#_Ubuntu_Linux" tags="" ctime="20200213120153" dir="15815845139zx029c7ss" file="text.html"/>
+      <record id="1585592551rhpzyprrzg" name="Настройка Тачпада" author="" url="https://mnorin.com/nastrojka-tachpada-v-linux.html" tags="Debian, тачпад, linux, Synaptics" ctime="20200330212231" dir="15855925514cp74uhvqu" file="text.html">
+       <files>
+        <file id="1585593282sxixcg33o2" fileName="Опции synclient.odt" type="file"/>
+       </files>
+      </record>
      </recordtable>
     </node>
    </node>
