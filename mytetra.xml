@@ -258,17 +258,8 @@
       <record id="1581195323sxi1mzz7tm" name="Изменение стартового окна" author="" url="" tags="" ctime="20200208235523" dir="158119532302x91681ml" file="text.html"/>
       <record id="1585852031mmex2w29aa" name="Выполнение кода при закрытии программы" author="" url="https://coderoad.ru/10018308/%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%B8-%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B8-WPF" tags="" ctime="20200402212711" dir="1585852031xxgn4pg3vo" file="text.html"/>
       <record id="15858521413xgndidk4p" name="Выполнение кода при закрытии окна (Code behind)" author="" url="https://coderoad.ru/10018308/%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%B8-%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B8-WPF" tags="WPF, Закрытие окна" ctime="20200402212901" dir="1585852141liscljhily" file="text.html"/>
+      <record id="1586293746arcffj4zm9" name="Работа с App.xaml" author="" url="https://www.wpf-tutorial.com/ru/10/%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-wpf/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-app-xaml/" tags="App, WPF" ctime="20200408000906" dir="1586293746nciob1295w" file="text.html"/>
      </recordtable>
-     <node crypt="" id="1567612543lbizrjyc8d" name="ListBox">
-      <recordtable>
-       <record id="1565188313gvzn5r1xrv" name="Привязка ListBox к содержимому List&lt;&gt;" author="" url="" tags="ListBox, List, WPF, c#" ctime="20190904185543" dir="1565188313z0gf0yhweb" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1567612543jkez2ulyft" name="TextBox">
-      <recordtable>
-       <record id="1571777028n8bbzoro6w" name="Многострочный TextBox" author="" url="http://csharpcoding.org/textbox-multiline-wpf/" tags="TextBox, wpf, Multiline" ctime="20191022234403" dir="1571777028vgetwj2bxq" file="text.html"/>
-      </recordtable>
-     </node>
      <node crypt="" id="156761254389auubmcf8" name="MVVM ">
       <recordtable>
        <record id="1566395784ljcm417rdl" name="Шпаргалка по MVVM в WPF" author="" url="http://megadarja.blogspot.com/2010/04/mvvm-wpf.html" tags="C#, MVVM, WPF" ctime="20190904185543" dir="1566395784k0akv1txe8" file="text.html"/>
@@ -293,17 +284,29 @@
        <record id="1566060494pahujhao9c" name="System.IO.IOException: &quot;Не удается найти ресурс &quot;mainwindow.xaml&quot;.&quot;" author="" url="http://qaru.site/questions/290478/my-wpf-application-cannot-locate-resource-mainwindowxaml" tags="Ошибка,wpf" ctime="20190905154627" dir="1566060494mayr9k163v" file="text.html"/>
       </recordtable>
      </node>
-     <node crypt="" id="1572727875puo0punuv9" name="DataGrid">
-      <recordtable>
-       <record id="15727279346royabh05i" name="Сортировка по нескольким столбцам в WPF datagrid" author="" url="" tags="" ctime="20191102235214" dir="1572727934sb4z0gd8vb" file="text.html"/>
-       <record id="1573994921vogqpzsy9j" name="Общая информация" author="" url="" tags="" ctime="20191117154841" dir="1573994921evr4yn2j26" file="text.html"/>
-       <record id="1573995558g5x5vag2pd" name="Объединение ячеек" author="" url="https://wpf-tutorial.com/ru/31/%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D0%B8/%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C-grid-%D0%BE%D0%B1%D1%8A%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%8F%D1%87%D0%B5%D0%B5%D0%BA-/" tags="" ctime="20191117155918" dir="1573995558fs648abw6f" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="157759277820edlfdaq0" name="Richtextbox">
-      <recordtable>
-       <record id="1577592869drhevxji4b" name="Работа с абзацем" author="" url="http://forundex.ru/yap/Kak-zadatj-mezhstrochnij-interval-(dlya-richtextbox)-188468" tags="" ctime="20191229071429" dir="1577592869o0kxvkrfib" file="text.html"/>
-      </recordtable>
+     <node crypt="" id="15862902431f5rm1rayu" name="XAML">
+      <node crypt="" id="1586290271ttuirbwsln" name="Richtextbox">
+       <recordtable>
+        <record id="1577592869drhevxji4b" name="Работа с абзацем" author="" url="http://forundex.ru/yap/Kak-zadatj-mezhstrochnij-interval-(dlya-richtextbox)-188468" tags="" ctime="20200407231111" dir="1577592869o0kxvkrfib" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="15862902802k3dpy2t35" name="DataGrid">
+       <recordtable>
+        <record id="15727279346royabh05i" name="Сортировка по нескольким столбцам в WPF datagrid" author="" url="" tags="" ctime="20200407231120" dir="1572727934sb4z0gd8vb" file="text.html"/>
+        <record id="1573994921vogqpzsy9j" name="Общая информация" author="" url="" tags="" ctime="20200407231120" dir="1573994921evr4yn2j26" file="text.html"/>
+        <record id="1573995558g5x5vag2pd" name="Объединение ячеек" author="" url="https://wpf-tutorial.com/ru/31/%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D0%B8/%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C-grid-%D0%BE%D0%B1%D1%8A%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%8F%D1%87%D0%B5%D0%B5%D0%BA-/" tags="" ctime="20200407231120" dir="1573995558fs648abw6f" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1586290290j46fo9m42y" name="TextBox">
+       <recordtable>
+        <record id="1571777028n8bbzoro6w" name="Многострочный TextBox" author="" url="http://csharpcoding.org/textbox-multiline-wpf/" tags="TextBox, wpf, Multiline" ctime="20200407231130" dir="1571777028vgetwj2bxq" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1586290298iwen7cvpnb" name="ListBox">
+       <recordtable>
+        <record id="1565188313gvzn5r1xrv" name="Привязка ListBox к содержимому List&lt;&gt;" author="" url="" tags="ListBox, List, WPF, c#" ctime="20200407231138" dir="1565188313z0gf0yhweb" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
     </node>
     <node crypt="" id="1567612543amls0t6g2u" name="SQLite">
