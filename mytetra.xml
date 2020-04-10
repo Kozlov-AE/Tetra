@@ -109,12 +109,6 @@
    </node>
    <node crypt="" id="15644278490oqrwstrz5" name="Разное не сортированное"/>
    <node crypt="" id="156459794718u163xpui" name="Астрология"/>
-   <node crypt="" id="1564682832gvk3f1mj6e" name="myTetra">
-    <recordtable>
-     <record id="1564682967zq8sg40gtb" name="MyTetra Web Client" author="webhamster.ru" url="https://webhamster.ru/site/page/index/articles/projectcode/235" tags="MyTetra, Web, Client, soft, программы" ctime="20190801210927" dir="1564682967nn5w742w4a" file="text.html"/>
-     <record id="1573712578elagk4w8tz" name="Как в MyTetra настроить синхронизацию через интернет" author="" url="https://webhamster.ru/site/page/index/articles/projectcode/170" tags="" ctime="20191114092258" dir="1573712578dninj4fs7e" file="text.html"/>
-    </recordtable>
-   </node>
    <node crypt="" id="1565723023k0cqk9gl4s" name="Трейдинг">
     <recordtable>
      <record id="1565802929du79muzfvm" name="Баланс" author="" url="" tags="" ctime="20190814201529" dir="1565802929zvd21lezj9" file="text.html"/>
@@ -190,6 +184,13 @@
   </node>
   <node crypt="" id="1564728640jxp3wxmw8i" name="Принтеры">
    <node crypt="" id="1564728661eiuapgooio" name="Kyocera"/>
+   <node crypt="" id="1586528483l9ixu5bfrh" name="Epson">
+    <node crypt="" id="158652849067zbfn3811" name="L110">
+     <recordtable>
+      <record id="1586528576nvuu0ccouy" name="Сброс уровня чернил" author="Ответы Мэйл.ру" url="https://otvet.mail.ru/question/187719709" tags="Epson, L110, Сброс чернил" ctime="20200410172256" dir="1586528576l692dzbr19" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
   </node>
   <node crypt="" id="156473777810w3qi5nr7" name="Компьютер">
    <recordtable>
@@ -416,6 +417,12 @@
       <record id="15855948701k7hj68fwl" name="Отключить спящий режим в Linux" author="" url="https://comnote.blogspot.com/2016/04/linux-debianubuntu.html" tags="" ctime="20200330220110" dir="158559487027hf0xg5gf" file="text.html"/>
      </recordtable>
     </node>
+   </node>
+   <node crypt="" id="1586528459or20g71w8g" name="myTetra">
+    <recordtable>
+     <record id="1564682967zq8sg40gtb" name="MyTetra Web Client" author="webhamster.ru" url="https://webhamster.ru/site/page/index/articles/projectcode/235" tags="MyTetra, Web, Client, soft, программы" ctime="20200410172059" dir="1564682967nn5w742w4a" file="text.html"/>
+     <record id="1573712578elagk4w8tz" name="Как в MyTetra настроить синхронизацию через интернет" author="" url="https://webhamster.ru/site/page/index/articles/projectcode/170" tags="" ctime="20200410172059" dir="1573712578dninj4fs7e" file="text.html"/>
+    </recordtable>
    </node>
   </node>
  </content>
