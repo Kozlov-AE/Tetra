@@ -317,6 +317,11 @@
         <record id="1565188313gvzn5r1xrv" name="Привязка ListBox к содержимому List&lt;&gt;" author="" url="" tags="ListBox, List, WPF, c#" ctime="20200407231138" dir="1565188313z0gf0yhweb" file="text.html"/>
        </recordtable>
       </node>
+      <node crypt="" id="1586896304l2ph49s4of" name="GridSplitter">
+       <recordtable>
+        <record id="15868964074uaxqh3ccz" name="Растягивает ячейку в которой находится" author="" url="" tags="GridSplitter" ctime="20200414233327" dir="15868964076qiefbrzhs" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
     </node>
     <node crypt="" id="1567612543amls0t6g2u" name="SQLite">
