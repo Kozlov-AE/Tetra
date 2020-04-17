@@ -295,6 +295,9 @@
       </recordtable>
      </node>
      <node crypt="" id="15862902431f5rm1rayu" name="XAML">
+      <recordtable>
+       <record id="1586974550r03s4ovt7t" name="Форматированный вывод даты" author="" url="" tags="Дата, DateTime, XAML" ctime="20200415211550" dir="1586974550q098y1vb8f" file="text.html"/>
+      </recordtable>
       <node crypt="" id="1586290271ttuirbwsln" name="Richtextbox">
        <recordtable>
         <record id="1577592869drhevxji4b" name="Работа с абзацем" author="" url="http://forundex.ru/yap/Kak-zadatj-mezhstrochnij-interval-(dlya-richtextbox)-188468" tags="" ctime="20200407231111" dir="1577592869o0kxvkrfib" file="text.html"/>
