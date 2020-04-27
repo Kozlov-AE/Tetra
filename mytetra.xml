@@ -433,6 +433,7 @@
       </record>
       <record id="1585594337wm976p9dzh" name="Программы" author="" url="" tags="Программы Debian Linux" ctime="20200330215217" dir="1585594337cnvsrhamda" file="text.html"/>
       <record id="15855948701k7hj68fwl" name="Отключить спящий режим в Linux" author="" url="https://comnote.blogspot.com/2016/04/linux-debianubuntu.html" tags="" ctime="20200330220110" dir="158559487027hf0xg5gf" file="text.html"/>
+      <record id="1587792027k9hkkwg5v0" name="Установка пакетов, для которых отсутствуют зависимости" author="" url="https://hackware.ru/?p=7793" tags="Debian, ручная установка программ" ctime="20200425082027" dir="15877920271nl0o858p3" file="text.html"/>
      </recordtable>
     </node>
    </node>
