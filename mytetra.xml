@@ -12,6 +12,7 @@
      <record id="15741926964fnf5xc8hy" name="Английский в простых картинках. Части тела" author="Из ВК" url="" tags="" ctime="20191119224456" dir="1574192696kjjlycwtcm" file="text.html"/>
      <record id="1574192829nfqdnxflgq" name="Aнглийскaя грaммaтикa легко и просто" author="ВК" url="" tags="" ctime="20191119224709" dir="1574192829yjod8l8tdl" file="text.html"/>
      <record id="15742839228m5v17lmqh" name="100 самых популярных слов" author="ВК" url="" tags="" ctime="20191121000522" dir="15742839224qd8pjislo" file="text.html"/>
+     <record id="1588055926cearhrnmgw" name="Практика подготовки иностранных слов с озвучкой для запоминания в программе Anki" author="" url="https://habr.com/ru/post/479182/" tags="" ctime="20200428093846" dir="1588055926bk8r6nymlo" file="text.html"/>
     </recordtable>
     <node crypt="" id="1586421205stoc3f90ok" name="Граматика">
      <recordtable>
@@ -424,6 +425,10 @@
     </recordtable>
    </node>
    <node crypt="" id="15815844709qeyjeql26" name="Linux">
+    <recordtable>
+     <record id="1588058043hm1n8piwrw" name="Включить NumLock при запуске Linux" author="" url="" tags="" ctime="20200428101403" dir="1588058043hlj0rdws9l" file="text.html"/>
+     <record id="15880580768t0doig5nn" name="Отключение включения Scroll Lock" author="" url="" tags="" ctime="20200428101436" dir="1588058076mqi3dqscnj" file="text.html"/>
+    </recordtable>
     <node crypt="" id="15815844783nb3bc430p" name="Debian 10">
      <recordtable>
       <record id="1581584513w7y7hll5fg" name="Как создать загрузочную флешку Ubuntu" author="" url="https://losst.ru/kak-sdelat-zagruzochnuyu-fleshku-ubuntu#_Ubuntu_Linux" tags="" ctime="20200213120153" dir="15815845139zx029c7ss" file="text.html"/>
