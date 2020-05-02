@@ -429,25 +429,26 @@
     <recordtable>
      <record id="1588058043hm1n8piwrw" name="Включить NumLock при запуске Linux" author="" url="" tags="" ctime="20200428101403" dir="1588058043hlj0rdws9l" file="text.html"/>
      <record id="15880580768t0doig5nn" name="Отключение включения Scroll Lock" author="" url="" tags="" ctime="20200428101436" dir="1588058076mqi3dqscnj" file="text.html"/>
+     <record id="1587965737au2ox2bwpz" name="Автоотключение тачпада" author="" url="https://zenway.ru/page/touchpad-indicator https://launchpad.net/touchpad-indicator" tags="" ctime="20200502123808" dir="158796573727n42u7phz" file="text.html">
+      <files>
+       <file id="15879658782ckr4uwf41" fileName="touchpad-indicator_2.2.1-0extras19.04.0_all.deb" type="file"/>
+      </files>
+     </record>
+     <record id="1587792027k9hkkwg5v0" name="Установка пакетов, для которых отсутствуют зависимости" author="" url="https://hackware.ru/?p=7793" tags="Debian, ручная установка программ" ctime="20200502123814" dir="15877920271nl0o858p3" file="text.html"/>
+     <record id="15855948701k7hj68fwl" name="Отключить спящий режим в Linux" author="" url="https://comnote.blogspot.com/2016/04/linux-debianubuntu.html" tags="" ctime="20200502123817" dir="158559487027hf0xg5gf" file="text.html"/>
+     <record id="1585594337wm976p9dzh" name="Программы" author="" url="" tags="Программы Debian Linux" ctime="20200502123818" dir="1585594337cnvsrhamda" file="text.html"/>
+     <record id="1585592551rhpzyprrzg" name="Настройка Тачпада" author="" url="https://mnorin.com/nastrojka-tachpada-v-linux.html" tags="Debian, тачпад, linux, Synaptics" ctime="20200502123820" dir="15855925514cp74uhvqu" file="text.html">
+      <files>
+       <file id="1585593282sxixcg33o2" fileName="Опции synclient.odt" type="file"/>
+      </files>
+     </record>
+     <record id="1581584513w7y7hll5fg" name="Как создать загрузочную флешку Ubuntu" author="" url="https://losst.ru/kak-sdelat-zagruzochnuyu-fleshku-ubuntu#_Ubuntu_Linux" tags="" ctime="20200502123822" dir="15815845139zx029c7ss" file="text.html"/>
+     <record id="1588412429yf3l4b16cw" name="Установка Quik" author="" url="" tags="" ctime="20200502124029" dir="158841242930367tpy2y" file="text.html">
+      <files>
+       <file id="1588412778t7zf63qbp3" fileName="quik_to_linux_instruction.doc" type="file"/>
+      </files>
+     </record>
     </recordtable>
-    <node crypt="" id="15815844783nb3bc430p" name="Debian 10">
-     <recordtable>
-      <record id="1581584513w7y7hll5fg" name="Как создать загрузочную флешку Ubuntu" author="" url="https://losst.ru/kak-sdelat-zagruzochnuyu-fleshku-ubuntu#_Ubuntu_Linux" tags="" ctime="20200213120153" dir="15815845139zx029c7ss" file="text.html"/>
-      <record id="1585592551rhpzyprrzg" name="Настройка Тачпада" author="" url="https://mnorin.com/nastrojka-tachpada-v-linux.html" tags="Debian, тачпад, linux, Synaptics" ctime="20200330212231" dir="15855925514cp74uhvqu" file="text.html">
-       <files>
-        <file id="1585593282sxixcg33o2" fileName="Опции synclient.odt" type="file"/>
-       </files>
-      </record>
-      <record id="1585594337wm976p9dzh" name="Программы" author="" url="" tags="Программы Debian Linux" ctime="20200330215217" dir="1585594337cnvsrhamda" file="text.html"/>
-      <record id="15855948701k7hj68fwl" name="Отключить спящий режим в Linux" author="" url="https://comnote.blogspot.com/2016/04/linux-debianubuntu.html" tags="" ctime="20200330220110" dir="158559487027hf0xg5gf" file="text.html"/>
-      <record id="1587792027k9hkkwg5v0" name="Установка пакетов, для которых отсутствуют зависимости" author="" url="https://hackware.ru/?p=7793" tags="Debian, ручная установка программ" ctime="20200425082027" dir="15877920271nl0o858p3" file="text.html"/>
-      <record id="1587965737au2ox2bwpz" name="Автоотключение тачпада" author="" url="https://zenway.ru/page/touchpad-indicator https://launchpad.net/touchpad-indicator" tags="" ctime="20200427083537" dir="158796573727n42u7phz" file="text.html">
-       <files>
-        <file id="15879658782ckr4uwf41" fileName="touchpad-indicator_2.2.1-0extras19.04.0_all.deb" type="file"/>
-       </files>
-      </record>
-     </recordtable>
-    </node>
    </node>
    <node crypt="" id="1586528459or20g71w8g" name="myTetra">
     <recordtable>
