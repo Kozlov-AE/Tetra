@@ -105,6 +105,19 @@
       </record>
      </recordtable>
     </node>
+    <node crypt="1" icon="" id="1592160467p675klvb1t" name="UkM1U0lNUAPFP/3ui5RHdMFv1trs8wNbAhjGKGLxDT3D7aq77kEaZUucfpbJr27eDL9PBVnrNdKNHmaTkagmt5dGILCPYIA5">
+     <node crypt="1" icon="" id="15921604795o0l0ryk5m" name="UkM1U0lNUAOOKmR6GgKgtoCaHmhyAYYsgP8IgmQlRZEhTbQvgqaquhD9SKSu88sbJr14Oc86WT4vlQ63C55tyA==">
+      <recordtable>
+       <record id="1592160617w12tkgmgl1" name="UkM1U0lNUAMlDPKg4uZtU+OcFRFn+3HjqU6LGR/Rti0hi/AS+RY/vBfEzJGmA+UNG+pizR/UOjA=" author="" url="" tags="" ctime="20200614215017" dir="1592160617lbdw06ga2n" file="text.html" crypt="1">
+        <files>
+         <file id="1592160669n224etmbhb" fileName="UkM1U0lNUAM8awtT898m33KdrmcFCZYxfQJllKCk1VO6k9aQ00NeT0CBCSlajfvF2fKEGo/x7g/A/2PbfyWfSw==" type="file" crypt="1"/>
+         <file id="1592160699l74utxr0mc" fileName="UkM1U0lNUAOUg6A7g5AsviWRWfenSoXGamHOCH1n4+bIwCXL+aKEwEiXGFarwiV/2lJZ73RvZ/0=" type="file" crypt="1"/>
+         <file id="1592160704m6qajbr7zh" fileName="UkM1U0lNUANxyZbhYWqfPFTZfCidj+rt7SCo91rq9mDxu+YbcV3cczkVAd0MKkbehAY00FRgvEo=" type="file" crypt="1"/>
+        </files>
+       </record>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node crypt="" id="15644278490oqrwstrz5" name="Разное не сортированное"/>
    <node crypt="" id="156459794718u163xpui" name="Астрология"/>
