@@ -436,6 +436,7 @@
      <record id="15888350001e7spjk7hl" name="Откатить изменения к комиту" author="" url="" tags="" ctime="20200507100320" dir="1588835000afymddeq6k" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="1593259612q5gp4l7qnr" name="bitbucket.org"/>
    <node crypt="" id="15815844709qeyjeql26" name="Linux">
     <recordtable>
      <record id="1588058043hm1n8piwrw" name="Включить NumLock при запуске Linux" author="" url="" tags="" ctime="20200428101403" dir="1588058043hlj0rdws9l" file="text.html"/>
