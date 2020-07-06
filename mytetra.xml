@@ -481,6 +481,11 @@
     </recordtable>
    </node>
    <node crypt="1" icon="" id="1593272014tgkd3rsakq" name="UkM1U0lNUAOvi1n8XQ5xGRdHOfoL5mkEgE8U0hG0PCtTJdNNZp2+P1C/V2wRewu8IyEG6gDmoDeT4ZAfsgW8qIWJbGSrgi3e"/>
+   <node crypt="" id="1594009184hph2kslvk4" name="Syncthing">
+    <recordtable>
+     <record id="1594009246k6lfhpfptl" name="Syncthing ignore layouts шаблоны игнорирования" author="" url="https://4pda.ru/forum/index.php?showtopic=625297&amp;st=120" tags="Syncthing, ignore, игнорирование, игнорирования шаблон" ctime="20200706072046" dir="1594009246pp073dx2hu" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
  </content>
 </root>
