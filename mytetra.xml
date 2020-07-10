@@ -210,10 +210,7 @@
   <node crypt="" id="156473777810w3qi5nr7" name="Компьютер">
    <recordtable>
     <record id="1570428875gcqksqjjn9" name="Клавиши Бут меню" author="" url="" tags="Bios" ctime="20191007091435" dir="1570428875qe7ava92km" file="text.html"/>
-    <record id="1570917625kegsllhk33" name="Убрать раздел восстановления из проводника с помощью командной строки" author="" url="https://remontka.pro/hide-recovery-partition-windows/" tags="Windows 10,Windows 8,Windows 7" ctime="20191013010025" dir="1570917625vbvazv0cup" file="text.html"/>
-    <record id="1570920203ilsoanwn8k" name="Отключение фикса Meltdown и Spectre в Windows" author="" url="https://habr.com/ru/post/357452/" tags="Meltdown, Spectre" ctime="20191013014323" dir="1570920203xbn9fd5qb9" file="text.html"/>
     <record id="1571500106gm96ue0yfe" name="Маска подсети" author="" url="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BA%D0%B0_%D0%BF%D0%BE%D0%B4%D1%81%D0%B5%D1%82%D0%B8" tags="Маска подсети, ip, mask" ctime="20191019184826" dir="1571500106pe6jxhjo7m" file="text.html"/>
-    <record id="15725352046zxm95kbkt" name="Каллибровка сенсора win 10" author="" url="" tags="сенсор, каллибровка" ctime="20191031182004" dir="1572535204wkltithapr" file="text.html"/>
     <record id="1581526156br5k5f4a06" name="Сброс пароля BIOS" author="" url="https://kom-servise.ru/index.php/remont/1040-1040" tags="" ctime="20200212194916" dir="1581526156kuy6wl3lyg" file="text.html"/>
    </recordtable>
    <node crypt="" id="15647377919hmrmze7p6" name="Синий экран расшифровки">
@@ -415,6 +412,11 @@
       <record id="15816290103jeboo7q6r" name="Пример внедрения API V2" author="" url="https://fooobar.com/questions/16640926/not-working-example-for-dialogflow-v2-api" tags="" ctime="20200214002330" dir="1581629010y6d3goy9aw" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1594388973d851i6ki2o" name="SQLite">
+     <recordtable>
+      <record id="1594389041rio86tjb1p" name="Строка подключения" author="" url="" tags="" ctime="20200710165041" dir="1594389041s77quq6ovf" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
     <recordtable>
@@ -485,6 +487,14 @@
    <node crypt="" id="1594009184hph2kslvk4" name="Syncthing">
     <recordtable>
      <record id="1594009246k6lfhpfptl" name="Syncthing ignore layouts шаблоны игнорирования" author="" url="https://4pda.ru/forum/index.php?showtopic=625297&amp;st=120" tags="Syncthing, ignore, игнорирование, игнорирования шаблон" ctime="20200706072046" dir="1594009246pp073dx2hu" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="15943872599gxjwbq8uj" name="Windows">
+    <recordtable>
+     <record id="1594387433py150onk2z" name="После отклчения продолжают работать кулеры" author="" url="https://pcpro100.info/ne-otklyuchaetsya-polnostyu-noutbuk-pc/" tags="Выключение пк, кулеры, power, гибернация, отключени гибернации" ctime="20200710162353" dir="1594387433hjghi2kstg" file="text.html"/>
+     <record id="1570917625kegsllhk33" name="Убрать раздел восстановления из проводника с помощью командной строки" author="" url="https://remontka.pro/hide-recovery-partition-windows/" tags="Windows 10,Windows 8,Windows 7" ctime="20200710162426" dir="1570917625vbvazv0cup" file="text.html"/>
+     <record id="1570920203ilsoanwn8k" name="Отключение фикса Meltdown и Spectre в Windows" author="" url="https://habr.com/ru/post/357452/" tags="Meltdown, Spectre" ctime="20200710162430" dir="1570920203xbn9fd5qb9" file="text.html"/>
+     <record id="15725352046zxm95kbkt" name="Каллибровка сенсора win 10" author="" url="" tags="сенсор, каллибровка" ctime="20200710162435" dir="1572535204wkltithapr" file="text.html"/>
     </recordtable>
    </node>
   </node>
