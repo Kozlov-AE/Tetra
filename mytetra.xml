@@ -417,6 +417,11 @@
       <record id="1594389041rio86tjb1p" name="Строка подключения" author="" url="" tags="" ctime="20200710165041" dir="1594389041s77quq6ovf" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1594661099tpdqjzk3yl" name="Вопросы на программиста">
+     <recordtable>
+      <record id="1594661150f97bw58wxd" name="Event \ Delegate" author="" url="https://habr.com/ru/post/65697/" tags="" ctime="20200713202550" dir="1594661150m4emag5b31" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
     <recordtable>
