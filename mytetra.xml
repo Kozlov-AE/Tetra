@@ -126,8 +126,6 @@
    <node crypt="" id="156459794718u163xpui" name="Астрология"/>
    <node crypt="" id="1565723023k0cqk9gl4s" name="Трейдинг">
     <recordtable>
-     <record id="1565802929du79muzfvm" name="Баланс" author="" url="" tags="" ctime="20190814201529" dir="1565802929zvd21lezj9" file="text.html"/>
-     <record id="1566401810xa1z5h67ll" name="Мысли" author="" url="" tags="" ctime="20190821183650" dir="1566401810xyqyix8huh" file="text.html"/>
      <record id="15674172954cldn186xs" name="Комиссии по акциям" author="" url="" tags="" ctime="20190902124135" dir="1567417295h147fquwh8" file="text.html"/>
     </recordtable>
     <node crypt="" id="1565723036zgnuxz5ly6" name="Прогнозы">
@@ -146,7 +144,6 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="1565982655vnx0fj4hwb" name="Дела"/>
    <node crypt="" id="1566915589p422yfc3ic" name="Телефонная книга">
     <recordtable>
      <record id="1566915674s7ptxmngmm" name="Эвакуаторы НН" author="" url="" tags="Эвакуатор" ctime="20190827172114" dir="1566915674vjtcktuft1" file="text.html"/>
