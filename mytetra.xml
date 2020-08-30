@@ -415,6 +415,8 @@
     <node crypt="" id="1594388973d851i6ki2o" name="SQLite">
      <recordtable>
       <record id="1594389041rio86tjb1p" name="Строка подключения" author="" url="" tags="" ctime="20200710165041" dir="1594389041s77quq6ovf" file="text.html"/>
+      <record id="1598776848kg155xhj84" name="Реализация Repository SQLite-net" author="" url="https://stackoverflow.com/questions/29050400/generic-repository-for-sqlite-net-in-xamarin-project" tags="" ctime="20200830114048" dir="1598776848wacyqrnm00" file="text.html"/>
+      <record id="1598778567ga0v9gdse4" name="Расширение SQLite-Net как один к одному, так и один ко многим отношения между двумя сущностями" author="" url="https://github.com/productinfo/sqlite-net-extensions" tags="SQLite, расширения SQLite, связи таблиц SQLIte" ctime="20200830120927" dir="15987785673ey77l4bsf" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1594661099tpdqjzk3yl" name="Вопросы на программиста">
