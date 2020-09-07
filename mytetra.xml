@@ -236,7 +236,8 @@
      <record id="1586001569u0eyxxctbs" name="Добавление сниппетов в VS" author="" url="https://marketplace.visualstudio.com/items?itemName=vs-publisher-2795.SnippetDesigner" tags="" ctime="20200404145929" dir="1586001569d6jtmjg8tj" file="text.html"/>
      <record id="15982380056yxdi1q9pi" name="Count или Count()" author="" url="" tags="C#, производительность" ctime="20200824060005" dir="1598238005yhxc5va84k" file="text.html"/>
      <record id="15982381032g7a26oq0w" name="Parse или TryParse" author="" url="" tags="" ctime="20200824060143" dir="15982381037yb7udfq8k" file="text.html"/>
-     <record id="1598412514jtg782xp0s" name="Асинхронные методы в GUI" author="Юрий Шпорхун" url="" tags="" ctime="20200826062834" dir="1598412514tyf1pis3yt" file="text.html"/>
+     <record id="1598412514jtg782xp0s" name="Асинхронные методы в GUI" author="Юрий Шпорхун" url="" tags="await, async, асинхронные методы" ctime="20200826062834" dir="1598412514tyf1pis3yt" file="text.html"/>
+     <record id="1599446041be2yeeotrp" name="Using + IDisposable" author="Юрий Шпорхун Skillbox" url="" tags="skillbox, вопросы собеседований, Using, IDisposable" ctime="20200907053401" dir="15994460412p0s2l6vbg" file="text.html"/>
     </recordtable>
     <node crypt="" id="1567612543kdvw3dm1o9" name="Работа с CSV">
      <recordtable>
@@ -383,6 +384,7 @@
      <recordtable>
       <record id="1564253423ohnogdvl6u" name="Стандарты написания программного кода на языке C# " author="www.elma-bpm.ru" url="https://www.elma-bpm.ru/KB/article-6651.html" tags="C#, Стандарты" ctime="20190918215941" dir="1564253423ydiu5l4iiw" file="text.html"/>
       <record id="15653726742bl99nhtge" name="Глава из книги “Стиль программирования Джо Селко на SQL”" author="" url="https://rsdn.org/article/db/sqlnames.xml" tags="SQL, стиль программирования" ctime="20190918215955" dir="1565372674f6x2n3zgli" file="text.html"/>
+      <record id="1599446316f1ymlcfbge" name="Практики использования свойств" author="Юрий Шпорхун SkillBox" url="" tags="Практики кода, стиль кода" ctime="20200907053836" dir="1599446316l2828q81fj" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="15688335274ivfvcjiqp" name="REGEX">
