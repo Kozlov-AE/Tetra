@@ -238,6 +238,7 @@
      <record id="15982381032g7a26oq0w" name="Parse или TryParse" author="" url="" tags="" ctime="20200824060143" dir="15982381037yb7udfq8k" file="text.html"/>
      <record id="1598412514jtg782xp0s" name="Асинхронные методы в GUI" author="Юрий Шпорхун" url="" tags="await, async, асинхронные методы" ctime="20200826062834" dir="1598412514tyf1pis3yt" file="text.html"/>
      <record id="1599446041be2yeeotrp" name="Using + IDisposable" author="Юрий Шпорхун Skillbox" url="" tags="skillbox, вопросы собеседований, Using, IDisposable" ctime="20200907053401" dir="15994460412p0s2l6vbg" file="text.html"/>
+     <record id="1601178636jq7wwlexcz" name="If в одну строку" author="" url="" tags="Тернарные опреации, сократить If" ctime="20200927065036" dir="160117863617xgj6i2cw" file="text.html"/>
     </recordtable>
     <node crypt="" id="1567612543kdvw3dm1o9" name="Работа с CSV">
      <recordtable>
