@@ -427,6 +427,7 @@
     <node crypt="" id="1594661099tpdqjzk3yl" name="Вопросы на программиста">
      <recordtable>
       <record id="1594661150f97bw58wxd" name="Event \ Delegate" author="" url="https://habr.com/ru/post/65697/" tags="" ctime="20200713202550" dir="1594661150m4emag5b31" file="text.html"/>
+      <record id="1602616344t0guugjsbf" name="Во что разворачивается using" author="" url="" tags="Вопросы c#" ctime="20201013221224" dir="1602616344vivr33ct2z" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1595337263gye058krvp" name="Xamarin">
