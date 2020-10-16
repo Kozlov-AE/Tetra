@@ -285,6 +285,7 @@
       <record id="15858521413xgndidk4p" name="Выполнение кода при закрытии окна (Code behind)" author="" url="https://coderoad.ru/10018308/%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%B8-%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B8-WPF" tags="WPF, Закрытие окна" ctime="20200402212901" dir="1585852141liscljhily" file="text.html"/>
       <record id="1586293746arcffj4zm9" name="Работа с App.xaml" author="" url="https://www.wpf-tutorial.com/ru/10/%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-wpf/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-app-xaml/" tags="App, WPF" ctime="20200408000906" dir="1586293746nciob1295w" file="text.html"/>
       <record id="1588185804642pp33vfe" name="Передача нескольких параметров в Command" author="" url="https://www.cyberforum.ru/wpf-silverlight/thread1104549.html" tags="WPF, command" ctime="20200429214324" dir="1588185804kosq0s5eio" file="text.html"/>
+      <record id="1602782806em8toh2qms" name="Работа с ObservableCollection из другого потока" author="" url="https://www.cyberforum.ru/wpf-silverlight/thread2543553-page2.html" tags="ObservableCollection" ctime="20201015202646" dir="1602782806g61czda5y4" file="text.html"/>
      </recordtable>
      <node crypt="" id="156761254389auubmcf8" name="MVVM ">
       <recordtable>
