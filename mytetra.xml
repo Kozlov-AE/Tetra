@@ -241,6 +241,7 @@
      <record id="1601178636jq7wwlexcz" name="If в одну строку" author="" url="" tags="Тернарные опреации, сократить If" ctime="20200927065036" dir="160117863617xgj6i2cw" file="text.html"/>
      <record id="1602184865z50b3n1zwf" name="Форматирование DateTime" author="" url="http://plssite.ru/csharp/csharp_time_format_article.html#more-1610" tags="Форматирование DateTime" ctime="20201008222105" dir="1602184865qeboi0wly5" file="text.html"/>
      <record id="16024344138lxh6ed2jp" name="Метод уничтожения объекта (Object.Finalize)" author="" url="https://docs.microsoft.com/ru-ru/dotnet/api/system.object.finalize?view=netcore-3.1" tags="Уничтожение, c#, деструктор" ctime="20201011194013" dir="1602434413z41u61b0bn" file="text.html"/>
+     <record id="1603013676rp333q8qqp" name="Сохранение методов в словаре, что бы использовать их как команды" author="" url="" tags="" ctime="20201018123436" dir="1603013676ab9chwlg2o" file="text.html"/>
     </recordtable>
     <node crypt="" id="1567612543kdvw3dm1o9" name="Работа с CSV">
      <recordtable>
