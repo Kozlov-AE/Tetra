@@ -443,6 +443,11 @@
      </node>
      <node crypt="" id="1601347788c0ci352zqq" name="Autofac"/>
     </node>
+    <node crypt="" id="16034874427g3gudf3ar" name="Visual Studio">
+     <recordtable>
+      <record id="1603487547xmkf64g3g9" name="Хорошие плагины" author="" url="https://alekseev74.ru/lessons/show/visual-studio/useful-plugins" tags="" ctime="20201024001227" dir="16034875476rpqkk0j13" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
     <recordtable>
