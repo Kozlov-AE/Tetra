@@ -435,6 +435,7 @@
     <node crypt="" id="1595337263gye058krvp" name="Xamarin">
      <recordtable>
       <record id="1596396707d99iisfvom" name="DataContext в XAML xamarin" author="" url="https://stackoverflow.com/questions/23713898/setting-datacontext-in-xaml-in-wpf" tags="Context, xamarin, xaml" ctime="20200802223147" dir="1596396707se1madvi42" file="text.html"/>
+      <record id="1606367340zizx4fqwg8" name="Заполнение ObservableCollection из другого потока" author="" url="https://stackoverflow.com/questions/19341591/the-application-called-an-interface-that-was-marshalled-for-a-different-thread" tags="ObservableCollection, UWP,Android,ios, xamarin, wpf" ctime="20201126080900" dir="160636734099lbwv88ty" file="text.html"/>
      </recordtable>
      <node crypt="" id="1595337271o1viwzmig4" name="Android">
       <recordtable>
