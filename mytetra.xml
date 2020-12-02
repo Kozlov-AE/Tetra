@@ -449,6 +449,11 @@
       <record id="1603487547xmkf64g3g9" name="Хорошие плагины" author="" url="https://alekseev74.ru/lessons/show/visual-studio/useful-plugins" tags="" ctime="20201024001227" dir="16034875476rpqkk0j13" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="16069405041g2uagepl9" name="Avalonia">
+     <recordtable>
+      <record id="16069409848c39944264" name="Использование команды из AvaloniaBehaviors с ReactiveUI" author="" url="" tags="" ctime="20201202232944" dir="16069409841qowsgqnrp" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
     <recordtable>
