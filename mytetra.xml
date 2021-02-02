@@ -520,6 +520,8 @@
      <record id="1593817012397kbi4vnk" name="Работа в NANO" author="" url="https://habr.com/ru/post/106471/" tags="linux, nano" ctime="20200704015652" dir="1593817012o7k9m8xg5z" file="text.html"/>
      <record id="15942058754unhwx9rl4" name="Установка скачанной java" author="" url="https://www.youtube.com/watch?time_continue=595&amp;v=kPZvCBoJ2EQ&amp;feature=emb_logo" tags="java, установка java linux" ctime="20200708135755" dir="159420587507mt568a6w" file="text.html"/>
      <record id="1603218881n8a1lzfkbt" name="Запуск X" author="" url="" tags="" ctime="20201020213441" dir="1603218881jigrbz8ty5" file="text.html"/>
+     <record id="1612293568gtf0icee26" name="Не заходит по SSH — ошибка WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!" author="" url="http://itfound.ru/50-warning-remote-host-identification-has-changed.html" tags="ssh, linux" ctime="20210202221928" dir="1612293568gesjobxmk4" file="text.html"/>
+     <record id="1612293848q9n7qtw0uv" name="Смена порта SSH" author="" url="https://system-admins.ru/kak-izmenit-port-ssh-na-linux-ili-unix-servere/" tags="ssh, порт, linux" ctime="20210202222408" dir="1612293848h0o9otz1hr" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="1586528459or20g71w8g" name="myTetra">
@@ -528,7 +530,6 @@
      <record id="1573712578elagk4w8tz" name="Как в MyTetra настроить синхронизацию через интернет" author="" url="https://webhamster.ru/site/page/index/articles/projectcode/170" tags="" ctime="20200410172059" dir="1573712578dninj4fs7e" file="text.html"/>
     </recordtable>
    </node>
-   <node crypt="1" icon="" id="1593272014tgkd3rsakq" name="UkM1U0lNUAOvi1n8XQ5xGRdHOfoL5mkEgE8U0hG0PCtTJdNNZp2+P1C/V2wRewu8IyEG6gDmoDeT4ZAfsgW8qIWJbGSrgi3e"/>
    <node crypt="" id="1594009184hph2kslvk4" name="Syncthing">
     <recordtable>
      <record id="1594009246k6lfhpfptl" name="Syncthing ignore layouts шаблоны игнорирования" author="" url="https://4pda.ru/forum/index.php?showtopic=625297&amp;st=120" tags="Syncthing, ignore, игнорирование, игнорирования шаблон" ctime="20200706072046" dir="1594009246pp073dx2hu" file="text.html"/>
