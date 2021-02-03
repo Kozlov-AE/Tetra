@@ -89,6 +89,11 @@
         <record id="1586420273zp7ce5zplc" name="UkM1U0lNUAPUSJQpsiuyuSj33fTSYm0Ubnpld94byDsfQIV4A/mr8XCGrcRuL3bbCbEmH91jq3MqHO7dTrXhUjDyCympA5WAABy8bLcVuKkfelL/KAPn8A==" author="" url="" tags="" ctime="20200409111753" dir="1586420273sc3qpn0apd" file="text.html" crypt="1"/>
        </recordtable>
       </node>
+      <node crypt="1" icon="" id="16123761623gyea4eofl" name="UkM1U0lNUAOkimTlKDnk+42iMdZGJIVJBUbBX2Ux5xjWkOu99g2kaZDrKjB4mGRJOdzOVvZ9Q40OYOIo14oLuw==">
+       <recordtable>
+        <record id="1612376229j8a5jb4zuo" name="UkM1U0lNUAO/rdN+WabTAVB2HcgXqaMWjLvxXFn4QOnTMzeNJCRDsVwqQQRPkGS5orMG4idDAV4=" author="" url="" tags="" ctime="20210203211709" dir="1612376229hvytctgsm7" file="text.html" crypt="1"/>
+       </recordtable>
+      </node>
      </node>
      <node crypt="1" icon="" id="1567364743du5y1ea2rs" name="UkM1U0lNUAPG7/WOL7rE228oQ10dp0qzUieNsLzzEjI/PpIvu5+jtYt9Acv0Il4PEB7gU6udyiY=">
       <recordtable>
@@ -522,6 +527,7 @@
      <record id="1603218881n8a1lzfkbt" name="Запуск X" author="" url="" tags="" ctime="20201020213441" dir="1603218881jigrbz8ty5" file="text.html"/>
      <record id="1612293568gtf0icee26" name="Не заходит по SSH — ошибка WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!" author="" url="http://itfound.ru/50-warning-remote-host-identification-has-changed.html" tags="ssh, linux" ctime="20210202221928" dir="1612293568gesjobxmk4" file="text.html"/>
      <record id="1612293848q9n7qtw0uv" name="Смена порта SSH" author="" url="https://system-admins.ru/kak-izmenit-port-ssh-na-linux-ili-unix-servere/" tags="ssh, порт, linux" ctime="20210202222408" dir="1612293848h0o9otz1hr" file="text.html"/>
+     <record id="16123752994iiytc3w90" name="Смена Hostname linux" author="" url="https://www.dmosk.ru/miniinstruktions.php?mini=linux-change-name" tags="hostname, имя пк" ctime="20210203210139" dir="1612375299mpp0t0zt7u" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="1586528459or20g71w8g" name="myTetra">
