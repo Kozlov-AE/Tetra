@@ -80,6 +80,7 @@
        <record id="1583260300iiv6cjgfdg" name="UkM1U0lNUAND5g2YZ1lXEWVeTDaWrJ/PgOBMiQdnmc9m8/ScNGN8uHOx9zcHK+wp" author="" url="" tags="UkM1U0lNUANnSpCfucnxH/D3sLqbM1wcaw5OAWBvm55miTz4ch5qyfUnebJ0Y7Cv" ctime="20200303213140" dir="1583260300m1q25a9nkk" file="text.html" crypt="1"/>
        <record id="1587968978ksu5qs5a1j" name="UkM1U0lNUAPqxWgWvWh0UgrrVFtMMSMUerkl/IKgclZu0XFyWMBY79M8tlo7jdrh1tfq+Nf2cMA=" author="" url="" tags="UkM1U0lNUAO3sDSPPKj3hG0m9ZKr5NhdklL+fW3BTh0sp99QJ7LoRvvUO5RNHHeCFGcT5yCami/Zy0jsCeai+x9U+zpcGzVq" ctime="20200427092938" dir="1587968978jd8cly6x0f" file="text.html" crypt="1"/>
        <record id="1593272096jxmrsqrad0" name="UkM1U0lNUAONTL/DTOeiPGrEIp3Ri0eaUm8HmfVVM2Sg9B/bBIDtMg6ed4Y0DJ/9fi1z5SJUQaUKU8YyA46kDBCiyFFEqAJWk6iCn19m9DDvhmThXwa5MQ==" author="" url="" tags="" ctime="20200627183456" dir="1593272096z17nqjmm88" file="text.html" crypt="1"/>
+       <record id="16136457216he5osxheu" name="UkM1U0lNUANYMShx+WaBuZrTC1T092j3xo6taSQSswR3D/5b0JlyoDaohmkOCEg3" author="" url="UkM1U0lNUAN8udYtkteX3COvQnk5KC2v+5emyS2NyDo6ICaPQVAigteu5JG/Xn0SwWKY/DHbwd7J6OMIHGvJJg==" tags="UkM1U0lNUAPaTbqUVwZBLEctiuRIqDdeHVP9a/ei0hivArJX2v7dOD/AwurxtIzMobrXrF+JtTw=" ctime="20210218135521" dir="16136457216h6y7ftjdl" file="text.html" crypt="1"/>
       </recordtable>
       <node crypt="1" icon="" id="1567950161avvu6xl335" name="UkM1U0lNUAM2MclY3C1Qkbb/dsd0p9xfcYRrPLWJZZBuncirVsyLIDzjAAFyUJN1NTnQWiw2rqW84OwhlIhowQ==">
        <recordtable>
@@ -548,6 +549,11 @@
      <record id="1570920203ilsoanwn8k" name="Отключение фикса Meltdown и Spectre в Windows" author="" url="https://habr.com/ru/post/357452/" tags="Meltdown, Spectre" ctime="20200710162430" dir="1570920203xbn9fd5qb9" file="text.html"/>
      <record id="15725352046zxm95kbkt" name="Каллибровка сенсора win 10" author="" url="" tags="сенсор, каллибровка" ctime="20200710162435" dir="1572535204wkltithapr" file="text.html"/>
      <record id="160991947335oroyrlmi" name="Добавить папку в переменную среды Path" author="" url="https://nicothin.pro/page/windows-path" tags="Path, переменная среды" ctime="20210106105113" dir="1609919473qhmhvq8g0w" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="16136461452e1hzub3yw" name="Docker">
+    <recordtable>
+     <record id="16136461781l5gmt7k4m" name="Шпаргалка по докер" author="" url="https://gist.github.com/rtplv/c5422078dbcf79d076ebc740fdc92eb0" tags="" ctime="20210218140258" dir="1613646178jbaeaexrf5" file="text.html"/>
     </recordtable>
    </node>
   </node>
