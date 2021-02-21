@@ -127,6 +127,11 @@
       </recordtable>
      </node>
     </node>
+    <node crypt="1" icon="" id="16138405880t1wwrird1" name="UkM1U0lNUAOKGvR1t85luCYIeLB69u7KHqlj2e54o40kU7K9GXdtzsqZbEr+Bx57tUdwTGdcu4Q=">
+     <recordtable>
+      <record id="1613840616onnjc8wuv8" name="UkM1U0lNUAP8oUdGZuBREhm3kq2wO3mcJJwenKOuSYNDSXv2hks2TZFMoiQwWi6Iz7V3k5f1BKpDgR8KCtodEZIoMgQW8KUMij01/AnEPi4=" author="" url="" tags="" ctime="20210220200336" dir="16138406169j303i5zje" file="text.html" crypt="1"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="15644278490oqrwstrz5" name="Разное не сортированное"/>
    <node crypt="" id="156459794718u163xpui" name="Астрология"/>
@@ -554,6 +559,7 @@
    <node crypt="" id="16136461452e1hzub3yw" name="Docker">
     <recordtable>
      <record id="16136461781l5gmt7k4m" name="Шпаргалка по докер" author="" url="https://gist.github.com/rtplv/c5422078dbcf79d076ebc740fdc92eb0" tags="" ctime="20210218140258" dir="1613646178jbaeaexrf5" file="text.html"/>
+     <record id="16138916621ou131w2eb" name="Собрать образ с Гитхаба" author="" url="" tags="" ctime="20210221101422" dir="1613891662lsvgruhmz8" file="text.html"/>
     </recordtable>
    </node>
   </node>
