@@ -256,6 +256,7 @@
      <record id="16024344138lxh6ed2jp" name="Метод уничтожения объекта (Object.Finalize)" author="" url="https://docs.microsoft.com/ru-ru/dotnet/api/system.object.finalize?view=netcore-3.1" tags="Уничтожение, c#, деструктор" ctime="20201011194013" dir="1602434413z41u61b0bn" file="text.html"/>
      <record id="1603013676rp333q8qqp" name="Сохранение методов в словаре, что бы использовать их как команды" author="" url="" tags="" ctime="20201018123436" dir="1603013676ab9chwlg2o" file="text.html"/>
      <record id="1609700986ritn1h01cf" name="Проверка на null" author="" url="" tags="Проверка на null, null" ctime="20210103220946" dir="1609700986abpjptaeu9" file="text.html"/>
+     <record id="1615149562pl1ik4n0hk" name="Откинуть цифры после запятой c#" author="" url="https://www.cyberforum.ru/csharp-beginners/thread826960.html" tags="" ctime="20210307233922" dir="1615149562lz7fshdf22" file="text.html"/>
     </recordtable>
     <node crypt="" id="1567612543kdvw3dm1o9" name="Работа с CSV">
      <recordtable>
