@@ -474,6 +474,11 @@
       <record id="1609696937qewitmih52" name="Игнорировать определенные поля при маппинге в ДТО" author="" url="" tags="Автомаппер, automapper" ctime="20210103210217" dir="1609696937t1tt0yzm5u" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="16152305863yfihvcwgg" name="ASP">
+     <recordtable>
+      <record id="1615230640cd5vsi69i3" name="Как разрешить размещенную службу в контроллере" author="" url="https://stackoverflow.com/questions/58397807/how-to-resolve-hostedservice-in-controller" tags="" ctime="20210308221040" dir="161523064042gp6pg14p" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
     <recordtable>
