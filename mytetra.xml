@@ -479,6 +479,12 @@
       <record id="1615230640cd5vsi69i3" name="Как разрешить размещенную службу в контроллере" author="" url="https://stackoverflow.com/questions/58397807/how-to-resolve-hostedservice-in-controller" tags="" ctime="20210308221040" dir="161523064042gp6pg14p" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1615388184lyl3ma1ljd" name="log4net">
+     <recordtable>
+      <record id="1615388241ifrb9wzlga" name="Изменить расположение файла лога" author="" url="https://stackoverflow.com/questions/2815940/where-will-log4net-create-this-log-file" tags="" ctime="20210310175721" dir="1615388241ryu5jnx1z1" file="text.html"/>
+      <record id="1615405691wzl3a9rvwu" name="Конфигурирование логера для .net Core 3.1" author="" url="https://stackoverflow.com/questions/59311444/simplest-correct-way-to-configure-log4net-for-a-net-core-3-1-application" tags="" ctime="20210310224811" dir="16154056910v5cszfxpi" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
     <recordtable>
