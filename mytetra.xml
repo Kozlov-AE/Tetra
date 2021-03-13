@@ -576,6 +576,11 @@
      <record id="16138916621ou131w2eb" name="Собрать образ с Гитхаба" author="" url="" tags="" ctime="20210221101422" dir="1613891662lsvgruhmz8" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="1615577085ag8jr817uv" name="Java">
+    <recordtable>
+     <record id="16155771628tflxpjwil" name="Сохранить изображение на диск" author="" url="https://spec-zone.ru/RU/Java/Tutorials/2d/images/saveimage.html" tags="" ctime="20210312222602" dir="1615577162g4dngrevl7" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
  </content>
 </root>
