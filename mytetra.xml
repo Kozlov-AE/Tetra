@@ -491,6 +491,20 @@
       <record id="1615405691wzl3a9rvwu" name="Конфигурирование логера для .net Core 3.1" author="" url="https://stackoverflow.com/questions/59311444/simplest-correct-way-to-configure-log4net-for-a-net-core-3-1-application" tags="" ctime="20210310224811" dir="16154056910v5cszfxpi" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1616102588kxm2d9obbe" name="Алгоритмы">
+     <recordtable>
+      <record id="1616102690djng69dz0j" name="Отпределяет процессы и их подключения по TCP и UDP v4 v6." author="" url="" tags="" ctime="20210319002450" dir="1616102690252m5sggpg" file="text.html">
+       <files>
+        <file id="16161027134zwsbpkeg1" fileName="TcpView.Net.zip" type="file"/>
+       </files>
+      </record>
+     </recordtable>
+    </node>
+    <node crypt="" id="1616173445nffm06rxmo" name="Resharper">
+     <recordtable>
+      <record id="1616173460cpimzdgi3n" name="Сброс триала" author="" url="" tags="Триал, решарпер, resharper" ctime="20210319200420" dir="16161734603lc8m9uqyv" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
     <recordtable>
