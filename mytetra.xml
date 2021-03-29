@@ -290,6 +290,7 @@
      <recordtable>
       <record id="1563780489gkmjc26op9" name="Открытие файла из кода программы" author="Неизвестно" url="Неизвестно" tags="Открытие файла, c#, System.Diagnostics" ctime="20190904185543" dir="1563780489dszddlipzs" file="text.html"/>
       <record id="1565117194fq0ahrdyl5" name="Запись и чтение из файла" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/5.5.php" tags="c#, записьв файл, StreamWriter, StreamReader" ctime="20190904185543" dir="1565117194fq02dv8eoh" file="text.html"/>
+      <record id="1616921796y465avkmyu" name="Запись двух потоков в один файл" author="" url="https://www.cyberforum.ru/csharp-net/thread234251.html" tags="" ctime="20210328115636" dir="1616921796ve5n45wkkl" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1567612543qy9lktnvvf" name="WPF">
@@ -503,6 +504,11 @@
     <node crypt="" id="1616173445nffm06rxmo" name="Resharper">
      <recordtable>
       <record id="1616173460cpimzdgi3n" name="Сброс триала" author="" url="" tags="Триал, решарпер, resharper" ctime="20210319200420" dir="16161734603lc8m9uqyv" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1616921950p5cdvi8y5u" name="LiteDB">
+     <recordtable>
+      <record id="1616921975rqekp3rid0" name="Асинхронная обертка для БД" author="" url="" tags="" ctime="20210328115935" dir="16169219750t7izqcggo" file="text.html"/>
      </recordtable>
     </node>
    </node>
