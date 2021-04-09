@@ -200,22 +200,6 @@
     </node>
    </node>
   </node>
-  <node crypt="" id="1563914495skovrglhc3" name="Работа">
-   <recordtable>
-    <record id="156473631385p7p17ctn" name="Zebra DS2208" author="" url="" tags="Zebra, DS2208, сканер, штрихкод" ctime="20190802115833" dir="1564736313th3ocbrwf6" file="text.html"/>
-   </recordtable>
-   <node crypt="" id="1564685787crl24e3ygd" name="Теле2">
-    <recordtable>
-     <record id="1564685866dot8gfudo9" name="Настройка печати" author="" url="" tags="Теле2, настройка, работа, печать, принтер" ctime="20190801215746" dir="15646858668hgg50gkwn" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1564728481w2uwo0wep5" name="Эльдорадо">
-    <recordtable>
-     <record id="1564728559etm0s189us" name="Доступ в скрытую папку с софтом" author="" url="" tags="Работа, Эльдорадо, CTI" ctime="20190802094919" dir="1564728559oyw476vn3r" file="text.html"/>
-     <record id="1572289782uao7ziydcx" name="Установка нового дисплея покупателя USB" author="" url="" tags="Эльдорадо, работа" ctime="20191028220942" dir="1572289782nolkbhwjsk" file="text.html"/>
-    </recordtable>
-   </node>
-  </node>
   <node crypt="" id="1564728640jxp3wxmw8i" name="Принтеры">
    <node crypt="" id="1564728661eiuapgooio" name="Kyocera"/>
    <node crypt="" id="1586528483l9ixu5bfrh" name="Epson">
