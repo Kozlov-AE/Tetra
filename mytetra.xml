@@ -592,6 +592,8 @@
      <record id="1570920203ilsoanwn8k" name="Отключение фикса Meltdown и Spectre в Windows" author="" url="https://habr.com/ru/post/357452/" tags="Meltdown, Spectre" ctime="20200710162430" dir="1570920203xbn9fd5qb9" file="text.html"/>
      <record id="15725352046zxm95kbkt" name="Каллибровка сенсора win 10" author="" url="" tags="сенсор, каллибровка" ctime="20200710162435" dir="1572535204wkltithapr" file="text.html"/>
      <record id="160991947335oroyrlmi" name="Добавить папку в переменную среды Path" author="" url="https://nicothin.pro/page/windows-path" tags="Path, переменная среды" ctime="20210106105113" dir="1609919473qhmhvq8g0w" file="text.html"/>
+     <record id="1619678508xhbfltwudk" name="Узанть MTU для сетевухи" author="" url="https://wikiroot.ru/question/jumbo-paket-pinguet-s-pk-windows-10" tags="" ctime="20210429094148" dir="16196785080v3763w29n" file="text.html"/>
+     <record id="1619678543t809skq6d5" name="Включить Jumbo-кадры" author="" url="https://wikiroot.ru/question/jumbo-paket-pinguet-s-pk-windows-10" tags="" ctime="20210429094223" dir="161967854339l4x7vc1y" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="16136461452e1hzub3yw" name="Docker">
