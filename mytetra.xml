@@ -82,6 +82,7 @@
        <record id="16136457216he5osxheu" name="UkM1U0lNUANYMShx+WaBuZrTC1T092j3xo6taSQSswR3D/5b0JlyoDaohmkOCEg3" author="" url="UkM1U0lNUAN8udYtkteX3COvQnk5KC2v+5emyS2NyDo6ICaPQVAigteu5JG/Xn0SwWKY/DHbwd7J6OMIHGvJJg==" tags="UkM1U0lNUAPaTbqUVwZBLEctiuRIqDdeHVP9a/ei0hivArJX2v7dOD/AwurxtIzMobrXrF+JtTw=" ctime="20210218135521" dir="16136457216h6y7ftjdl" file="text.html" crypt="1"/>
        <record id="1614015311ojlpqxhno9" name="UkM1U0lNUAPHRQ6ZNdzncvX2Y1fvxaobKXrorC2HAovi75dz7VWIC0l7R/BuLYmX" author="" url="" tags="" ctime="20210222203511" dir="161401531129qk9h3m81" file="text.html" crypt="1"/>
        <record id="1614500980y91gwb3r6r" name="UkM1U0lNUAPnZQBfYevQCvVocDFDdnp08ZL85clEtxe2T/WM1HRoU3FKEJV1aw4w" author="" url="" tags="" ctime="20210228112940" dir="16145009807wjntqgx3p" file="text.html" crypt="1"/>
+       <record id="1619419600xc65oyhpo2" name="UkM1U0lNUAPn6muA5XSAZn9Lqi4NU5jQcMEOYHQU7P++Vb4gCbtkZe2I9xkDBewcJgslX+aOgU8=" author="UkM1U0lNUAMtENhZuaK8HZKya7RzD+Rkv6qDCL7J7OY8NmZLZ665K8ZtJWM0FbOT" url="" tags="" ctime="20210426094640" dir="16194196002ng2ebcdk9" file="text.html" crypt="1"/>
       </recordtable>
       <node crypt="1" icon="" id="1567950161avvu6xl335" name="UkM1U0lNUAM2MclY3C1Qkbb/dsd0p9xfcYRrPLWJZZBuncirVsyLIDzjAAFyUJN1NTnQWiw2rqW84OwhlIhowQ==">
        <recordtable>
@@ -136,8 +137,11 @@
     </node>
     <node crypt="1" icon="" id="1616003853x4v27p9868" name="UkM1U0lNUAOdsEHi9/uVi+ew8lLGMpn+LPz1IQOSQCRxR7JrorVItoPRp6Acx+RU49qseuAd3B2fJDhUOUTriA==">
      <recordtable>
-      <record id="16160039774atakfqyx3" name="UkM1U0lNUAOiajcUndUjCtHHFuO8dhSpHAXpItbfl4y+jwJuH8uitOgJJVDmTAF2V2ftFkO7vD522MTSoE0c+A==" author="" url="" tags="" ctime="20210317205937" dir="1616003977pj25hdccwo" file="text.html" crypt="1"/>
-      <record id="1616004005o0mps4v22h" name="UkM1U0lNUAOALMr5gxKQikRO2tQNPTb5GAN6Xa+PAQGK0W/NBE9L0LNFV+9UUM0RnzJpyJKIhPNRDm0qGs50JA==" author="" url="" tags="" ctime="20210317210005" dir="1616004005ct3j0lo3nm" file="text.html" crypt="1"/>
+      <record id="16160039774atakfqyx3" name="UkM1U0lNUANpH8zPV/qOyuc0aYfuT8W/pIZXvlrTl7VkfNAn8vxZjhI8bG6m0iE3xZgzwMxjYvQ=" author="" url="" tags="" ctime="20210317205937" dir="1616003977pj25hdccwo" file="text.html" crypt="1"/>
+      <record id="1617621239r6ifkn4bsw" name="UkM1U0lNUAPPmsBt/Lm30BvCa1l9wF2UECQN34QT4KnG9fkHUpXpisNxKtWTkJph" author="" url="" tags="" ctime="20210405141359" dir="16176212391ioawuqw7z" file="text.html" crypt="1"/>
+      <record id="1617691120ov0jgmwvno" name="UkM1U0lNUAPf0NJ66g8wUwJ2JsWT4t35Z3RSJ5Qza9uWN+k2v3+nrOsi0vJJWch7" author="" url="" tags="" ctime="20210406093840" dir="1617691120vqvrizisy1" file="text.html" crypt="1"/>
+      <record id="1617790982cgik802run" name="UkM1U0lNUAN9qvSSdgFoDG1OK7kNuCxPhu3ADi7zn8B+xP2RXGftOuEsJEfIC7fj3vLwtUFm1EA=" author="" url="" tags="" ctime="20210407132302" dir="1617790982toksn5sdfh" file="text.html" crypt="1"/>
+      <record id="1619781670qua3aiehga" name="UkM1U0lNUAMWrllxkufrRhu76wL42FlZiihT79aGlJuVSrJV3wVFznYdux9oD96iIk5p8azZtW6+iaex5blu9quK9s5OjJEDPsoKAaOxNro=" author="" url="" tags="" ctime="20210430142110" dir="1619781670hyqsfw6r7i" file="text.html" crypt="1"/>
      </recordtable>
     </node>
    </node>
@@ -197,22 +201,6 @@
     </node>
    </node>
   </node>
-  <node crypt="" id="1563914495skovrglhc3" name="Работа">
-   <recordtable>
-    <record id="156473631385p7p17ctn" name="Zebra DS2208" author="" url="" tags="Zebra, DS2208, сканер, штрихкод" ctime="20190802115833" dir="1564736313th3ocbrwf6" file="text.html"/>
-   </recordtable>
-   <node crypt="" id="1564685787crl24e3ygd" name="Теле2">
-    <recordtable>
-     <record id="1564685866dot8gfudo9" name="Настройка печати" author="" url="" tags="Теле2, настройка, работа, печать, принтер" ctime="20190801215746" dir="15646858668hgg50gkwn" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1564728481w2uwo0wep5" name="Эльдорадо">
-    <recordtable>
-     <record id="1564728559etm0s189us" name="Доступ в скрытую папку с софтом" author="" url="" tags="Работа, Эльдорадо, CTI" ctime="20190802094919" dir="1564728559oyw476vn3r" file="text.html"/>
-     <record id="1572289782uao7ziydcx" name="Установка нового дисплея покупателя USB" author="" url="" tags="Эльдорадо, работа" ctime="20191028220942" dir="1572289782nolkbhwjsk" file="text.html"/>
-    </recordtable>
-   </node>
-  </node>
   <node crypt="" id="1564728640jxp3wxmw8i" name="Принтеры">
    <node crypt="" id="1564728661eiuapgooio" name="Kyocera"/>
    <node crypt="" id="1586528483l9ixu5bfrh" name="Epson">
@@ -237,7 +225,6 @@
    </node>
    <node crypt="" icon="/Gnome/color_gnome_2_edit-select-all.svg" id="15676125432wr91g8nhx" name="C#">
     <recordtable>
-     <record id="1564253621oehmkh931k" name="Полезные ссылки" author="" url="" tags="Ссылки, c#, программирование" ctime="20190904185543" dir="15642536213mqwmog526" file="text.html"/>
      <record id="15637805522hydfxtvzk" name="Замер времени работы кода " author="" url="" tags="stopwatch, c#" ctime="20190904185543" dir="1563780552lb7125w2f4" file="text.html"/>
      <record id="1563816614ynyqig764h" name="Форматированный вывод в C#" author="http://mvblog.ru" url="http://mvblog.ru/archives/519/" tags="c#,форматированный вывод, string" ctime="20190904185543" dir="1563816614c895q73z48" file="text.html"/>
      <record id="1564078513wytp1dktn2" name="Интерфейсы IEnumerable и IEnumerator" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/4.11.php" tags="IEnumerable, IEnumerator, c#, коллекции, перечисления" ctime="20190904185543" dir="15640785133fjhsln722" file="text.html"/>
@@ -291,6 +278,7 @@
      <recordtable>
       <record id="1563780489gkmjc26op9" name="Открытие файла из кода программы" author="Неизвестно" url="Неизвестно" tags="Открытие файла, c#, System.Diagnostics" ctime="20190904185543" dir="1563780489dszddlipzs" file="text.html"/>
       <record id="1565117194fq0ahrdyl5" name="Запись и чтение из файла" author="https://metanit.com" url="https://metanit.com/sharp/tutorial/5.5.php" tags="c#, записьв файл, StreamWriter, StreamReader" ctime="20190904185543" dir="1565117194fq02dv8eoh" file="text.html"/>
+      <record id="1616921796y465avkmyu" name="Запись двух потоков в один файл" author="" url="https://www.cyberforum.ru/csharp-net/thread234251.html" tags="" ctime="20210328115636" dir="1616921796ve5n45wkkl" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1567612543qy9lktnvvf" name="WPF">
@@ -452,6 +440,7 @@
      <recordtable>
       <record id="1594661150f97bw58wxd" name="Event \ Delegate" author="" url="https://habr.com/ru/post/65697/" tags="" ctime="20200713202550" dir="1594661150m4emag5b31" file="text.html"/>
       <record id="1602616344t0guugjsbf" name="Во что разворачивается using" author="" url="" tags="Вопросы c#" ctime="20201013221224" dir="1602616344vivr33ct2z" file="text.html"/>
+      <record id="16179081654gjj5fisrc" name="150 вопросов на все уровни" author="" url="https://itvdn.com/ru/blog/article/150-questions-net-developer" tags="" ctime="20210408215605" dir="16179081650y195c8lls" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1595337263gye058krvp" name="Xamarin">
@@ -506,6 +495,20 @@
       <record id="1616173460cpimzdgi3n" name="Сброс триала" author="" url="" tags="Триал, решарпер, resharper" ctime="20210319200420" dir="16161734603lc8m9uqyv" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1616921950p5cdvi8y5u" name="LiteDB">
+     <recordtable>
+      <record id="1616921975rqekp3rid0" name="Асинхронная обертка для БД" author="" url="" tags="" ctime="20210328115935" dir="16169219750t7izqcggo" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="" id="1617880060r8ybu32i5h" name="Java">
+    <recordtable>
+     <record id="16155771628tflxpjwil" name="Сохранить изображение на диск" author="" url="https://spec-zone.ru/RU/Java/Tutorials/2d/images/saveimage.html" tags="" ctime="20210408140740" dir="1615577162g4dngrevl7" file="text.html"/>
+     <record id="1615671798uorgleowb4" name="Запуск функции с аргументом отдельным потоком" author="" url="https://ru.stackoverflow.com/questions/847345/%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-%D0%B2-%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC-%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B5-java" tags="" ctime="20210408140740" dir="1615671798egpwquguol" file="text.html"/>
+     <record id="1618033444geqsl3nr4p" name="Random" author="" url="https://www.turbopro.ru/index.php/yazyk-programmirovaniya-java/7685-8-generatsiya-sluchajnykh-chisel-v-zadannom-diapazone" tags="random, java" ctime="20210410084404" dir="1618033444rph5sdvtis" file="text.html"/>
+     <record id="1618039891rz5niii0u1" name="Получить имя класса без всякого мусора" author="" url="" tags="" ctime="20210410103131" dir="1618039891azsfxf9k90" file="text.html"/>
+     <record id="1619542729nq1p6tfxo6" name="Руководство пользователя IntelliJ IDEA: Ещё немного горячих клавиш!" author="" url="https://javarush.ru/groups/posts/1818-rukovodstvo-poljhzovatelja-intellij-idea-ejshje-nemnogo-gorjachikh-klavish" tags="" ctime="20210427195849" dir="1619542729707q5q4osk" file="text.html"/>
+    </recordtable>
    </node>
    <node crypt="" id="1569427288uv61ya23z8" name="Сетевое оборудование">
     <recordtable>
@@ -589,18 +592,14 @@
      <record id="1570920203ilsoanwn8k" name="Отключение фикса Meltdown и Spectre в Windows" author="" url="https://habr.com/ru/post/357452/" tags="Meltdown, Spectre" ctime="20200710162430" dir="1570920203xbn9fd5qb9" file="text.html"/>
      <record id="15725352046zxm95kbkt" name="Каллибровка сенсора win 10" author="" url="" tags="сенсор, каллибровка" ctime="20200710162435" dir="1572535204wkltithapr" file="text.html"/>
      <record id="160991947335oroyrlmi" name="Добавить папку в переменную среды Path" author="" url="https://nicothin.pro/page/windows-path" tags="Path, переменная среды" ctime="20210106105113" dir="1609919473qhmhvq8g0w" file="text.html"/>
+     <record id="1619678508xhbfltwudk" name="Узанть MTU для сетевухи" author="" url="https://wikiroot.ru/question/jumbo-paket-pinguet-s-pk-windows-10" tags="" ctime="20210429094148" dir="16196785080v3763w29n" file="text.html"/>
+     <record id="1619678543t809skq6d5" name="Включить Jumbo-кадры" author="" url="https://wikiroot.ru/question/jumbo-paket-pinguet-s-pk-windows-10" tags="" ctime="20210429094223" dir="161967854339l4x7vc1y" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="16136461452e1hzub3yw" name="Docker">
     <recordtable>
      <record id="16136461781l5gmt7k4m" name="Шпаргалка по докер" author="" url="https://gist.github.com/rtplv/c5422078dbcf79d076ebc740fdc92eb0" tags="" ctime="20210218140258" dir="1613646178jbaeaexrf5" file="text.html"/>
      <record id="16138916621ou131w2eb" name="Собрать образ с Гитхаба" author="" url="" tags="" ctime="20210221101422" dir="1613891662lsvgruhmz8" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1615577085ag8jr817uv" name="Java">
-    <recordtable>
-     <record id="16155771628tflxpjwil" name="Сохранить изображение на диск" author="" url="https://spec-zone.ru/RU/Java/Tutorials/2d/images/saveimage.html" tags="" ctime="20210312222602" dir="1615577162g4dngrevl7" file="text.html"/>
-     <record id="1615671798uorgleowb4" name="Запуск функции с аргументом отдельным потоком" author="" url="https://ru.stackoverflow.com/questions/847345/%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-%D0%B2-%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC-%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B5-java" tags="" ctime="20210314004318" dir="1615671798egpwquguol" file="text.html"/>
     </recordtable>
    </node>
   </node>
